@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 40px;
+  color: rgb(97, 97, 97);
+}
+
+.world-map {
+  width: 600px;
+  height: 500px;
+}
+
+.weather-icon {
+  width: 40px;
+}
