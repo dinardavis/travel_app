@@ -2,7 +2,11 @@ import React from "react";
 
 export default function Weather() {
   const [weatherInfo, setWeatherInfo] = React.useState({
-    location: "Oakland"
+    name: "Oakland",
+    main: {
+      temp: 80,
+      feels_like: 80
+    }
   })
 
 
@@ -12,10 +16,6 @@ export default function Weather() {
       .then(data => setWeatherInfo(data))
   }, [])
 
-
-  
-
-  console.log(weatherInfo.weather[0].description)
 
   return (
     <div className="weather-container">
