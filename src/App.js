@@ -2,6 +2,8 @@ import Photos from "./components/Photos"
 import Weather from "./components/Weather"
 
 
+
+
 export default function App() {
   return (
     <div className="main-container">

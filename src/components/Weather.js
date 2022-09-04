@@ -1,5 +1,7 @@
 import React from "react";
 
+const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY
+
 export default function Weather() {
   const [weatherInfo, setWeatherInfo] = React.useState({
     name: "Oakland",
@@ -9,13 +11,11 @@ export default function Weather() {
     }
   })
 
-
   React.useEffect(() => {
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=tokyo&units=imperial&appid=62e289c67390749d08fb4ac8f53988fb")
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=tokyo&units=imperial&appid=${API_KEY}`)
       .then(res => res.json())
       .then(data => setWeatherInfo(data))
   }, [])
-
 
   return (
     <div className="weather-container">
@@ -24,6 +24,5 @@ export default function Weather() {
       <p>Feels Like: {Math.round(weatherInfo.main.feels_like)} &deg;F</p>
       <img className="weather-icon" src="/imgs/sunny.png" alt="sunny day icon"/>
     </div>
-  
   )
 }
