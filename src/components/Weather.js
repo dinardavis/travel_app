@@ -1,7 +1,7 @@
 import React from "react";
+import Time from "./Time";
 
 const WEATHER_API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY
-
 
 export default function Weather(props) {
 
@@ -18,12 +18,16 @@ export default function Weather(props) {
       .then(res => res.json())
       .then(data => setWeatherInfo(data))
   }, [props.searchParam])
-  
+
+
   return (
     <div className='weather-container'>
-      <p>Weather in {weatherInfo.name}</p>
-      <p>Current Temp: {Math.round(weatherInfo.main.temp)} &deg;F</p>
-      <p>Feels Like: {Math.round(weatherInfo.main.feels_like)} &deg;F</p>
+      <p className="weather-info">The Weather in {weatherInfo.name}</p>
+      <p className="weather-info">Temp: {Math.round(weatherInfo.main.temp)} &deg;F</p>
+      <p className="weather-info">Feels Like: {Math.round(weatherInfo.main.feels_like)} &deg;F</p>
+      <Time 
+        searchParam={props.searchParam}
+      />
       <img className="weather-icon" src="/imgs/sunny.png" alt="sunny day icon"/>
     </div>
   )

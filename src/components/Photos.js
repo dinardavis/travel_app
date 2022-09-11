@@ -19,7 +19,7 @@ export default function Photos(props) {
   const photoImages = photos.map((photo, index) => {
       return (      
           <a href={photo.urls.regular} key={photo.id} className="img-link" to="route" target="_blank" rel="noopener noreferrer">
-            <img  src={photo.urls.full} alt={photo.alt_description} id={`img-${index}`}  className="grid-img" />
+            <img  src={photo.urls.regular} alt={photo.alt_description} id={`img-${index}`}  className="grid-img" />
           </a>    
       )
   })

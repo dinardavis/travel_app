@@ -12,8 +12,6 @@ export default function App() {
     setLocation(value)
   }
 
-  console.log(location)
-
   function updateLocation() {
     setSearchParam(location)
   }
@@ -22,8 +20,7 @@ export default function App() {
   return (
     <div className="main-container">
       <div className="intro-container">
-        <h1 className="main-header-one">Don't Dream About It.</h1>
-        <h1 className="main-header-two">Be About It.</h1>
+        <h1 className="intro-header">The (Travel) Dreamcatcher</h1>
         <input
           type="text"
           placeholder="Where to?"
@@ -50,10 +47,13 @@ export default function App() {
         />
       </div>
 
+      <div className='quote-container'>
+        Don't dream about it. Be about it.
+      </div>
+
       <div className="flight-container">
         Flight Module Here
       </div>
-
     </div>
 
   
