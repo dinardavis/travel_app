@@ -3,22 +3,23 @@ import React from "react";
 const TIME_API_KEY = process.env.REACT_APP_ABSTRACT_API_KEY
 
 
-
 export default function Time(props) {
-  const [time, setTime] = React.useState("")
+  const [time, setTime] = React.useState("8:22 PM")
 
-
- 
   React.useEffect(() => {
     fetch(`https://timezone.abstractapi.com/v1/current_time/?api_key=${TIME_API_KEY}&location=${props.searchParam}`)
         .then(res => res.json())
         .then(data => setTime(data.datetime))
     }, [props.searchParam])
 
+    console.log(props.searchParam)
+
   return (
-    <div className="time-container">{time}</div>
+    <div className="time-container">Local Time: {time}</div>
   )
 }
+
+
 
 
   

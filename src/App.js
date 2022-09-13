@@ -1,6 +1,7 @@
 import React from 'react'
 import Photos from "./components/Photos"
 import Weather from "./components/Weather"
+import Flights from './components/Flights'
 
 
 export default function App() {
@@ -15,7 +16,6 @@ export default function App() {
   function updateLocation() {
     setSearchParam(location)
   }
-
 
   return (
     <div className="main-container">
@@ -42,7 +42,6 @@ export default function App() {
 
       <div className="photo-container">
         <Photos 
-          location={location}
           searchParam={searchParam}
         />
       </div>
@@ -52,7 +51,9 @@ export default function App() {
       </div>
 
       <div className="flight-container">
-        Flight Module Here
+        <Flights 
+          searchParam={searchParam}
+        />
       </div>
     </div>
 
