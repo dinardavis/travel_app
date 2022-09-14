@@ -43,11 +43,12 @@
   width: 100%;
   padding: 15px 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: auto;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   color: #ff9f1c;
+  text-transform: capitalize;
 }
 
 .search-input:focus {
@@ -69,11 +70,25 @@
   color: #fff;
   border: 1px solid #fff;
   font-weight: 300;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.search-btn:hover {
+  color: #ff9f1c;
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
 }
 
 .weather-container {
   grid-column: 1 / span 3;
-  grid-row: 6 / span 3;
+  grid-row: 6 / span 4;
   background-color: #48cae4;
   border-radius: 10px;
   font-size: 18px;
@@ -84,12 +99,16 @@
   margin-bottom: 7px;
 }
 
+.temp-min-max {
+  display: flex;
+}
+
 .photo-container {
   grid-column: 4 / span 5;
-  grid-row: 1 / span 8;
+  grid-row: 1 / span 9;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   grid-gap: .8rem; 
   border-radius: 10px;
 }
@@ -99,7 +118,7 @@
   justify-content: center;
   align-items: center;
   grid-column: 1 / span 8;
-  grid-row: 9 / span 1;
+  grid-row: 10 / span 1;
   font-size: 28px;
   font-weight: 700;
   border: 1px solid #00b4d8;
@@ -110,13 +129,39 @@
 .flight-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   grid-column: 1 / span 8;
-  grid-row: 10 / span 3;
+  grid-row: 11 / span 2;
   background-color: #0077b6;
   border-radius: 10px;
   font-size: 18px;
   padding: 20px;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flight-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flight-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.city-label {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .city-input {
@@ -124,8 +169,12 @@
   border: none;
   border-bottom: 1px solid #fff;
   padding: 10px 0px;
-  width: 200px;
-  margin: 10px
+  margin: 0 15px 0 10px;
+  width: 120px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .city-input:focus {
@@ -136,10 +185,35 @@ input::-webkit-input-placeholder {
   color: #AAA;
 }
 
+.datepicker-input {
+  font-size: 15px;
+}
+
+
+
+.price-display {
+  background-color: #fff;
+  color: #0077b6;
+  padding: 12px;
+  border-radius: 7px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+input[type="date"]{
+  background-color: #0077b6;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 3px 0;
+  color: #fff;
+  text-align: center;
+}
+
 .flight-btn {
   align-self: flex-end;
   border: none;
   text-align: center;
+  margin-top: auto;
   padding: 15px 40px;
   border-radius: 5px;
   font-size: 18px;
@@ -148,7 +222,21 @@ input::-webkit-input-placeholder {
   border: 1px solid #fff;
   text-decoration: none;
   width: 200px;
-  margin-top: auto;
+ 
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.flight-btn:hover {
+  color: #0077b6;
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
 }
 
 .grid-img {
@@ -175,33 +263,33 @@ input::-webkit-input-placeholder {
 }
 
 .img-link:nth-child(1) {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 5;
   grid-row: 1 / span 5;
 }
 
 .img-link:nth-child(2) {
-  grid-column: 5 / span 2; 
+  grid-column: 6 / span 2; 
   grid-row: 1 / span 3;
 }
 
 .img-link:nth-child(3) {
-  grid-column: 7 / span 2;
+  grid-column: 8 / span 2;
   grid-row: 1 / span 3;
 }
 
 .img-link:nth-child(4) {
-  grid-column: 5 / span 4;
+  grid-column: 6 / span 4;
   grid-row: 4 / span 2;
 }
 
 .img-link:nth-child(5) {
-  grid-column: 1 / span 4;
-  grid-row: 6 / span 3;
+  grid-column: 1 / span 5;
+  grid-row: 6 / span 4;
 }
 
 .img-link:nth-child(6) {
-  grid-column: 5 / span 4;
-  grid-row: 6 / span 3;
+  grid-column: 6 / span 4;
+  grid-row: 6 / span 4;
 }
 
 .weather-icon {
