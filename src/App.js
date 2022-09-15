@@ -20,7 +20,7 @@ export default function App() {
   return (
     <div className="main-container">
       <div className="intro-container">
-        <h1 className="intro-header">The (Travel) Dreamcatcher</h1>
+        <h1 className="intro-header"><span className='intro-span'>The (Travel)</span> Dreamcatcher</h1>
         <input
           type="text"
           placeholder="Where to?"
