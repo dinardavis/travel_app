@@ -127,7 +127,7 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 40px;
+  width: 60px;
 }
 
 .weather--temp {
@@ -141,9 +141,9 @@
 }
 
 .weather--desc {
-  font-size: 37px;
+  font-size: 18px;
   margin-top: -10px;
-  font-weight: 100;
+  text-transform: capitalize;
 }
 
 .weather-footer {
@@ -158,6 +158,10 @@
   display: flex;
   justify-content: space-between;
   width: 60%;
+}
+
+.toggle-temp-units {
+  cursor: pointer;
 }
 
 .temp-toggle {
@@ -422,10 +426,6 @@ input[type="date"]{
 .img-link:nth-child(6) {
   grid-column: 6 / span 4;
   grid-row: 6 / span 4;
-}
-
-.weather-icon {
-  width: 40px;
 }
 
 
