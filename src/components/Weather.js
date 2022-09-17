@@ -21,8 +21,6 @@ export default function Weather(props) {
     }
   }
 
-  console.log(weatherInfo.weather[0].main)
-
   const selectWeatherIcon = (data) => {
       let weatherIcon = ""
       if(data === "Clouds") {

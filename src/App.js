@@ -36,15 +36,15 @@ export default function App() {
         </button>
       </div>
 
-      <Weather 
-        searchParam={searchParam}
-      />
-
       <div className="photo-container">
         <Photos 
           searchParam={searchParam}
         />
       </div>
+
+      <Weather 
+        searchParam={searchParam}
+      />
 
       <div className='quote-container'>
         Don't dream about it. Be about it.
