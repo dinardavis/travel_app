@@ -32,7 +32,7 @@
   background-image:
   linear-gradient(
     140deg, 
-    #ff9f1c, #ffc36e
+    #f7b267, #f79d65
   );
 }
 
@@ -104,7 +104,7 @@
   background-image:
   linear-gradient(
     140deg, 
-    #48cae4, #7ed2e3
+    #f79d65, #f4845f
   );
 }
 
@@ -183,8 +183,8 @@
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  border: 1px solid #00b4d8;
-  -webkit-text-stroke: 1px #00b4d8;
+  border: 1px solid #f4845f;
+  -webkit-text-stroke: 1px #f4845f;
 }
 
 .flight-container {
@@ -195,7 +195,7 @@
   background-image:
   linear-gradient(
     140deg, 
-    #0077b6, #2d99d3, #2d99d3, #6ebde7
+    #f4845f, #f27059, #f25c54
   );
   font-size: 18px;
   padding: 20px;
@@ -268,7 +268,7 @@ input[type="date"]{
 
 .price-display {
   background-color: #fff;
-  color: #0077b6;
+  color: #f25c54;
   border-radius: 7px;
   font-weight: 500;
   padding: 10px;
