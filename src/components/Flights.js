@@ -44,15 +44,14 @@ export default function Flights(props) {
           </div>
       </form>
 
-  
+      <div className="flight-cta">
+        <div className="flight--price">
           <p className="flight--copy">Flight from Oakland to Bangkok starting at: </p>
+          <p className="price-display">$1,499.99</p>
+        </div>
 
-          <div className="flight--price">
-            <p className="price-display">$499.99</p>
-            <a href="https://www.kayak.com/flights" className="flight-btn" to="route" target="_blank" rel="noopener noreferrer">Go Book It!</a>
-          </div>
-         
-
+        <a href="https://www.kayak.com/flights" className="flight-btn" to="route" target="_blank" rel="noopener noreferrer">Book It!</a>
+      </div>
     </>
   )
 }
