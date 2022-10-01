@@ -46,9 +46,9 @@ export default function App() {
   return (
     <div className="main-container">
       <div className="intro-container">
-        <h1 className="intro-header"><span className='intro-span'>The (Travel)</span> Dreamcatcher</h1>
+        <h1 className="intro-header"><span className='intro-span'>Travel</span> Dreamcatcher</h1>
         <p className='intro-copy'>Enter the city that you've always wished to travel to, and get inspired to plan your next vacation!</p>
-        <p className='intro-copy-error'>Please enter a valid city name<br></br> or nearby travel hub</p>
+        <p className='intro-copy-error'>Please enter a valid city name<br></br> or nearest travel hub</p>
         <input
           type="text"
           placeholder="Where to?"
