@@ -6,8 +6,6 @@ import React from "react";
 
 export default function Flights(props) {
 
-
-
   // React.useEffect(() => {
   //   const options = {
   //     method: 'GET',
@@ -30,7 +28,6 @@ export default function Flights(props) {
             <label className="city-label">From:
               <input className="city-input"></input>
             </label>
-            
             <span className="datepicker-toggle">
               <input type="date" className="datepicker-input"></input>
             </span>
@@ -38,11 +35,14 @@ export default function Flights(props) {
           
           <div className="city-container">
             <label className="city-label">To:
-              <input className="city-input"></input>
+              <input 
+                className="city-input"
+                value={props.toAirportCode}
+              />
             </label>
             
             <span className="datepicker-toggle">
-              <input type="date" className="datepicker-input"></input>
+              <input type="date" className="datepicker-input"/>
             </span>
           </div>
       </form>

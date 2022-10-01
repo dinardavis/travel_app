@@ -8,16 +8,18 @@ import { airportData } from "./components/airportData"
 export default function App() {
   const [location, setLocation] = React.useState("oakland")
   const [searchParam, setSearchParam] = React.useState("oakland")
+  const [airportCode, setAirportCode] = React.useState('BKK')
 
+  
+  //Filter cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
   const filteredAirportData = airportData.filter(airport => {
-    const isDuplicate = uniqueCityAirports.includes(airport.city);
+  const isDuplicate = uniqueCityAirports.includes(airport.city);
     
-    if(!isDuplicate) {
+  if(!isDuplicate) {
       uniqueCityAirports.push(airport.city);
       return true;
     } 
-
     return false;
   });
 
@@ -25,12 +27,23 @@ export default function App() {
     const cities = airport.city;
     return cities.toUpperCase();
   })
-
-  console.log(cityNames)
   
   function handleChange(event) {
     const value = event.target.value
     setLocation(value)
+  }
+
+  function getMatchingAirport() {
+    const matchingAirportCode = filteredAirportData.filter(airport => {
+      const cityFromData = airport.city.toUpperCase()
+      return cityFromData.includes(location.toUpperCase())
+    })
+    return matchingAirportCode
+  }
+
+  function getAirportCode() {
+    const airport = getMatchingAirport()
+    setAirportCode(airport[0].iata_code) 
   }
 
   function updateLocation() {
@@ -38,10 +51,12 @@ export default function App() {
     if(cityNames.includes(location.toUpperCase())){
       introCopyError.style.visibility = 'hidden'
       setSearchParam(location)
+      getAirportCode()
     } else {
       introCopyError.style.visibility = 'visible'
     }
   }
+
 
   return (
     <div className="main-container">
@@ -81,6 +96,8 @@ export default function App() {
       <div className="flight-container">
         <Flights 
           searchParam={searchParam}
+          toAirportCode={airportCode}
+          getAirportCode={getAirportCode}
         />
       </div>
     </div>
