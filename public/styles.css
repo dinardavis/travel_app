@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 30px 30px;
+  padding: 10px 30px;
   background-color: #ff9f1c;
   background-image:
   linear-gradient(
@@ -48,15 +48,18 @@
 }
 
 .intro-copy {
-  font-size: 1.2em;
+  text-align: justify;
+  font-size: 1.18em;
   margin-bottom: 5px;
 }
 
 .intro-copy-error {
   visibility: hidden;
+  font-size: .9em;
   font-weight: 500;
   color: #be1108;
   text-align: center;
+  margin-top: auto;
   margin-bottom: 5px;
 }
 
@@ -209,6 +212,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 5px;
   font-size: 35px;
   font-weight: 700;
   border: 1px solid #f4845f;
@@ -218,42 +222,51 @@
 .flight-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: #0077b6;
+  justify-content: space-between;
   background-image:
   linear-gradient(
     140deg, 
     #f4845f, #f27059, #f25c54
   );
   font-size: 18px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .flight-form {
   display: flex;
   flex-direction: column;
+  padding: 0 30px 10px;
+}
+
+.flight-to-city {
+  text-transform: capitalize;
 }
 
 .city-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   width: 100%;
   font-size: 20px;
   margin: 10px 0;
 }
 
 .city-input {
-  width: 60%;
+  width: 110px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #fff;
   padding: 10px 0px;
-  margin: 0 15px 0 10px;
+  margin: 0 20px;
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.city-input.to-city {
+  width: 135px;
 }
 
 .city-input:focus {
@@ -287,7 +300,9 @@ input[type="date"]{
 .flight--price {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0 20px;
 }
 
 .flight--copy {
@@ -300,7 +315,7 @@ input[type="date"]{
   border-radius: 7px;
   font-weight: 500;
   padding: 10px;
-  margin-left: 10px;
+
 }
 
 .flight-btn {
@@ -397,6 +412,10 @@ input[type="date"]{
     height: 100%;
   }
 
+  .intro-copy-error {
+    margin-bottom: 0;
+  }
+
   .photo-container {
     grid-row: 1 / span 9;
     grid-gap: .8rem;
@@ -416,25 +435,36 @@ input[type="date"]{
   }
 
   .flight-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     grid-column: 1 / span 2;
     grid-row: 11 / span 4;
     height: 100%;
   }
 
-  .flight-cta {
-    flex-direction: row;
-    align-items: center;
+  .flight-form {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    padding: 0;
+  }
+
+  .flight-cta {
+    height: 100%;
+    padding-left: 40px;
+    width: 80%;
   }
   
   .flight--price {
-    display: flex;
-    align-items: center;
-    margin: 10px 10px 10px;
+    flex-direction: column;
+    height: 100%;
   }
 
-  .flight-btn {
-    width: 30%;
+  .price-display {
+    margin-bottom: 5px;
   }
 
   #img-0 {

@@ -63,7 +63,7 @@ export default function App() {
       <div className="intro-container">
         <h1 className="intro-header"><span className='intro-span'>Travel</span> Dreamcatcher</h1>
         <p className='intro-copy'>Enter the city that you've always wished to travel to, and get inspired to plan your next vacation!</p>
-        <p className='intro-copy-error'>Please enter a valid city name<br></br> or nearest travel hub</p>
+        <p className='intro-copy-error'>Please enter a valid city name or nearest airport hub</p>
         <input
           type="text"
           placeholder="Where to?"
@@ -90,7 +90,7 @@ export default function App() {
       />
 
       <div className='quote-container'>
-        Don't dream about it. Be about it.
+        You miss 100% of the flights you don't take.
       </div>
 
       <div className="flight-container">

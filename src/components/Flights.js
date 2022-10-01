@@ -26,7 +26,10 @@ export default function Flights(props) {
       <form className="flight-form">
           <div className="city-container">
             <label className="city-label">From:
-              <input className="city-input"></input>
+              <input 
+                className="city-input"
+                defaultValue={'OAK'}
+              />
             </label>
             <span className="datepicker-toggle">
               <input type="date" className="datepicker-input"></input>
@@ -36,7 +39,7 @@ export default function Flights(props) {
           <div className="city-container">
             <label className="city-label">To:
               <input 
-                className="city-input"
+                className="city-input to-city"
                 value={props.toAirportCode}
               />
             </label>
@@ -49,7 +52,7 @@ export default function Flights(props) {
 
       <div className="flight-cta">
         <div className="flight--price">
-          <p className="flight--copy">Flight from Oakland to Bangkok starting at: </p>
+          <p className="flight--copy">Flight from Oakland to <span className="flight-to-city">{props.searchParam}</span> starting at: </p>
           <p className="price-display">$1,499.99</p>
         </div>
 
