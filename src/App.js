@@ -46,6 +46,8 @@ export default function App() {
     setAirportCode(airport[0].iata_code) 
   }
 
+  console.log(airportCode)
+
   function updateLocation() {
     const introCopyError = document.querySelector('.intro-copy-error')
     if(cityNames.includes(location.toUpperCase())){

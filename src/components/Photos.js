@@ -25,9 +25,6 @@ export default function Photos(props) {
       )
   })
 
-
-  console.log(photoImages.length)
-
   return (
     <div className="photo-container"> 
         {photoImages.length < 6 ? <p className="no-pictures">Looks like we didn't find any pictures. <br></br>All the more reason for you to book that flight and take some!</p> :
