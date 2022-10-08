@@ -24,7 +24,11 @@ export default function Photos(props) {
       )
   })
 
+
   return (
-      photoImages
+    <div className="photo-container"> 
+        {photoImages}
+    </div>  
+
   )
 }

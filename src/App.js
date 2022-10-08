@@ -6,9 +6,9 @@ import { airportData } from "./components/airportData"
 
 
 export default function App() {
-  const [location, setLocation] = React.useState("oakland")
-  const [searchParam, setSearchParam] = React.useState("oakland")
-  const [airportCode, setAirportCode] = React.useState('BKK')
+  const [location, setLocation] = React.useState("barcelona")
+  const [searchParam, setSearchParam] = React.useState("barcelona")
+  const [airportCode, setAirportCode] = React.useState('BCN')
 
   
   //Filter cities with multiple airports to simplify airport data
@@ -79,11 +79,11 @@ export default function App() {
         </button>
       </div>
 
-      <div className="photo-container">
+     
         <Photos 
           searchParam={searchParam}
         />
-      </div>
+
 
       <Weather 
         searchParam={searchParam}

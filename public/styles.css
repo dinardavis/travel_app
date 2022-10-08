@@ -229,13 +229,16 @@
     #f4845f, #f27059, #f25c54
   );
   font-size: 18px;
-  padding: 30px;
+  padding: 20px 30px;
 }
 
 .flight-form {
   display: flex;
-  flex-direction: column;
-  padding: 0 30px 10px;
+}
+
+.flight-form, 
+.city-input {
+  font-size: 25px;
 }
 
 .flight-to-city {
@@ -244,10 +247,8 @@
 
 .city-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
   width: 100%;
-  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -259,14 +260,9 @@
   padding: 10px 0px;
   margin: 0 20px;
   color: #fff;
-  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-}
-
-.city-input.to-city {
-  width: 135px;
 }
 
 .city-input:focus {
@@ -306,7 +302,8 @@ input[type="date"]{
 }
 
 .flight--copy {
-  text-align: left;
+  text-align: center;
+  max-width: 300px;
 }
 
 .price-display {
@@ -315,6 +312,7 @@ input[type="date"]{
   border-radius: 7px;
   font-weight: 500;
   padding: 10px;
+  margin-left: 15px;
 
 }
 
@@ -446,10 +444,10 @@ input[type="date"]{
   .flight-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 70%;
-    padding: 0;
+    width: 80%;
   }
 
   .flight-cta {

@@ -21,6 +21,10 @@ export default function Flights(props) {
   //   .catch(err => console.error(err));
   // }, [props.searchParam])
 
+  navigator.geolocation.getCurrentPosition(position => {
+    console.log(position)
+  })
+
   return (
     <>
       <form className="flight-form">
@@ -31,22 +35,22 @@ export default function Flights(props) {
                 defaultValue={'OAK'}
               />
             </label>
-            <span className="datepicker-toggle">
+            {/* <span className="datepicker-toggle">
               <input type="date" className="datepicker-input"></input>
-            </span>
+            </span> */}
           </div>
           
           <div className="city-container">
             <label className="city-label">To:
               <input 
-                className="city-input to-city"
+                className="city-input"
                 value={props.toAirportCode}
               />
             </label>
             
-            <span className="datepicker-toggle">
+            {/* <span className="datepicker-toggle">
               <input type="date" className="datepicker-input"/>
-            </span>
+            </span> */}
           </div>
       </form>
 
