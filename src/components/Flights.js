@@ -21,9 +21,9 @@ export default function Flights(props) {
   //   .catch(err => console.error(err));
   // }, [props.searchParam])
 
-  navigator.geolocation.getCurrentPosition(position => {
-    console.log(position)
-  })
+  // navigator.geolocation.getCurrentPosition(position => {
+  //   console.log(position)
+  // })
 
   return (
     <>

@@ -28,7 +28,6 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 30px;
-  background-color: #ff9f1c;
   background-image:
   linear-gradient(
     140deg, 
@@ -205,6 +204,17 @@
   grid-template-rows: repeat(9, 1fr);
   grid-gap: .2rem; 
   margin: .2rem 0;
+}
+
+.no-pictures {
+  grid-column: 1 / 10;
+  grid-row: 5 / 6;
+  color: #af5d2a;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+  padding: 10px;
 }
 
 .quote-container {
@@ -447,7 +457,7 @@ input[type="date"]{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: 70%;
   }
 
   .flight-cta {

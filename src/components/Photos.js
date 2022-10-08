@@ -16,6 +16,7 @@ export default function Photos(props) {
   }, [props.searchParam])
 
 
+
   const photoImages = photos.map((photo, index) => {
       return (      
           <a href={photo.urls.regular} key={photo.id} className="img-link" to="route" target="_blank" rel="noopener noreferrer">
@@ -25,9 +26,12 @@ export default function Photos(props) {
   })
 
 
+  console.log(photoImages.length)
+
   return (
     <div className="photo-container"> 
-        {photoImages}
+        {photoImages.length < 6 ? <p className="no-pictures">Looks like we didn't find any pictures. <br></br>All the more reason for you to book that flight and take some!</p> :
+        photoImages}    
     </div>  
 
   )
