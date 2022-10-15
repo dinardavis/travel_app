@@ -47,7 +47,7 @@ export default function Weather(props) {
     <>
       {!weatherInfo ? 
         <p className="loading">Loading...</p> :
-        <div className="weather-container">
+        <section className="weather-container light-mode">
           <img className="weather--icon" src={`/imgs/weather/${selectWeatherIcon(weatherInfo.weather[0].main)}`} alt={weatherInfo.weather[0].description} />
           <p className="weather--location">{weatherInfo.name}, {weatherInfo.sys.country}</p>
           <p className="weather--temp">{Math.round(weatherInfo.main.temp)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
@@ -71,7 +71,7 @@ export default function Weather(props) {
               <p>&deg;C</p>
             </div> */}
           </div>
-        </div>
+        </section>
       }
     </>
   )

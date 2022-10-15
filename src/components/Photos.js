@@ -26,10 +26,10 @@ export default function Photos(props) {
   })
 
   return (
-    <div className="photo-container"> 
+    <section className="photo-container light-mode"> 
         {photoImages.length < 6 ? <p className="no-pictures">Looks like we didn't find any pictures. <br></br>All the more reason for you to book that flight and take some!</p> :
         photoImages}    
-    </div>  
+    </section>  
 
   )
 }
