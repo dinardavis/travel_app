@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Photos from "./components/Photos"
+import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
 import { airportData } from "./components/airportData"
@@ -88,6 +89,8 @@ export default function App() {
         <Photos 
           searchParam={searchParam}
         />
+
+        <Date />
 
         <Weather 
           searchParam={searchParam}

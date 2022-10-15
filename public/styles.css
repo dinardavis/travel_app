@@ -61,14 +61,20 @@ section {
 }
 
 .main-nav {
+
   width: 100%;
   height: 30px;
   border-bottom: 1px solid #727272;
   margin: 40px 40px 0;
 }
 
-.nav-list .list-item {
+.nav-list {
+  display: flex;
+}
 
+.list-item {
+  display: block;
+  padding-left: 20px;
 }
 
 .intro-container {
@@ -149,6 +155,54 @@ section {
   background-position: 100% 100%;
   background-size: 100% 55px;
   cursor: pointer;
+}
+
+.calendar-container {
+  display: flex;
+}
+
+.calendar-container .react-calendar {
+  border: none;
+  border-radius: 10px;
+}
+
+.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {
+  background: rgba(253, 253, 175, 0.8);
+  border-radius: 10px;
+}
+
+
+.calendar-container .react-calendar .react-calendar__tile--now {
+  border-radius: 10px;
+  background: rgba(147, 235, 251, 0.8);
+}
+
+
+
+.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__arrow.react-calendar__navigation__prev-button,
+.react-calendar__navigation__label,
+.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from,
+.react-calendar__navigation__arrow.react-calendar__navigation__next-button,
+.react-calendar__navigation__arrow.react-calendar__navigation__next2-button,
+.react-calendar__month-view__weekdays .react-calendar__month-view__weekdays__weekday,
+.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend.react-calendar__month-view__days__day--neighboringMonth > abbr,
+.react-calendar__tile.react-calendar__month-view__days__day
+ {
+  color: var(--font-color-main);
+  font-size: .9em;
+  font-weight: 300;
+}
+
+.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__arrow.react-calendar__navigation__prev-button,
+.react-calendar__navigation__label,
+.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from,
+.react-calendar__navigation__arrow.react-calendar__navigation__next-button,
+.react-calendar__navigation__arrow.react-calendar__navigation__next2-button,
+.react-calendar__month-view__weekdays .react-calendar__month-view__weekdays__weekday {
+  font-weight: 400;
+  font-size: 1em;
 }
 
 .weather-container {
