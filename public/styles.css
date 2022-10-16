@@ -34,12 +34,17 @@ section {
   box-shadow: 1px 1px 20px rgba(42, 41, 41, 0.15);
 }
 
+section.map-container {
+  display: flex;
+  width: 700px;
+}
+
 .main-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 90%;
-  height: 95vh;
-  margin: auto auto;
+  margin: 40px;
+  border-radius: 20px;
   /* display: grid; */
   /* align-items: center; */
   /* grid-template-columns: repeat(auto-fit,minmax(400px, 1fr)); */
@@ -51,7 +56,7 @@ section {
   font-weight: 300;
   background-image:
   linear-gradient(
-    140deg, 
+    210deg, 
     #fff,  #f5f7f7
   );
 }

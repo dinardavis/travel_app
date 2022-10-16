@@ -4,6 +4,7 @@ import Photos from "./components/Photos"
 import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
+import Map from "./components/Map"
 import { airportData } from "./components/airportData"
 
 
@@ -107,6 +108,8 @@ export default function App() {
             getAirportCode={getAirportCode}
           />
         </section>
+
+        <Map />
       </div>
     </>
   )
