@@ -46,6 +46,7 @@ export default function Flights(props) {
               <input 
                 className="city-input"
                 value={props.toAirportCode}
+                readOnly
               />
             </label>
             
