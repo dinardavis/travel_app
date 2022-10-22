@@ -9,6 +9,7 @@ export default function Photos(props) {
   const [photos, setPhotos] = React.useState([])
     
 
+
   React.useEffect(() => {
     fetch(`https://api.unsplash.com/search/photos/?query=${props.searchParam}&client_id=${PHOTOS_API_KEY}&per_page=6`)
       .then(res => res.json())
@@ -16,6 +17,7 @@ export default function Photos(props) {
   }, [props.searchParam])
 
 
+  console.log(props.searchParam)
 
   const photoImages = photos.map((photo, index) => {
       return (      

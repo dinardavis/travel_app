@@ -25,7 +25,8 @@ body {
   background-color: #dde1e2;
 }
 
-section {
+section,
+.section {
   background-color: var(--background-main);
   border-radius: 10px;
   margin: 10px;

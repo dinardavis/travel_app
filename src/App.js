@@ -49,9 +49,8 @@ export default function App() {
     setAirportCode(airport[0].iata_code) 
   }
 
-  console.log(airportCode)
-
-  function updateLocation() {
+  function updateLocation(e) {
+    e.preventDefault()
     const introCopyError = document.querySelector('.intro-copy-error')
     if(cityNames.includes(location.toUpperCase())){
       introCopyError.style.visibility = 'hidden'
@@ -62,13 +61,12 @@ export default function App() {
     }
   }
 
-
   return (
     <>    
    
       <div className="main-container">
       <Navbar />
-        <section className="intro-container light-mode">
+        <form className="section intro-container light-mode">
           <p className='intro-copy'>Enter the city that you've always wished to travel to, and get inspired to plan your next vacation!</p>
           <p className='intro-copy-error'>Please enter a valid city name or nearest airport hub</p>
           <input
@@ -84,7 +82,7 @@ export default function App() {
           >
             Let's Go!
           </button>
-        </section>
+        </form>
 
       
         <Photos 
