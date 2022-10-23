@@ -8,7 +8,7 @@ export default function Date() {
 
   return (
     <section className='calendar-container'>
-       <Calendar />
+       <Calendar className='calendar' />
     </section>
   )
 }
