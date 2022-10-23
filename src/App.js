@@ -4,14 +4,13 @@ import Photos from "./components/Photos"
 import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
-import Map from "./components/Map"
 import { airportData } from "./components/airportData"
 
 
 export default function App() {
-  const [location, setLocation] = React.useState("barcelona")
-  const [searchParam, setSearchParam] = React.useState("barcelona")
-  const [airportCode, setAirportCode] = React.useState('BCN')
+  const [location, setLocation] = React.useState("tokyo")
+  const [searchParam, setSearchParam] = React.useState("tokyo")
+  const [airportCode, setAirportCode] = React.useState('NRT')
 
   
   //Filter cities with multiple airports to simplify airport data
@@ -63,12 +62,11 @@ export default function App() {
 
   return (
     <>    
-   
       <div className="main-container">
-      <Navbar />
+        <Navbar />
         <form className="section intro-container light-mode">
-          <p className='intro-copy'>Enter the city that you've always wished to travel to, and get inspired to plan your next vacation!</p>
-          <p className='intro-copy-error'>Please enter a valid city name or nearest airport hub</p>
+          <p className='intro-copy'>Enter the city's name that you've always wished to travel to, and get inspired to plan your next vacation!</p>
+          <p className='intro-copy-error'>Please enter a valid city name or the nearest <br></br>major city airport location</p>
           <input
             type="text"
             placeholder="Where to?"
@@ -106,8 +104,6 @@ export default function App() {
             getAirportCode={getAirportCode}
           />
         </section>
-
-        <Map />
       </div>
     </>
   )
