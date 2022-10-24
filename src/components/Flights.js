@@ -58,7 +58,7 @@ export default function Flights(props) {
 
       <div className="flight-cta">
         <div className="flight--price">
-          <p className="flight--copy">Flight from San Francisco to <span className="flight-to-city">{props.searchParam}</span> starting at: </p>
+          <p className="flight--copy">Flight from San Francisco<br></br> to <span className="flight-to-city">{props.searchParam}</span> starting at: </p>
           <p className="price-display">{`$${flightPrice}`}</p>
         </div>
 

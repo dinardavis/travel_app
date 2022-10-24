@@ -11,7 +11,7 @@ export default function Photos(props) {
   const timeoutRef = React.useRef(null);
     
   React.useEffect(() => {
-    fetch(`https://api.unsplash.com/search/photos/?query=${props.searchParam}&client_id=${PHOTOS_API_KEY}&orientation=portrait&per_page=10`)
+    fetch(`https://api.unsplash.com/search/photos/?query=${props.searchParam}&client_id=${PHOTOS_API_KEY}&orientation=portrait&per_page=15`)
       .then(res => res.json())
       .then(data => setPhotos(data.results))
   }, [props.searchParam])
@@ -35,7 +35,7 @@ export default function Photos(props) {
     return () => {
       resetTimeout();
     };
-  }, [index]);
+  }, [index, photos.length]);
 
   const slideShow = photos.map((photo, index) => {
     return (  

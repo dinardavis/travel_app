@@ -64,11 +64,11 @@ export default function App() {
   return (
     <>    
       <div className="main-container">
-        <Navbar />
+        <Navbar/>
         <Sidebar />
         <form className="section intro-container light-mode">
           <p className='intro-copy'>Enter the city's name that you've always wished to travel to, and get inspired to plan your next vacation!</p>
-          <p className='intro-copy-error'>Please enter a valid city name or the nearest <br></br>major city airport location</p>
+          <p className='intro-copy-error'>Please enter a valid city name, <br></br>or the nearest major airport location</p>
           <input
             type="text"
             placeholder="Where to?"

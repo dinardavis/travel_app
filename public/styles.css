@@ -64,8 +64,10 @@ section.map-container {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   border-radius: 10px;
+  background-color: #f9f9f9;
   box-shadow: 1px 1px 20px rgba(42, 41, 41, 0.15);
 }
 
@@ -78,6 +80,20 @@ section.map-container {
   padding-left: 20px;
   font-size: 1.2em;
   font-weight: 500;
+}
+
+.google-search {
+  margin-right: 20px;
+}
+
+.google-search input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.google-search input:focus {
+  outline: none;
 }
 
 .sidebar-container {
@@ -122,7 +138,7 @@ section.map-container {
   justify-content: center;
   width: 100%;
   padding: 5px 10px;
-  background-color: #e6ab3e;
+  background-color: rgba(230, 171, 62, 0.8);
   border: none;
   border-radius: 7px;
   color: #f5f5f5;
@@ -383,8 +399,8 @@ section.map-container {
 
 .slideshowMarker {
   display: inline-block;
-  height: 10px;
-  width: 10px;
+  height: 7px;
+  width: 7px;
   border-radius: 50%;
   cursor: pointer;
   margin: 15px 7px 0px;
@@ -482,13 +498,13 @@ input[type="date"]{
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 10px 0 20px;
+  font-size: .9em;
+  margin: 10px 0 25px;
 }
 
 .flight--copy {
-  text-align: right;
   max-width: 300px;
-  margin-bottom: 20px;
+  text-align: right;
 }
 
 .price-display {
@@ -497,7 +513,6 @@ input[type="date"]{
   font-weight: 500;
   padding: 10px;
   margin-left: 15px;
-
 }
 
 .flight-btn {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Search from './Search';
 
 
 export default function Navbar() {
@@ -9,6 +10,8 @@ export default function Navbar() {
       <ul className='nav-list'>
         <li className='list-item'>Travel Dream Dashboard</li>
       </ul>
+
+      <Search />
     </nav>
   )
 }
