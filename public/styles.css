@@ -66,6 +66,7 @@ section.map-container {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 10px;
   border-radius: 10px;
   background-color: #f9f9f9;
   box-shadow: 1px 1px 20px rgba(42, 41, 41, 0.15);
@@ -75,7 +76,7 @@ section.map-container {
   display: flex;
 }
 
-.list-item {
+.nav-list {
   display: block;
   padding-left: 20px;
   font-size: 1.2em;
@@ -542,6 +543,97 @@ input[type="date"]{
   cursor: pointer;
 }
 
+
+/* TODO LIST STYLING */
+
+.todo-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 0;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.todo-input {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  box-shadow: inset 1.5px 1.5px 2px rgba(0,0,0,0.25);
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(147, 235, 251, 0.8);
+  color: #fff;
+  font-size: 1.7em;
+}
+
+.list-container {
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.list-item:hover > .trash-icon {
+  opacity: 1;
+}
+
+.category-marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(230, 171, 62, 0.8);
+  margin-right: 10px;
+}
+
+.category-checkmark {
+ width: 100%;
+ height: 100%;
+ color: rgba(230, 171, 62, 0.8);
+ opacity: 0;
+}
+
+.trash-icon {
+  margin-left: auto;
+  color: #a3a7bf;
+  font-size: 1em;
+  opacity: 0;
+}
+
+
 @media only screen and (min-width: 800px) {
   .main-container {
     max-width: 1200px;
@@ -586,7 +678,7 @@ input[type="date"]{
     grid-column: 2 / 3;
   }
 
-  .quote-container {
+  .todo-main-container {
     grid-row: 11 / 21;
     grid-column: 4 / 5;
   }

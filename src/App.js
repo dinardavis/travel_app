@@ -5,6 +5,7 @@ import Photos from "./components/Photos"
 import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
+import TodoMain from './components/todo/TodoMain'
 import { airportData } from "./components/airportData"
 
 
@@ -95,9 +96,7 @@ export default function App() {
           searchParam={searchParam}
         />
 
-        <section className='quote-container light-mode'>
-          You miss 100% of the flights you don't take.
-        </section>
+        <TodoMain />
 
         <section className="flight-container light-mode">
           <Flights 
