@@ -549,7 +549,7 @@ input[type="date"]{
 .todo-main-container {
   display: flex;
   flex-direction: column;
-  padding: 10px 15px 0;
+  padding: 20px;
 }
 
 .form-container {
@@ -578,11 +578,8 @@ input[type="date"]{
 
 .add-btn {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  padding: 5.5px 14.1px;
+  border-radius: 0%;
   border: none;
   background-color: rgba(147, 235, 251, 0.8);
   color: #fff;
@@ -598,6 +595,7 @@ input[type="date"]{
   align-items: center;
   width: 100%;
   background-color: #ffffff;
+  border: .5px solid #d0d0d0;
   padding: 10px;
   border-radius: 9px;
   margin-bottom: 5px;

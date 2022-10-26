@@ -2,29 +2,29 @@ import React from "react";
 
 
 
-// const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
+const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
 export default function Flights(props) {
   const [flightPrice, setFlightPrice] = React.useState(599.99)
 
-  // React.useEffect(() => {
-  //   const options = {
-  //     method: 'GET',
-  //     headers: {
-  //       'X-RapidAPI-Key': `${FLIGHT_API_KEY}`,
-  //       'X-RapidAPI-Host': 'skyscanner50.p.rapidapi.com'
-  //     }
-  //   };
+  React.useEffect(() => {
+    const options = {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': `${FLIGHT_API_KEY}`,
+        'X-RapidAPI-Host': 'skyscanner50.p.rapidapi.com'
+      }
+    };
 
-  //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=SFO&destination=${props.toAirportCode}&date=2022-11-19&returnDate=2022-11-21&adults=1&currency=USD&countryCode=US&market=en-US`, options)
-  //   .then(res => res.json())
-  //   .then(data => setFlightPrice(data.data[0].price.amount))
-  //   .catch(err => console.error(err));
-  // }, [props.searchParam, props.toAirportCode])
+    fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=SFO&destination=${props.toAirportCode}&date=2022-11-19&returnDate=2022-11-21&adults=1&currency=USD&countryCode=US&market=en-US`, options)
+    .then(res => res.json())
+    .then(data => setFlightPrice(data.data[0].price.amount))
+    .catch(err => console.error(err));
+  }, [props.searchParam, props.toAirportCode])
 
-  // navigator.geolocation.getCurrentPosition(position => {
-  //   console.log(position)
-  // })
+  navigator.geolocation.getCurrentPosition(position => {
+    console.log(position)
+  })
 
   return (
     <>

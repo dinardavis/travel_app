@@ -20,8 +20,6 @@ export default function Form(props) {
     props.setUserInput("")
   }
 
-
-
   return (
      <form className='form-container'>
       <input 
