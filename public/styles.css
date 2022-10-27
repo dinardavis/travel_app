@@ -99,9 +99,36 @@ section.map-container {
 
 .sidebar-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 150px;
   padding: 15px;
   background-color: #f9f9f9;
+}
+
+.sidebar-header {
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.widgets-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.widgets {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px 10px 0;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.widget-icon {
+  margin-right: 10px;
 }
 
 .login-container {
