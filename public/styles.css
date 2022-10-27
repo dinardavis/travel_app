@@ -121,14 +121,28 @@ section.map-container {
 
 .widgets {
   display: flex;
+  align-items: center;
   width: 100%;
-  padding: 10px 20px 10px 0;
-  margin: 10px 0;
+  padding: 10px 0;
   font-weight: 500;
+  font-size: .9em;
 }
 
 .widget-icon {
-  margin-right: 10px;
+  margin-right: 5px;
+}
+
+.widget-add-icon {
+  margin-left: auto;
+  opacity: 0;
+}
+
+.advisory {
+  font-size: 1.3em;
+}
+
+.widgets:hover > .widget-add-icon {
+  opacity: 1;
 }
 
 .login-container {
