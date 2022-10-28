@@ -10,11 +10,18 @@ import { airportData } from "./components/airportData"
 
 
 export default function App() {
-  const [location, setLocation] = React.useState("tokyo")
-  const [searchParam, setSearchParam] = React.useState("tokyo")
-  const [airportCode, setAirportCode] = React.useState('NRT')
+  const [location, setLocation] = React.useState(JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
+  const [searchParam, setSearchParam] = React.useState(JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
+  const [airportCode, setAirportCode] = React.useState(JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
 
-  
+  React.useEffect(() => {
+    localStorage.setItem("searchInput", JSON.stringify(location))
+  }, [location])
+
+  React.useEffect(() => {
+    localStorage.setItem("currentAirportCode", JSON.stringify(airportCode))
+  }, [airportCode])
+
   //Filter cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
   const filteredAirportData = airportData.filter(airport => {
