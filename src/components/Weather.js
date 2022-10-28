@@ -50,28 +50,23 @@ export default function Weather(props) {
       {!weatherInfo ? 
         <p className="loading">Loading...</p> :
         <section className="weather-container light-mode">
-          <img className="weather--icon" src={`/imgs/weather/${selectWeatherIcon(weatherInfo.weather[0].main)}`} alt={weatherInfo.weather[0].description} />
+        
           <p className="weather--location">{weatherInfo.name}, {weatherInfo.sys.country}</p>
-          <p className="weather--temp">{Math.round(weatherInfo.main.temp)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
-          <div className="weather--desc">{weatherInfo.weather[0].main} </div>
+          <div className="temp-icon-container">
+            <p className="weather--temp">{Math.round(weatherInfo.main.temp)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
+            <img className="weather--icon" src={`/imgs/weather/${selectWeatherIcon(weatherInfo.weather[0].main)}`} alt={weatherInfo.weather[0].description} />
+          </div>
           <p className="weather--feels">Feels Like: {Math.round(weatherInfo.main.feels_like)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
-       
+          <div className="weather--desc">{weatherInfo.weather[0].main} </div>
+      
           {/* <p className="weather--time">{weatherInfo.dt}</p> */}
         
           <div className="weather-footer">
             <div className="temp-min-max"> 
-              <p className="weather--high">High: {Math.round(weatherInfo.main.temp_max)} &deg;F</p> •
-              <p className="weather--low">Low: {Math.round(weatherInfo.main.temp_min)} &deg;F</p>
+              <p className="weather--high">High: {Math.round(weatherInfo.main.temp_max)} {tempUnits === "imperial" ? "°F" : "°C" }</p> •
+              <p className="weather--low">Low: {Math.round(weatherInfo.main.temp_min)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
             </div>
             <div className="toggle-temp-units" onClick={toggleUnits}>°F / °C</div>
-            {/* <div className="temp-toggle">
-              <p>&deg;F</p>
-              <label className="switch" onClick={toggleUnits}>
-                  <input type="checkbox"></input>
-                  <span className="slider round"></span>
-              </label>
-              <p>&deg;C</p>
-            </div> */}
           </div>
         </section>
       }

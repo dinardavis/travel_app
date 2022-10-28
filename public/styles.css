@@ -248,7 +248,7 @@ section.map-container {
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
-  box-shadow: inset 1.5px 1.5px 2px rgba(0,0,0,0.25);
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
 }
 
 .search-input:focus {
@@ -335,7 +335,6 @@ section.map-container {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
-
 }
 
 .weather--location,
@@ -345,33 +344,36 @@ section.map-container {
   margin-bottom: 3px;
 }
 
+.temp-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .weather--location {
   font-size: 27px;
   max-width: 250px;
 }
 
 .weather--temp {
-  margin-top: -5px;
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 200;
 }
 
 .weather--feels {
-  font-size: 16px;
-  margin-top: 2px;
+  font-size: 20px;
+  margin-top: -10px;
 }
 
 .weather--desc {
-  font-size: 22px;
+  font-size: 27px;
   margin-top: -7px;
   text-transform: capitalize;
 }
 
 .weather--icon {
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  width: 90px;
+  width: 70px;
 }
 
 .weather-footer {
@@ -387,7 +389,7 @@ section.map-container {
   display: flex;
   justify-content: space-between;
   max-width: 180px;
-  width: 60%;
+  width: 64%;
 }
 
 .toggle-temp-units {
@@ -395,12 +397,12 @@ section.map-container {
   background-color: #fff;
   padding: 4px 7px;
   border-radius: 5px;
-  box-shadow: inset .5px .5px .5px rgba(0,0,0,0.25);
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
   transition: all .2s ease-in-out;
 }
 
 .toggle-temp-units:hover {
-  box-shadow: inset 1.7px 1.7px 1.7px rgba(0,0,0,0.25);
+  box-shadow: inset 2.7px 2.7px 4.2px rgba(0,0,0,0.25);
   transform: scale(.99)
 }
 
@@ -628,7 +630,7 @@ input[type="date"]{
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
-  box-shadow: inset 1.5px 1.5px 2px rgba(0,0,0,0.25);
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
 }
 
 .todo-input:focus {
