@@ -30,7 +30,7 @@ export default function Form(props) {
         onChange={handleChange}
       />
       <button 
-        className='add-btn'
+        className='todo-add-btn'
         onClick={addTodoItem}
       >+</button>
     </form>

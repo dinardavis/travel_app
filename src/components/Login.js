@@ -12,7 +12,7 @@ export default function Login() {
           <p className="user-msg">Welcome back, Dinar!</p> 
         </div>
    
-        <button className="login-btn">Login <MdOutlineLogin className="login-icon"/></button>
+        <button className="login-btn">Login<MdOutlineLogin className="login-icon"/></button>
     </form>
   )
 }
