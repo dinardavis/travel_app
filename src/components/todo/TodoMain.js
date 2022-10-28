@@ -3,7 +3,19 @@ import Form from './Form';
 import List from './List';
 
 export default function TodoMain() {
-  const [todoList, setTodoList] = React.useState(JSON.parse(localStorage.getItem("savedTodos")) || []
+  const [todoList, setTodoList] = React.useState(JSON.parse(localStorage.getItem("savedTodos")) || 
+    [
+      {
+        text:"Renew passport",
+        key:"1",
+        id:"1",
+      }, 
+      {
+        text:"Add international phone plan",
+        key:"2",
+        id:"2",
+      }, 
+    ]
   )
   const [userInput, setUserInput] = React.useState("")
 

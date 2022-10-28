@@ -624,7 +624,7 @@ input[type="date"]{
 .add-btn {
   display: flex;
   padding: 5.5px 14.1px;
-  border-radius: 0%;
+  border-radius: 7px;
   border: none;
   background-color: rgba(147, 235, 251, 0.8);
   color: #fff;

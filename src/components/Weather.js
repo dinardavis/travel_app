@@ -27,11 +27,13 @@ export default function Weather(props) {
         weatherIcon = "clouds.png";
       } else if(data === "Drizzle" || data === "Rain") {
         weatherIcon = "rain.png";
+      } else if(data === "Haze") {
+        weatherIcon = "haze.png";
       } else if(data === "Thunderstorm") {
         weatherIcon = "lightening.png";
       } else if(data === "Snow") {
         weatherIcon = "snow.png";
-      } else if(data === "Mist" || data === "Haze" || data === "Fog") {
+      } else if(data === "Mist" || data === "Fog") {
         weatherIcon = "fog.png";
       } else if(data === "Smoke" || data === "Dust" || data === "Sand" || data === "Ash" || data === "Squall") {
         weatherIcon = "wind.png";

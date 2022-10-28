@@ -25,7 +25,7 @@ export default function Form(props) {
       <input 
         className='todo-input'
         type="text"
-        placeholder="Add To-do"
+        placeholder="Travel checklist"
         value={props.userInput}
         onChange={handleChange}
       />
