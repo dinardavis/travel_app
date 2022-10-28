@@ -44,6 +44,10 @@ export default function App() {
     setLocation(value)
   }
 
+  function clearInput() {
+    const searchInput = document.querySelector('.search-input').value = ""
+  }
+
   function getMatchingAirport() {
     const matchingAirportCode = filteredAirportData.filter(airport => {
       const cityFromData = airport.city.toUpperCase()
@@ -66,7 +70,8 @@ export default function App() {
       getAirportCode()
     } else {
       introCopyError.style.visibility = 'visible'
-    }
+    } 
+    clearInput()
   }
 
   return (

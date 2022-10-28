@@ -17,8 +17,6 @@ export default function TodoMain() {
   ])
   const [userInput, setUserInput] = React.useState("")
 
-  console.log(todoList)
-
   return (
     <section className='todo-main-container'>
  
