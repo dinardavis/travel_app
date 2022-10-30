@@ -670,7 +670,8 @@ input[type="date"]{
   font-size: 1em;
 }
 
-.list-item:hover > .trash-icon {
+.list-item:hover > .trash-icon, 
+.list-item:hover > .check-icon {
   opacity: 1;
 }
 
@@ -692,14 +693,17 @@ input[type="date"]{
  opacity: 0;
 }
 
-.trash-icon {
-  margin-left: auto;
+.todo-icon {
   color: #a3a7bf;
   font-size: 1em;
   opacity: 0;
   cursor: pointer;
 }
 
+.check-icon {
+  margin-left: auto;
+  margin-right: 5px;
+}
 
 @media only screen and (min-width: 800px) {
   .main-container {

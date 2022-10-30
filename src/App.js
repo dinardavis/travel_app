@@ -10,9 +10,9 @@ import { airportData } from "./components/airportData"
 
 
 export default function App() {
-  const [location, setLocation] = React.useState(JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
-  const [searchParam, setSearchParam] = React.useState(JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
-  const [airportCode, setAirportCode] = React.useState(JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
+  const [location, setLocation] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
+  const [searchParam, setSearchParam] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
+  const [airportCode, setAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
 
   React.useEffect(() => {
     localStorage.setItem("searchInput", JSON.stringify(location))
@@ -45,7 +45,7 @@ export default function App() {
   }
 
   function clearInput() {
-    const searchInput = document.querySelector('.search-input').value = ""
+    document.querySelector('.search-input').value = ""
   }
 
   function getMatchingAirport() {

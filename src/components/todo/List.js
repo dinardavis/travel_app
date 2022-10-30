@@ -4,6 +4,7 @@ import Todo from './Todo'
 export default function List(props) {
 
 
+
   return (
     <div className='list-container'>
       {props.todoList.map(todo => (
@@ -11,6 +12,7 @@ export default function List(props) {
           text={todo.text}
           key={todo.id}
           id={todo.id}
+          completed={todo.completed}
           todoList={props.todoList}
           setTodoList={props.setTodoList}
         />
