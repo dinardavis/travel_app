@@ -8,15 +8,15 @@ export default function TodoMain() {
     [
       {
         text:"Renew passport",
-        key:"1",
         id:"1",
         completed: false,
+        priority: ['low', 'medium', 'high'],
       }, 
       {
         text:"Add international phone plan",
-        key:"2",
         id:"2",
         completed: false,
+        priority: ['low', 'medium', 'high'],
       }, 
     ]
   )

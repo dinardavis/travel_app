@@ -10,12 +10,13 @@ export default function Form(props) {
   function addTodoItem(e) {
     e.preventDefault();
     props.setTodoList([
-      ...props.todoList, 
       {
         text: props.userInput,
         completed: false,
-        id: Math.random() * 10000
-      }
+        id: Math.random() * 10000,
+        priority: ['low', 'medium', 'high']
+      },
+      ...props.todoList, 
     ])
     props.setUserInput("")
   }

@@ -13,6 +13,7 @@ export default function List(props) {
           key={todo.id}
           id={todo.id}
           completed={todo.completed}
+          priority={todo.priority}
           todoList={props.todoList}
           setTodoList={props.setTodoList}
         />
