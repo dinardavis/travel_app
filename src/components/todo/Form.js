@@ -14,7 +14,8 @@ export default function Form(props) {
         text: props.userInput,
         completed: false,
         id: Math.random() * 10000,
-        priority: ['low', 'medium', 'high']
+        priority: ['Low', 'Medium', 'High'],
+        count: 0,
       },
       ...props.todoList, 
     ])

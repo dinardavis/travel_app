@@ -3,8 +3,6 @@ import { BsTrash } from "react-icons/bs"
 import { BsCheck2Square } from "react-icons/bs"
 
 export default function Todo(props) {
-  const [count, setCount] = React.useState(0)
-
   const listStyles = {
     textDecoration: props.completed ? "line-through" : "none"
   }
@@ -13,19 +11,20 @@ export default function Todo(props) {
     color: props.completed ? "#f41e1e" : "#a3a7bf"
   }
 
-  let bgPriorityColor = "low"
-  let borderPriorityColor = 'low'
+  let bgPriorityColor = "Low"
+  let borderPriorityColor = 'Low'
 
-  if(props.priority[count] === 'low') {
+  if(props.priority[props.count] === 'Low') {
     bgPriorityColor = '#00accb'
     borderPriorityColor = '1.5px solid #00accb'
-  } else if(props.priority[count] === 'medium') {
+  } else if(props.priority[props.count] === 'Medium') {
     bgPriorityColor = '#e6ab3e'
     borderPriorityColor = '1.5px solid #e6ab3e'
-  } else if(props.priority[count] === 'high') {
+  } else if(props.priority[props.count] === 'High') {
     bgPriorityColor = '#f41e1e'
     borderPriorityColor = '1.5px solid #f41e1e'
   }
+
 
   const priorityStyles = {
     backgroundColor: bgPriorityColor,
@@ -33,14 +32,12 @@ export default function Todo(props) {
   }
 
   function setPriorityLevel(id) {
-    if(count === 2) {
-      setCount(0)
-    } else {
-      setCount(prevCount => prevCount = prevCount + 1)
-    }
+    props.setTodoList(prevList => prevList.map(item => {
+      return item.id === id ?
+      {...item, count: item.count + 1} :
+      item
+    }))
   }
-
-  console.log(props.priority[0])
 
   function markCompleted(id){
     props.setTodoList(prevList => prevList.map(item => {
@@ -61,8 +58,8 @@ export default function Todo(props) {
       <div 
         className='category-marker' 
         style={priorityStyles}
-        title={`${props.priority[count]} priority`}
-        onClick={setPriorityLevel}
+        title={`${props.priority[props.count]} Priority`}
+        onClick={() => setPriorityLevel(props.id)}
       >
       </div>
       {props.text}

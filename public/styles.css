@@ -285,7 +285,8 @@ section.map-container {
 .calendar-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .calendar-container .react-calendar {
