@@ -9,17 +9,19 @@ export default function Form(props) {
 
   function addTodoItem(e) {
     e.preventDefault();
-    props.setTodoList([
-      {
-        text: props.userInput,
-        completed: false,
-        id: Math.random() * 10000,
-        priority: ['Low', 'Medium', 'High'],
-        count: 0,
-      },
-      ...props.todoList, 
-    ])
-    props.setUserInput("")
+    if(props.userInput.length !== 0){
+      props.setTodoList([
+        {
+          text: props.userInput,
+          completed: false,
+          id: Math.random() * 10000,
+          priority: ['Low', 'Medium', 'High'],
+          count: 0,
+        },
+        ...props.todoList, 
+        ])
+      props.setUserInput("")
+    }
   }
 
   return (
@@ -27,7 +29,7 @@ export default function Form(props) {
       <input 
         className='todo-input'
         type="text"
-        placeholder="Travel checklist"
+        placeholder="Travel Checklist"
         value={props.userInput}
         onChange={handleChange}
       />
