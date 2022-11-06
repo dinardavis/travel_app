@@ -3,7 +3,7 @@ import { MdOutlineLogin } from "react-icons/md";
 
 
 
-export default function Login() {
+export default function Login(props) {
 
   return (
     <form className="login-container">  
@@ -12,7 +12,12 @@ export default function Login() {
           <p className="user-msg">Welcome back, Dinar!</p> 
         </div>
    
-        <button className="login-btn">Login<MdOutlineLogin className="login-icon"/></button>
+        <button 
+          className="login-btn"
+          onClick={(e) => props.toggleIsVisible(e.preventDefault())}
+        >
+          Login<MdOutlineLogin className="login-icon"/>
+        </button>
     </form>
   )
 }

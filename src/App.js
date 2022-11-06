@@ -7,12 +7,14 @@ import Weather from "./components/Weather"
 import Flights from "./components/Flights"
 import TodoMain from './components/todo/TodoMain'
 import { airportData } from "./components/airportData"
+import ComingSoon from './components/ComingSoon'
 
 
 export default function App() {
   const [location, setLocation] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [searchParam, setSearchParam] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [airportCode, setAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
+  const [isVisible, setIsVisible] = React.useState(false)
 
   React.useEffect(() => {
     localStorage.setItem("searchInput", JSON.stringify(location))
@@ -38,6 +40,18 @@ export default function App() {
     const cities = airport.city;
     return cities.toUpperCase();
   })
+
+  function toggleIsVisible() {
+    setIsVisible(prevVisible => !prevVisible)
+  }
+
+  if(isVisible) {
+    setTimeout(() => {
+      setIsVisible(false)
+    }, 2000)
+  }
+
+  console.log(isVisible)
   
   function handleChange(event) {
     const value = event.target.value
@@ -78,7 +92,10 @@ export default function App() {
     <>    
       <div className="main-container">
         <Navbar/>
-        <Sidebar />
+        <Sidebar 
+          toggleIsVisible={toggleIsVisible}
+          comingSoon={ <ComingSoon isVisible={isVisible} /> }
+        />
         <form className="section intro-container light-mode">
           <p className='intro-copy'>Enter the city's name that you've always wished to travel to, and get inspired to plan your next vacation!</p>
           <p className='intro-copy-error'>Please enter a valid city name, <br></br>or the nearest major airport location</p>

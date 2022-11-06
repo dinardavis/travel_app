@@ -157,6 +157,15 @@ section.map-container {
   opacity: 1;
 }
 
+.widgets.coming-soon {
+  color: #f9f9f9;
+  border: 1px solid #be1108;
+  background-color: #be1108;
+  text-align: center;
+  padding: 12px 0;
+  line-height: 1.4;
+}
+
 .login-container {
   display: flex;
   flex-direction: column;
