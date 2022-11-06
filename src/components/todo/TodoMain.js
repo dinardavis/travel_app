@@ -22,18 +22,12 @@ export default function TodoMain() {
       }, 
     ]
   )
+  
   const [userInput, setUserInput] = React.useState("")
-  const [count, setCount] = React.useState(
-    () => JSON.parse(localStorage.getItem("count")) || 0
-  )
 
   React.useEffect(() => {
     localStorage.setItem("savedTodos", JSON.stringify(todoList))
   }, [todoList])
-
-  React.useEffect(() => {
-    localStorage.setItem("count", JSON.stringify(count))
-  }, [count])
 
   return (
     <section className='todo-main-container'>
@@ -47,8 +41,6 @@ export default function TodoMain() {
       <List 
         todoList={todoList}
         setTodoList={setTodoList}
-        count={count}
-        setCount={setCount}
       />
     </section>
   )

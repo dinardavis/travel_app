@@ -50,8 +50,6 @@ export default function App() {
       setIsVisible(false)
     }, 2000)
   }
-
-  console.log(isVisible)
   
   function handleChange(event) {
     const value = event.target.value

@@ -7,8 +7,6 @@ import { BsClock } from "react-icons/bs"
 
 export default function Sidebar(props) {
 
-  console.log(props.toggleIsVisible)
-
   return (
     <section 
     className="sidebar-container">

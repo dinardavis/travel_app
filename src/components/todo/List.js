@@ -2,6 +2,8 @@ import React from 'react';
 import Todo from './Todo'
 
 export default function List(props) {
+  console.log(props.todoList)
+
   return (
     <div className='list-container'>
       {props.todoList.map(todo => (
@@ -12,7 +14,6 @@ export default function List(props) {
           completed={todo.completed}
           priority={todo.priority}
           count={todo.count}
-          setCount={props.setCount}
           todoList={props.todoList}
           setTodoList={props.setTodoList}
         />

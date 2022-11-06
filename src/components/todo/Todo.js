@@ -33,9 +33,12 @@ export default function Todo(props) {
 
   function setPriorityLevel(id) {
     props.setTodoList(prevList => prevList.map(item => {
-      return item.id === id ?
-      {...item, count: item.count + 1} :
-      item
+      if(item.id === id && item.count === 2) {
+        return {...item, count: 0}
+      }
+      return item.id === id ? 
+        {...item, count: item.count + 1} :
+        item
     }))
   }
 
