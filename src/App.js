@@ -89,7 +89,9 @@ export default function App() {
   return (
     <>    
       <div className="main-container">
-        <Navbar/>
+        <Navbar 
+          searchParam={searchParam}
+        />
         <Sidebar 
           toggleIsVisible={toggleIsVisible}
           comingSoon={ <ComingSoon isVisible={isVisible} /> }

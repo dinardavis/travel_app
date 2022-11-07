@@ -2,8 +2,7 @@ import React from 'react';
 import Search from './Search';
 
 
-export default function Navbar() {
-
+export default function Navbar(props) {
 
   return (
     <nav className='main-nav light-mode'>
@@ -11,7 +10,9 @@ export default function Navbar() {
         <li className='nav-list-item'>Travel Dream Dashboard</li>
       </ul>
 
-      <Search />
+      <Search 
+        searchParam={props.searchParam}
+      />
     </nav>
   )
 }
