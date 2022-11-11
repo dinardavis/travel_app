@@ -2,7 +2,6 @@ import React from 'react';
 import Todo from './Todo'
 
 export default function List(props) {
-  console.log(props.todoList)
 
   return (
     <div className='list-container'>

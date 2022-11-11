@@ -4,6 +4,7 @@ import { BsPinMap } from "react-icons/bs"
 import { BsQuestionDiamond } from "react-icons/bs"
 import { BsPiggyBank } from "react-icons/bs"
 import { BsClock } from "react-icons/bs"
+import { BsCurrencyExchange } from "react-icons/bs"
 
 export default function Sidebar(props) {
 
@@ -47,11 +48,19 @@ export default function Sidebar(props) {
             onClick={props.toggleIsVisible}
           >+</div>
         </div>
+
+        <div className="widgets widget-currency">
+          <BsCurrencyExchange className="widget-icon currency" />
+          <p className="widget-text">Currency Converter</p>
+          <div 
+            className="widget-add-btn"
+            onClick={props.toggleIsVisible}
+          >+</div>
+        </div>
       </div>
 
       {props.comingSoon}
       
-
       <Login 
         toggleIsVisible={props.toggleIsVisible}
       />
