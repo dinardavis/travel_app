@@ -145,7 +145,7 @@ section.map-container {
 
 .widget-text {
   margin-bottom: 7px;
-  text-align: center;
+  text-align: centernpm ;
 }
 
 .widget-add-btn {
@@ -549,7 +549,7 @@ section.map-container {
 }
 
 input::-webkit-input-placeholder {
-  color: #d3d3d3;
+  color: #727272;
 }
 
 .datepicker-input {
@@ -559,10 +559,10 @@ input::-webkit-input-placeholder {
 
 input[type="date"]{
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #727272;
   border-radius: 5px;
   padding: 3px 0;
-  color: #fff;
+  color: #727272;
   text-align: center;
 }
 

@@ -5,8 +5,25 @@ import React from "react";
 // const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
 export default function Flights(props) {
-  const [flightPrice, setFlightPrice] = React.useState(599.99)
+  const [flightPrice, setFlightPrice] = React.useState(599.99);
+  const [departureDate, setDepartureDate] = React.useState(() => {
+    let today = new Date()
+    today.setDate(today.getDate() + 7) //Initialize departureDate to one week from today
+    let dd = String(today.getDate()).padStart(2, '0');
+    let mm = String(today.getMonth() + 1).padStart(2, '0');
+    let yyyy = today.getFullYear();
+    return `${yyyy}-${mm}-${dd}`
+  })
+  const [returnDate, setReturnDate] = React.useState(() => {
+    let today = new Date()
+    today.setDate(today.getDate() + 14) //Initialize returnDate to one week after departureDate
+    let dd = String(today.getDate()).padStart(2, '0');
+    let mm = String(today.getMonth() + 1).padStart(2, '0');
+    let yyyy = today.getFullYear();
+    return `${yyyy}-${mm}-${dd}`
+  })
 
+  
   // React.useEffect(() => {
   //   const options = {
   //     method: 'GET',
@@ -16,11 +33,12 @@ export default function Flights(props) {
   //     }
   //   };
 
-  //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=SFO&destination=${props.toAirportCode}&date=2022-11-19&returnDate=2022-11-21&adults=1&currency=USD&countryCode=US&market=en-US`, options)
+  //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=SFO&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
   //   .then(res => res.json())
-  //   .then(data => setFlightPrice(data.data[0].price.amount))
+  //   .then(data => setFlightPrice(data.data[0].price.amount || 599.99))
   //   .catch(err => console.error(err));
   // }, [props.searchParam, props.toAirportCode])
+
 
   // navigator.geolocation.getCurrentPosition(position => {
   //   console.log(position)
@@ -36,9 +54,9 @@ export default function Flights(props) {
                 defaultValue={'SFO'}
               />
             </label>
-            {/* <span className="datepicker-toggle">
-              <input type="date" className="datepicker-input"></input>
-            </span> */}
+            <span className="datepicker-toggle">
+              <input type="date" className="datepicker-input picker-1"></input>
+            </span>
           </div>
           
           <div className="city-container">
@@ -50,9 +68,9 @@ export default function Flights(props) {
               />
             </label>
             
-            {/* <span className="datepicker-toggle">
-              <input type="date" className="datepicker-input"/>
-            </span> */}
+            <span className="datepicker-toggle">
+              <input type="date" className="datepicker-input picker-2"/>
+            </span>
           </div>
       </form>
 
