@@ -23,7 +23,7 @@ export default function Flights(props) {
     return `${yyyy}-${mm}-${dd}`
   })
 
-  
+
   // React.useEffect(() => {
   //   const options = {
   //     method: 'GET',
@@ -54,9 +54,11 @@ export default function Flights(props) {
                 defaultValue={'SFO'}
               />
             </label>
-            <span className="datepicker-toggle">
-              <input type="date" className="datepicker-input picker-1"></input>
-            </span>
+            <div className="date-container">
+              <label className="date-label">Depart On:       
+                <input type="date" className="datepicker-input depart-picker"></input>
+              </label>
+            </div>
           </div>
           
           <div className="city-container">
@@ -68,9 +70,11 @@ export default function Flights(props) {
               />
             </label>
             
-            <span className="datepicker-toggle">
-              <input type="date" className="datepicker-input picker-2"/>
-            </span>
+            <div className="date-container">
+              <label className="date-label">Return On:       
+                <input type="date" className="datepicker-input depart-picker"></input>
+              </label>
+            </div>
           </div>
       </form>
 
