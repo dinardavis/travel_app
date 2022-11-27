@@ -541,14 +541,13 @@ section.map-container {
 }
 
 .city-input {
-  width: 80px;
+  width: 60px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #727272;
-  padding-top: 5px;
   color: #727272;
   font-weight: 400;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .city-input:focus {

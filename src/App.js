@@ -13,7 +13,8 @@ import ComingSoon from './components/ComingSoon'
 export default function App() {
   const [location, setLocation] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [searchParam, setSearchParam] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
-  const [airportCode, setAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
+  const [toAirportCode, setToAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
+  const [fromAirportCode, setFromAirportCode] = React.useState("SFO")
   const [isVisible, setIsVisible] = React.useState(false)
 
   React.useEffect(() => {
@@ -21,8 +22,8 @@ export default function App() {
   }, [location])
 
   React.useEffect(() => {
-    localStorage.setItem("currentAirportCode", JSON.stringify(airportCode))
-  }, [airportCode])
+    localStorage.setItem("currentAirportCode", JSON.stringify(toAirportCode))
+  }, [toAirportCode])
 
   //Filter cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
@@ -70,7 +71,7 @@ export default function App() {
 
   function getAirportCode() {
     const airport = getMatchingAirport()
-    setAirportCode(airport[0].iata_code) 
+    setToAirportCode(airport[0].iata_code) 
   }
 
   function updateLocation(e) {
@@ -130,8 +131,10 @@ export default function App() {
         <section className="flight-container light-mode">
           <Flights 
             searchParam={searchParam}
-            toAirportCode={airportCode}
-            getAirportCode={getAirportCode}
+            fromAirportCode={fromAirportCode}
+            setFromAirportCode={setFromAirportCode}
+            toAirportCode={toAirportCode}
+            filteredAirportData={filteredAirportData}
           />
         </section>
       </div>

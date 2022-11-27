@@ -16272,18 +16272,6 @@ export const airportData = [
     "objectID": "804"
   },
   {
-    "name": "East London",
-    "city": "East London",
-    "country": "South Africa",
-    "iata_code": "ELS",
-    "_geoloc": {
-      "lat": -33.035569,
-      "lng": 27.825939
-    },
-    "links_count": 10,
-    "objectID": "800"
-  },
-  {
     "name": "Schefferville",
     "city": "Schefferville",
     "country": "Canada",

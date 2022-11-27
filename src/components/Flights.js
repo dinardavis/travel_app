@@ -1,11 +1,11 @@
 import React from "react";
 
 
-
 // const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
 export default function Flights(props) {
   const [flightPrice, setFlightPrice] = React.useState(599.99);
+  const [departureCity, setDepartureCity] = React.useState("San Francisco");
   const [departureDate, setDepartureDate] = React.useState(() => {
     let today = new Date()
     today.setDate(today.getDate() + 7) //Initialize departureDate to one week from today
@@ -23,6 +23,31 @@ export default function Flights(props) {
     return `${yyyy}-${mm}-${dd}`
   })
 
+  // SORT IMPORTED AIRPORT DATA BY CITY AND COUNTRY
+
+  const citySort = props.filteredAirportData.sort(function(a, b) {
+    let cityA = a.city.toUpperCase();
+    let cityB = b.city.toUpperCase();
+    return (cityA < cityB) ? -1 : (cityA > cityB) ? 1 : 0;
+});
+
+  const countrySort = citySort.sort(function(a, b) {
+    let countryA = a.country.toUpperCase();
+    let countryB = b.country.toUpperCase();
+    return (countryA < countryB) ? -1 : (countryA > countryB) ? 1 : 0;
+});
+
+function getDepartureCity() {
+  const departureCityInput = document.querySelector('.city-input')
+  props.setFromAirportCode(departureCityInput.value)
+  const matchingCityName = props.filteredAirportData.filter(airport => {
+    const cityFromData = airport.iata_code
+    return cityFromData.includes(departureCityInput.value)
+    
+  })
+  setDepartureCity(matchingCityName[0].city)
+}
+
 
   // React.useEffect(() => {
   //   const options = {
@@ -33,11 +58,11 @@ export default function Flights(props) {
   //     }
   //   };
 
-  //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=SFO&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
+  //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
   //   .then(res => res.json())
   //   .then(data => setFlightPrice(data.data[0].price.amount || 599.99))
   //   .catch(err => console.error(err));
-  // }, [props.searchParam, props.toAirportCode])
+  // }, [props.searchParam, props.toAirportCode, props.fromAirportCode])
 
 
   // navigator.geolocation.getCurrentPosition(position => {
@@ -48,11 +73,24 @@ export default function Flights(props) {
     <>
       <form className="flight-form">
           <div className="city-container">
-            <label className="city-label">From:
-              <input 
+            <label htmlFor="departure-city" className="city-label">From:
+              <select
+                name="from-city"
+                id="departure-city"
                 className="city-input"
-                defaultValue={'SFO'}
-              />
+                value={props.fromAirportCode}
+                onChange={getDepartureCity}
+              >
+              {countrySort.map(data => {
+                return <option className="from-input"
+                          key={data.objectID}
+                          value={data.iata_code}
+                        >
+                          {`${data.iata_code} (${data.city}, ${data.country})
+                          `}
+                        </option>
+              })} 
+              </select>
             </label>
             <div className="date-container">
               <label className="date-label">Depart On:       
@@ -80,7 +118,7 @@ export default function Flights(props) {
 
       <div className="flight-cta">
         <div className="flight--price">
-          <p className="flight--copy">Flight from San Francisco<br></br> to <span className="flight-to-city">{props.searchParam}</span> starting at: </p>
+          <p className="flight--copy">{`Flight from ${departureCity}`}<br></br> to <span className="flight-to-city">{props.searchParam}</span> starting at: </p>
           <p className="price-display">{`$${flightPrice}`}</p>
         </div>
 
