@@ -14,6 +14,7 @@ export default function Flights(props) {
     let yyyy = today.getFullYear();
     return `${yyyy}-${mm}-${dd}`
   })
+
   const [returnDate, setReturnDate] = React.useState(() => {
     let today = new Date()
     today.setDate(today.getDate() + 14) //Initialize returnDate to one week after departureDate
@@ -48,6 +49,14 @@ function getDepartureCity() {
   setDepartureCity(matchingCityName[0].city)
 }
 
+function getDepatureDate(e) {
+  setDepartureDate(e.target.value)
+}
+
+function getReturnDate(e) {
+  setReturnDate(e.target.value)
+}
+
 
   // React.useEffect(() => {
   //   const options = {
@@ -62,7 +71,7 @@ function getDepartureCity() {
   //   .then(res => res.json())
   //   .then(data => setFlightPrice(data.data[0].price.amount || 599.99))
   //   .catch(err => console.error(err));
-  // }, [props.searchParam, props.toAirportCode, props.fromAirportCode])
+  // }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate])
 
 
   // navigator.geolocation.getCurrentPosition(position => {
@@ -86,7 +95,7 @@ function getDepartureCity() {
                           key={data.objectID}
                           value={data.iata_code}
                         >
-                          {`${data.iata_code} (${data.city}, ${data.country})
+                          {`${data.iata_code}  - ${data.city}, ${data.country}
                           `}
                         </option>
               })} 
@@ -94,7 +103,13 @@ function getDepartureCity() {
             </label>
             <div className="date-container">
               <label className="date-label">Depart On:       
-                <input type="date" className="datepicker-input depart-picker"></input>
+                <input 
+                  type="date" 
+                  className="datepicker-input depart-picker"
+                  value={departureDate}
+                  onChange={getDepatureDate}
+                >
+                </input>
               </label>
             </div>
           </div>
@@ -110,7 +125,13 @@ function getDepartureCity() {
             
             <div className="date-container">
               <label className="date-label">Return On:       
-                <input type="date" className="datepicker-input depart-picker"></input>
+                <input 
+                  type="date" 
+                  className="datepicker-input return-picker"
+                  value={returnDate}
+                  onChange={getReturnDate}
+                >
+                </input>
               </label>
             </div>
           </div>
