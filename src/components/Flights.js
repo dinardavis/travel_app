@@ -1,10 +1,10 @@
 import React from "react";
 
-
 // const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
 export default function Flights(props) {
   const [flightPrice, setFlightPrice] = React.useState(599.99);
+  const [fetchDataError, setFetchDataError] = React.useState(false);
   const [departureCity, setDepartureCity] = React.useState("San Francisco");
   const [departureDate, setDepartureDate] = React.useState(() => {
     let today = new Date()
@@ -13,7 +13,7 @@ export default function Flights(props) {
     let mm = String(today.getMonth() + 1).padStart(2, '0');
     let yyyy = today.getFullYear();
     return `${yyyy}-${mm}-${dd}`
-  })
+  });
 
   const [returnDate, setReturnDate] = React.useState(() => {
     let today = new Date()
@@ -49,14 +49,27 @@ function getDepartureCity() {
   setDepartureCity(matchingCityName[0].city)
 }
 
+const flightDateError = document.querySelector(".flight-date-error")
+
 function getDepatureDate(e) {
-  setDepartureDate(e.target.value)
+  if(e.target.value > returnDate) {
+    flightDateError.innerText = "Departure date cannot be after return date"
+    console.log('no bueno!')
+  } else {
+    flightDateError.innerText = ""
+    setDepartureDate(e.target.value)
+  }
 }
 
 function getReturnDate(e) {
-  setReturnDate(e.target.value)
+  if(e.target.value < departureDate) {
+    flightDateError.innerText = "Return date cannot be prior to departure date"
+    console.log('no bueno!')
+  } else {
+    flightDateError.innerText = ""
+    setReturnDate(e.target.value)
+  }
 }
-
 
   // React.useEffect(() => {
   //   const options = {
@@ -70,13 +83,11 @@ function getReturnDate(e) {
   //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
   //   .then(res => res.json())
   //   .then(data => setFlightPrice(data.data[0].price.amount || 599.99))
-  //   .catch(err => console.error(err));
+  //     .then(setFetchDataError(false))
+  //   .catch(err => {
+  //       setFetchDataError(true)
+  //    });
   // }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate])
-
-
-  // navigator.geolocation.getCurrentPosition(position => {
-  //   console.log(position)
-  // })
 
   return (
     <>
@@ -136,6 +147,9 @@ function getReturnDate(e) {
             </div>
           </div>
       </form>
+
+      <div className="flight-date-error flight-error-message"></div>
+      {fetchDataError && <div className="flight-data-error flight-error-message">Error retrieving flight price. Please try again.</div>}
 
       <div className="flight-cta">
         <div className="flight--price">
