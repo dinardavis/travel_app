@@ -14,7 +14,7 @@ export default function App() {
   const [location, setLocation] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [searchParam, setSearchParam] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [toAirportCode, setToAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
-  const [fromAirportCode, setFromAirportCode] = React.useState("SFO")
+  const [fromAirportCode, setFromAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("fromAirport")) || "SFO")
   const [isVisible, setIsVisible] = React.useState(false)
 
   React.useEffect(() => {
@@ -24,6 +24,10 @@ export default function App() {
   React.useEffect(() => {
     localStorage.setItem("currentAirportCode", JSON.stringify(toAirportCode))
   }, [toAirportCode])
+
+  React.useEffect(() => {
+    localStorage.setItem("fromAirport", JSON.stringify(fromAirportCode))
+  }, [fromAirportCode])
 
   //Filter cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];

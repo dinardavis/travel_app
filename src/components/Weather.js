@@ -6,13 +6,18 @@ const WEATHER_API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY
 export default function Weather(props) {
   const [weatherInfo, setWeatherInfo] = React.useState(null)
   const [tempUnits, setTempUnits] = React.useState(JSON.parse(localStorage.getItem("currentTempUnits")) || "imperial")
-
+  const [fetchDataError, setFetchDataError] = React.useState(false);
 
 
   React.useEffect(() => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.searchParam}&units=${tempUnits}&appid=${WEATHER_API_KEY}`)
       .then(res => res.json())
       .then(data => setWeatherInfo(data))
+      .then(setFetchDataError(false))
+      .catch(err => {
+          console.log(err)
+          setFetchDataError(true)
+      })
   }, [props.searchParam, tempUnits])
 
   React.useEffect(() => {
@@ -65,7 +70,7 @@ export default function Weather(props) {
           <p className="weather--feels">Feels Like: {Math.round(weatherInfo.main.feels_like)} {tempUnits === "imperial" ? "°F" : "°C" }</p>
           <div className="weather--desc">{weatherInfo.weather[0].main} </div>
       
-          {/* <p className="weather--time">{weatherInfo.dt}</p> */}
+          {/* {fetchDataError && <div className="error-message">There was a problem retrieving the weather for that location</div>} */}
         
           <div className="weather-footer">
             <div className="temp-min-max"> 

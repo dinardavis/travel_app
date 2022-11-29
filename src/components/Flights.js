@@ -1,11 +1,10 @@
 import React from "react";
 
-// const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
 export default function Flights(props) {
   const [flightPrice, setFlightPrice] = React.useState(599.99);
   const [fetchDataError, setFetchDataError] = React.useState(false);
-  const [departureCity, setDepartureCity] = React.useState("San Francisco");
+  const [departureCity, setDepartureCity] = React.useState(() => JSON.parse(localStorage.getItem("departFrom")) || "San Francisco")
   const [departureDate, setDepartureDate] = React.useState(() => {
     let today = new Date()
     today.setDate(today.getDate() + 7) //Initialize departureDate to one week from today
@@ -54,22 +53,26 @@ const flightDateError = document.querySelector(".flight-date-error")
 function getDepatureDate(e) {
   if(e.target.value > returnDate) {
     flightDateError.innerText = "Departure date cannot be after return date"
-    console.log('no bueno!')
   } else {
     flightDateError.innerText = ""
     setDepartureDate(e.target.value)
   }
 }
 
+React.useEffect(() => {
+    localStorage.setItem("departFrom", JSON.stringify(departureCity))
+  }, [departureCity])
+
 function getReturnDate(e) {
   if(e.target.value < departureDate) {
     flightDateError.innerText = "Return date cannot be prior to departure date"
-    console.log('no bueno!')
   } else {
     flightDateError.innerText = ""
     setReturnDate(e.target.value)
   }
 }
+
+// const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
   // React.useEffect(() => {
   //   const options = {
@@ -82,9 +85,10 @@ function getReturnDate(e) {
 
   //   fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
   //   .then(res => res.json())
-  //   .then(data => setFlightPrice(data.data[0].price.amount || 599.99))
+  //   .then(data => setFlightPrice(data.data[0].price.amount.toFixed(2) || 599.99))
   //     .then(setFetchDataError(false))
   //   .catch(err => {
+  //       console.log(err)
   //       setFetchDataError(true)
   //    });
   // }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate])
@@ -148,8 +152,8 @@ function getReturnDate(e) {
           </div>
       </form>
 
-      <div className="flight-date-error flight-error-message"></div>
-      {fetchDataError && <div className="flight-data-error flight-error-message">Error retrieving flight price. Please try again.</div>}
+      <div className="flight-date-error error-message"></div>
+      {fetchDataError && <div className="flight-data-error error-message">Error retrieving flight price. There may be no direct flights on those dates. Please try again.</div>}
 
       <div className="flight-cta">
         <div className="flight--price">

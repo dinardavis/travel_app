@@ -29329,7 +29329,7 @@ export const airportData = [
   },
   {
     "name": "Kapalua",
-    "city": "Lahania-kapalua",
+    "city": "Kapalua",
     "country": "United States",
     "iata_code": "JHM",
     "_geoloc": {

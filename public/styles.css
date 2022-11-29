@@ -577,9 +577,8 @@ input[type="date"]{
   text-align: center;
 }
 
-.flight-error-message {
+.error-message {
   width: 100%;
-  padding: 5px 0;
   font-size: .8em;
   font-weight: 500;
   color: #be1108;
