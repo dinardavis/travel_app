@@ -48,9 +48,10 @@ function getDepartureCity() {
   setDepartureCity(matchingCityName[0].city)
 }
 
-const flightDateError = document.querySelector(".flight-date-error")
+
 
 function getDepatureDate(e) {
+  let flightDateError = document.querySelector(".flight-date-error")
   if(e.target.value > returnDate) {
     flightDateError.innerText = "Departure date cannot be after return date"
   } else {
@@ -64,6 +65,7 @@ React.useEffect(() => {
   }, [departureCity])
 
 function getReturnDate(e) {
+  let flightDateError = document.querySelector(".flight-date-error")
   if(e.target.value < departureDate) {
     flightDateError.innerText = "Return date cannot be prior to departure date"
   } else {
