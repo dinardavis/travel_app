@@ -872,7 +872,7 @@ input[type="date"]{
 
   .widgets.coming-soon {
     position: absolute;
-    top: 180px;
+    top: 195px;
     left: 50%;
     transform: translate(-50%, 0);
     display: flex;

@@ -552,7 +552,7 @@ export const airportData = [
     "objectID": "3469"
   },
   {
-    "name": "Mc Carran Intl",
+    "name": "McCarran Intl",
     "city": "Las Vegas",
     "country": "United States",
     "iata_code": "LAS",
@@ -3660,18 +3660,6 @@ export const airportData = [
     "objectID": "1520"
   },
   {
-    "name": "Bradley Intl",
-    "city": "Windsor Locks",
-    "country": "United States",
-    "iata_code": "BDL",
-    "_geoloc": {
-      "lat": 41.938889,
-      "lng": -72.683222
-    },
-    "links_count": 103,
-    "objectID": "3825"
-  },
-  {
     "name": "Ioannis Kapodistrias Intl",
     "city": "Kerkyra/corfu",
     "country": "Greece",
@@ -5376,18 +5364,6 @@ export const airportData = [
     "objectID": "1057"
   },
   {
-    "name": "Phoenix-Mesa Gateway",
-    "city": "Mesa",
-    "country": "United States",
-    "iata_code": "AZA",
-    "_geoloc": {
-      "lat": 33.307833,
-      "lng": -111.655
-    },
-    "links_count": 64,
-    "objectID": "6505"
-  },
-  {
     "name": "James M Cox Dayton Intl",
     "city": "Dayton",
     "country": "United States",
@@ -5832,18 +5808,6 @@ export const airportData = [
     "objectID": "3729"
   },
   {
-    "name": "Bethel",
-    "city": "Bethel",
-    "country": "United States",
-    "iata_code": "BET",
-    "_geoloc": {
-      "lat": 60.779778,
-      "lng": -161.838
-    },
-    "links_count": 57,
-    "objectID": "3599"
-  },
-  {
     "name": "Alfonso Bonilla Aragon Intl",
     "city": "Cali",
     "country": "Colombia",
@@ -6010,18 +5974,6 @@ export const airportData = [
     },
     "links_count": 55,
     "objectID": "3855"
-  },
-  {
-    "name": "Theodore Francis Green State",
-    "city": "Providence",
-    "country": "United States",
-    "iata_code": "PVD",
-    "_geoloc": {
-      "lat": 41.732581,
-      "lng": -71.420383
-    },
-    "links_count": 55,
-    "objectID": "3641"
   },
   {
     "name": "Senou",
@@ -6240,18 +6192,6 @@ export const airportData = [
     "objectID": "883"
   },
   {
-    "name": "Piedmont Triad",
-    "city": "Greensboro",
-    "country": "United States",
-    "iata_code": "GSO",
-    "_geoloc": {
-      "lat": 36.09775,
-      "lng": -79.937306
-    },
-    "links_count": 51,
-    "objectID": "4008"
-  },
-  {
     "name": "Palm Springs Intl",
     "city": "Palm Springs",
     "country": "United States",
@@ -6394,18 +6334,6 @@ export const airportData = [
     },
     "links_count": 48,
     "objectID": "6361"
-  },
-  {
-    "name": "NW Arkansas Regional",
-    "city": "Bentonville",
-    "country": "United States",
-    "iata_code": "XNA",
-    "_geoloc": {
-      "lat": 36.2818694,
-      "lng": -94.3068111
-    },
-    "links_count": 48,
-    "objectID": "4356"
   },
   {
     "name": "Honiara International",
@@ -6576,18 +6504,6 @@ export const airportData = [
     "objectID": "3613"
   },
   {
-    "name": "Westchester Co",
-    "city": "White Plains",
-    "country": "United States",
-    "iata_code": "HPN",
-    "_geoloc": {
-      "lat": 41.066959,
-      "lng": -73.707575
-    },
-    "links_count": 46,
-    "objectID": "3589"
-  },
-  {
     "name": "Brunei Intl",
     "city": "Bandar Seri Begawan",
     "country": "Brunei",
@@ -6672,18 +6588,6 @@ export const airportData = [
     "objectID": "4111"
   },
   {
-    "name": "Ralph Wien Mem",
-    "city": "Kotzebue",
-    "country": "United States",
-    "iata_code": "OTZ",
-    "_geoloc": {
-      "lat": 66.884678,
-      "lng": -162.59855
-    },
-    "links_count": 45,
-    "objectID": "3693"
-  },
-  {
     "name": "Daniel Oduber Quiros Intl",
     "city": "Liberia",
     "country": "Costa Rica",
@@ -6694,18 +6598,6 @@ export const airportData = [
     },
     "links_count": 45,
     "objectID": "1881"
-  },
-  {
-    "name": "Akron Canton Regional Airport",
-    "city": "Akron",
-    "country": "United States",
-    "iata_code": "CAK",
-    "_geoloc": {
-      "lat": 40.9160833,
-      "lng": -81.4421944
-    },
-    "links_count": 44,
-    "objectID": "4112"
   },
   {
     "name": "Aden Intl",
@@ -6948,30 +6840,6 @@ export const airportData = [
     "objectID": "3896"
   },
   {
-    "name": "Lihue",
-    "city": "Lihue",
-    "country": "United States",
-    "iata_code": "LIH",
-    "_geoloc": {
-      "lat": 21.975983,
-      "lng": -159.338958
-    },
-    "links_count": 42,
-    "objectID": "3602"
-  },
-  {
-    "name": "Pensacola Rgnl",
-    "city": "Pensacola",
-    "country": "United States",
-    "iata_code": "PNS",
-    "_geoloc": {
-      "lat": 30.473425,
-      "lng": -87.186611
-    },
-    "links_count": 42,
-    "objectID": "3564"
-  },
-  {
     "name": "Sam Ratulangi",
     "city": "Manado",
     "country": "Indonesia",
@@ -7162,30 +7030,6 @@ export const airportData = [
     },
     "links_count": 40,
     "objectID": "4119"
-  },
-  {
-    "name": "Blue Grass",
-    "city": "Lexington KY",
-    "country": "United States",
-    "iata_code": "LEX",
-    "_geoloc": {
-      "lat": 38.0365,
-      "lng": -84.605889
-    },
-    "links_count": 40,
-    "objectID": "4017"
-  },
-  {
-    "name": "Manchester Regional Airport",
-    "city": "Manchester NH",
-    "country": "United States",
-    "iata_code": "MHT",
-    "_geoloc": {
-      "lat": 42.932556,
-      "lng": -71.435667
-    },
-    "links_count": 40,
-    "objectID": "4011"
   },
   {
     "name": "Fresno Yosemite Intl",
@@ -7608,18 +7452,6 @@ export const airportData = [
     "objectID": "4113"
   },
   {
-    "name": "Bob Hope",
-    "city": "Burbank",
-    "country": "United States",
-    "iata_code": "BUR",
-    "_geoloc": {
-      "lat": 34.200667,
-      "lng": -118.358667
-    },
-    "links_count": 36,
-    "objectID": "3644"
-  },
-  {
     "name": "Long Beach",
     "city": "Long Beach",
     "country": "United States",
@@ -7788,18 +7620,6 @@ export const airportData = [
     "objectID": "1066"
   },
   {
-    "name": "Charlotte County-Punta Gorda Airport",
-    "city": "Punta Gorda",
-    "country": "United States",
-    "iata_code": "PGD",
-    "_geoloc": {
-      "lat": 26.919722,
-      "lng": -81.990556
-    },
-    "links_count": 35,
-    "objectID": "7056"
-  },
-  {
     "name": "Bodo",
     "city": "Bodo",
     "country": "Norway",
@@ -7810,18 +7630,6 @@ export const airportData = [
     },
     "links_count": 35,
     "objectID": "635"
-  },
-  {
-    "name": "Cedar Rapids",
-    "city": "Cedar Rapids",
-    "country": "United States",
-    "iata_code": "CID",
-    "_geoloc": {
-      "lat": 41.884694,
-      "lng": -91.710806
-    },
-    "links_count": 35,
-    "objectID": "4043"
   },
   {
     "name": "Sentani",
@@ -7906,30 +7714,6 @@ export const airportData = [
     },
     "links_count": 34,
     "objectID": "3901"
-  },
-  {
-    "name": "Columbia Metropolitan",
-    "city": "Columbia",
-    "country": "United States",
-    "iata_code": "CAE",
-    "_geoloc": {
-      "lat": 33.938833,
-      "lng": -81.119528
-    },
-    "links_count": 34,
-    "objectID": "3561"
-  },
-  {
-    "name": "Dane Co Rgnl Truax Fld",
-    "city": "Madison",
-    "country": "United States",
-    "iata_code": "MSN",
-    "_geoloc": {
-      "lat": 43.139858,
-      "lng": -89.337514
-    },
-    "links_count": 34,
-    "objectID": "3459"
   },
   {
     "name": "Langkawi Intl",
@@ -8112,18 +7896,6 @@ export const airportData = [
     "objectID": "3875"
   },
   {
-    "name": "Long Island Mac Arthur",
-    "city": "Islip",
-    "country": "United States",
-    "iata_code": "ISP",
-    "_geoloc": {
-      "lat": 40.79525,
-      "lng": -73.100222
-    },
-    "links_count": 33,
-    "objectID": "3857"
-  },
-  {
     "name": "Mandalay Intl",
     "city": "Mandalay",
     "country": "Burma",
@@ -8290,18 +8062,6 @@ export const airportData = [
     },
     "links_count": 32,
     "objectID": "4301"
-  },
-  {
-    "name": "Fort Wayne",
-    "city": "Fort Wayne",
-    "country": "United States",
-    "iata_code": "FWA",
-    "_geoloc": {
-      "lat": 40.978472,
-      "lng": -85.195139
-    },
-    "links_count": 32,
-    "objectID": "4041"
   },
   {
     "name": "Lovell Fld",
@@ -8626,30 +8386,6 @@ export const airportData = [
     },
     "links_count": 30,
     "objectID": "4069"
-  },
-  {
-    "name": "Peoria Regional",
-    "city": "Peoria",
-    "country": "United States",
-    "iata_code": "PIA",
-    "_geoloc": {
-      "lat": 40.664203,
-      "lng": -89.693258
-    },
-    "links_count": 30,
-    "objectID": "4046"
-  },
-  {
-    "name": "Roanoke Regional",
-    "city": "Roanoke VA",
-    "country": "United States",
-    "iata_code": "ROA",
-    "_geoloc": {
-      "lat": 37.325472,
-      "lng": -79.975417
-    },
-    "links_count": 30,
-    "objectID": "4016"
   },
   {
     "name": "Tallahassee Rgnl",
@@ -8988,18 +8724,6 @@ export const airportData = [
     "objectID": "508"
   },
   {
-    "name": "Springfield Branson Natl",
-    "city": "Springfield",
-    "country": "United States",
-    "iata_code": "SGF",
-    "_geoloc": {
-      "lat": 37.245667,
-      "lng": -93.388639
-    },
-    "links_count": 28,
-    "objectID": "4348"
-  },
-  {
     "name": "Hector International Airport",
     "city": "Fargo",
     "country": "United States",
@@ -9228,30 +8952,6 @@ export const airportData = [
     "objectID": "1103"
   },
   {
-    "name": "Mahlon Sweet Fld",
-    "city": "Eugene",
-    "country": "United States",
-    "iata_code": "EUG",
-    "_geoloc": {
-      "lat": 44.124583,
-      "lng": -123.211972
-    },
-    "links_count": 27,
-    "objectID": "4099"
-  },
-  {
-    "name": "City Of Colorado Springs Muni",
-    "city": "Colorado Springs",
-    "country": "United States",
-    "iata_code": "COS",
-    "_geoloc": {
-      "lat": 38.805805,
-      "lng": -104.700778
-    },
-    "links_count": 27,
-    "objectID": "3819"
-  },
-  {
     "name": "Burlington Intl",
     "city": "Burlington",
     "country": "United States",
@@ -9454,18 +9154,6 @@ export const airportData = [
     },
     "links_count": 26,
     "objectID": "4067"
-  },
-  {
-    "name": "Charlottesville-Albemarle",
-    "city": "Charlottesville VA",
-    "country": "United States",
-    "iata_code": "CHO",
-    "_geoloc": {
-      "lat": 38.138639,
-      "lng": -78.452861
-    },
-    "links_count": 26,
-    "objectID": "4015"
   },
   {
     "name": "Sioux Falls",
@@ -9720,18 +9408,6 @@ export const airportData = [
     "objectID": "90"
   },
   {
-    "name": "Aniak Airport",
-    "city": "Aniak",
-    "country": "United States",
-    "iata_code": "ANI",
-    "_geoloc": {
-      "lat": 61.5816,
-      "lng": -159.543
-    },
-    "links_count": 25,
-    "objectID": "5967"
-  },
-  {
     "name": "Tokua Airport",
     "city": "Tokua",
     "country": "Papua New Guinea",
@@ -9900,18 +9576,6 @@ export const airportData = [
     "objectID": "4319"
   },
   {
-    "name": "Central Illinois Rgnl",
-    "city": "Bloomington",
-    "country": "United States",
-    "iata_code": "BMI",
-    "_geoloc": {
-      "lat": 40.477111,
-      "lng": -88.915917
-    },
-    "links_count": 24,
-    "objectID": "4037"
-  },
-  {
     "name": "Billings Logan International Airport",
     "city": "Billings",
     "country": "United States",
@@ -9924,18 +9588,6 @@ export const airportData = [
     "objectID": "4021"
   },
   {
-    "name": "Asheville Regional Airport",
-    "city": "Asheville",
-    "country": "United States",
-    "iata_code": "AVL",
-    "_geoloc": {
-      "lat": 35.436194,
-      "lng": -82.541806
-    },
-    "links_count": 24,
-    "objectID": "4007"
-  },
-  {
     "name": "Kobe",
     "city": "Kobe",
     "country": "Japan",
@@ -9946,18 +9598,6 @@ export const airportData = [
     },
     "links_count": 24,
     "objectID": "3943"
-  },
-  {
-    "name": "Gainesville Rgnl",
-    "city": "Gainesville",
-    "country": "United States",
-    "iata_code": "GNV",
-    "_geoloc": {
-      "lat": 29.690056,
-      "lng": -82.271778
-    },
-    "links_count": 24,
-    "objectID": "3472"
   },
   {
     "name": "Alice Springs",
@@ -10318,18 +9958,6 @@ export const airportData = [
     },
     "links_count": 22,
     "objectID": "520"
-  },
-  {
-    "name": "South Bend Rgnl",
-    "city": "South Bend",
-    "country": "United States",
-    "iata_code": "SBN",
-    "_geoloc": {
-      "lat": 41.708661,
-      "lng": -86.31725
-    },
-    "links_count": 22,
-    "objectID": "4359"
   },
   {
     "name": "San Pedro",
@@ -10752,18 +10380,6 @@ export const airportData = [
     "objectID": "533"
   },
   {
-    "name": "Yeager",
-    "city": "Charleston",
-    "country": "United States",
-    "iata_code": "CRW",
-    "_geoloc": {
-      "lat": 38.373147,
-      "lng": -81.593189
-    },
-    "links_count": 21,
-    "objectID": "4285"
-  },
-  {
     "name": "Aeroporto de Porto Seguro",
     "city": "Porto Seguro",
     "country": "Brazil",
@@ -10786,18 +10402,6 @@ export const airportData = [
     },
     "links_count": 21,
     "objectID": "3916"
-  },
-  {
-    "name": "Eglin Afb",
-    "city": "Valparaiso",
-    "country": "United States",
-    "iata_code": "VPS",
-    "_geoloc": {
-      "lat": 30.48325,
-      "lng": -86.5254
-    },
-    "links_count": 21,
-    "objectID": "3873"
   },
   {
     "name": "Birsa Munda",
@@ -10870,18 +10474,6 @@ export const airportData = [
     },
     "links_count": 20,
     "objectID": "910"
-  },
-  {
-    "name": "Unalakleet Airport",
-    "city": "Unalakleet",
-    "country": "United States",
-    "iata_code": "UNK",
-    "_geoloc": {
-      "lat": 63.888333,
-      "lng": -160.798889
-    },
-    "links_count": 20,
-    "objectID": "7088"
   },
   {
     "name": "Jining Airport ",
@@ -11038,18 +10630,6 @@ export const airportData = [
     },
     "links_count": 20,
     "objectID": "4110"
-  },
-  {
-    "name": "Monterey Peninsula",
-    "city": "Monterey",
-    "country": "United States",
-    "iata_code": "MRY",
-    "_geoloc": {
-      "lat": 36.587,
-      "lng": -121.842944
-    },
-    "links_count": 20,
-    "objectID": "3948"
   },
   {
     "name": "Portland Intl Jetport",
@@ -11736,66 +11316,6 @@ export const airportData = [
     "objectID": "4101"
   },
   {
-    "name": "Appleton",
-    "city": "Appleton",
-    "country": "United States",
-    "iata_code": "ATW",
-    "_geoloc": {
-      "lat": 44.257526,
-      "lng": -88.507576
-    },
-    "links_count": 18,
-    "objectID": "4047"
-  },
-  {
-    "name": "Gulfport-Biloxi",
-    "city": "Gulfport",
-    "country": "United States",
-    "iata_code": "GPT",
-    "_geoloc": {
-      "lat": 30.407278,
-      "lng": -89.070111
-    },
-    "links_count": 18,
-    "objectID": "4038"
-  },
-  {
-    "name": "Evansville Regional",
-    "city": "Evansville",
-    "country": "United States",
-    "iata_code": "EVV",
-    "_geoloc": {
-      "lat": 38.036997,
-      "lng": -87.532364
-    },
-    "links_count": 18,
-    "objectID": "4018"
-  },
-  {
-    "name": "Mobile Rgnl",
-    "city": "Mobile",
-    "country": "United States",
-    "iata_code": "MOB",
-    "_geoloc": {
-      "lat": 30.691231,
-      "lng": -88.242814
-    },
-    "links_count": 18,
-    "objectID": "3782"
-  },
-  {
-    "name": "Four Corners Rgnl",
-    "city": "Farmington",
-    "country": "United States",
-    "iata_code": "FMN",
-    "_geoloc": {
-      "lat": 36.74125,
-      "lng": -108.229944
-    },
-    "links_count": 18,
-    "objectID": "3743"
-  },
-  {
     "name": "Newport News Williamsburg Intl",
     "city": "Newport News",
     "country": "United States",
@@ -12468,18 +11988,6 @@ export const airportData = [
     "objectID": "6137"
   },
   {
-    "name": "Tri Cities Airport",
-    "city": "Pasco",
-    "country": "United States",
-    "iata_code": "PSC",
-    "_geoloc": {
-      "lat": 46.2647,
-      "lng": -119.119
-    },
-    "links_count": 16,
-    "objectID": "6133"
-  },
-  {
     "name": "Ust Kamenogorsk Airport",
     "city": "Ust Kamenogorsk",
     "country": "Kazakhstan",
@@ -12502,30 +12010,6 @@ export const airportData = [
     },
     "links_count": 16,
     "objectID": "607"
-  },
-  {
-    "name": "Pierre Regional Airport",
-    "city": "Pierre",
-    "country": "United States",
-    "iata_code": "PIR",
-    "_geoloc": {
-      "lat": 44.3827,
-      "lng": -100.286
-    },
-    "links_count": 16,
-    "objectID": "5761"
-  },
-  {
-    "name": "Fayetteville Regional Grannis Field",
-    "city": "Fayetteville",
-    "country": "United States",
-    "iata_code": "FAY",
-    "_geoloc": {
-      "lat": 34.9912,
-      "lng": -78.8803
-    },
-    "links_count": 16,
-    "objectID": "5738"
   },
   {
     "name": "Gheshm Airport",
@@ -12612,18 +12096,6 @@ export const airportData = [
     "objectID": "4304"
   },
   {
-    "name": "Roberts Fld",
-    "city": "Redmond-Bend",
-    "country": "United States",
-    "iata_code": "RDM",
-    "_geoloc": {
-      "lat": 44.254066,
-      "lng": -121.149964
-    },
-    "links_count": 16,
-    "objectID": "4103"
-  },
-  {
     "name": "Westerland Sylt",
     "city": "Westerland",
     "country": "Germany",
@@ -12634,30 +12106,6 @@ export const airportData = [
     },
     "links_count": 16,
     "objectID": "410"
-  },
-  {
-    "name": "Rapid City Regional Airport",
-    "city": "Rapid City",
-    "country": "United States",
-    "iata_code": "RAP",
-    "_geoloc": {
-      "lat": 44.045278,
-      "lng": -103.057222
-    },
-    "links_count": 16,
-    "objectID": "4087"
-  },
-  {
-    "name": "Grand Junction Regional",
-    "city": "Grand Junction",
-    "country": "United States",
-    "iata_code": "GJT",
-    "_geoloc": {
-      "lat": 39.122413,
-      "lng": -108.526735
-    },
-    "links_count": 16,
-    "objectID": "4063"
   },
   {
     "name": "Gallatin Field",
@@ -12682,18 +12130,6 @@ export const airportData = [
     },
     "links_count": 16,
     "objectID": "3972"
-  },
-  {
-    "name": "Santa Barbara Muni",
-    "city": "Santa Barbara",
-    "country": "United States",
-    "iata_code": "SBA",
-    "_geoloc": {
-      "lat": 34.426211,
-      "lng": -119.840372
-    },
-    "links_count": 16,
-    "objectID": "3949"
   },
   {
     "name": "Adi Sumarmo Wiryokusumo",
@@ -12730,30 +12166,6 @@ export const airportData = [
     },
     "links_count": 16,
     "objectID": "3653"
-  },
-  {
-    "name": "Shreveport Rgnl",
-    "city": "Shreveport",
-    "country": "United States",
-    "iata_code": "SHV",
-    "_geoloc": {
-      "lat": 32.446629,
-      "lng": -93.8256
-    },
-    "links_count": 16,
-    "objectID": "3609"
-  },
-  {
-    "name": "Capital City",
-    "city": "Lansing",
-    "country": "United States",
-    "iata_code": "LAN",
-    "_geoloc": {
-      "lat": 42.7787,
-      "lng": -84.587357
-    },
-    "links_count": 16,
-    "objectID": "3544"
   },
   {
     "name": "Bangor Intl",
@@ -13176,18 +12588,6 @@ export const airportData = [
     "objectID": "3967"
   },
   {
-    "name": "Valley Intl",
-    "city": "Harlingen",
-    "country": "United States",
-    "iata_code": "HRL",
-    "_geoloc": {
-      "lat": 26.2285,
-      "lng": -97.654389
-    },
-    "links_count": 15,
-    "objectID": "3560"
-  },
-  {
     "name": "Mutiara",
     "city": "Palu",
     "country": "Indonesia",
@@ -13342,18 +12742,6 @@ export const airportData = [
     },
     "links_count": 14,
     "objectID": "8628"
-  },
-  {
-    "name": "Panama City-NW Florida Bea.",
-    "city": "Panama City",
-    "country": "United States",
-    "iata_code": "ECP",
-    "_geoloc": {
-      "lat": 30.3417,
-      "lng": -85.7973
-    },
-    "links_count": 14,
-    "objectID": "7669"
   },
   {
     "name": "Dangriga Airport",
@@ -13620,18 +13008,6 @@ export const airportData = [
     "objectID": "50"
   },
   {
-    "name": "Albert J Ellis",
-    "city": "Jacksonville NC",
-    "country": "United States",
-    "iata_code": "OAJ",
-    "_geoloc": {
-      "lat": 34.829164,
-      "lng": -77.612139
-    },
-    "links_count": 14,
-    "objectID": "4386"
-  },
-  {
     "name": "Sary-Arka",
     "city": "Karaganda",
     "country": "Kazakhstan",
@@ -13716,30 +13092,6 @@ export const airportData = [
     "objectID": "4214"
   },
   {
-    "name": "Tri-Cities Regional Airport",
-    "city": "BRISTOL",
-    "country": "United States",
-    "iata_code": "TRI",
-    "_geoloc": {
-      "lat": 36.4752222,
-      "lng": -82.4074167
-    },
-    "links_count": 14,
-    "objectID": "4116"
-  },
-  {
-    "name": "Montgomery Regional Airport ",
-    "city": "MONTGOMERY",
-    "country": "United States",
-    "iata_code": "MGM",
-    "_geoloc": {
-      "lat": 32.3006389,
-      "lng": -86.3939722
-    },
-    "links_count": 14,
-    "objectID": "4115"
-  },
-  {
     "name": "Dali",
     "city": "Dali",
     "country": "China",
@@ -13810,54 +13162,6 @@ export const airportData = [
     },
     "links_count": 14,
     "objectID": "3880"
-  },
-  {
-    "name": "King Salmon",
-    "city": "King Salmon",
-    "country": "United States",
-    "iata_code": "AKN",
-    "_geoloc": {
-      "lat": 58.676778,
-      "lng": -156.649278
-    },
-    "links_count": 14,
-    "objectID": "3794"
-  },
-  {
-    "name": "Plattsburgh Intl",
-    "city": "Plattsburgh",
-    "country": "United States",
-    "iata_code": "PBG",
-    "_geoloc": {
-      "lat": 44.650944,
-      "lng": -73.468139
-    },
-    "links_count": 14,
-    "objectID": "3771"
-  },
-  {
-    "name": "Edward G Pitka Sr",
-    "city": "Galena",
-    "country": "United States",
-    "iata_code": "GAL",
-    "_geoloc": {
-      "lat": 64.736178,
-      "lng": -156.937417
-    },
-    "links_count": 14,
-    "objectID": "3764"
-  },
-  {
-    "name": "Augusta Rgnl At Bush Fld",
-    "city": "Bush Field",
-    "country": "United States",
-    "iata_code": "AGS",
-    "_geoloc": {
-      "lat": 33.369944,
-      "lng": -81.9645
-    },
-    "links_count": 14,
-    "objectID": "3658"
   },
   {
     "name": "Karratha",
@@ -14388,30 +13692,6 @@ export const airportData = [
     "objectID": "4001"
   },
   {
-    "name": "Wiley Post Will Rogers Mem",
-    "city": "Barrow",
-    "country": "United States",
-    "iata_code": "BRW",
-    "_geoloc": {
-      "lat": 71.285446,
-      "lng": -156.766003
-    },
-    "links_count": 13,
-    "objectID": "3571"
-  },
-  {
-    "name": "Fort Yukon",
-    "city": "Fort Yukon",
-    "country": "United States",
-    "iata_code": "FYU",
-    "_geoloc": {
-      "lat": 66.571492,
-      "lng": -145.250417
-    },
-    "links_count": 13,
-    "objectID": "3420"
-  },
-  {
     "name": "Bukhara",
     "city": "Bukhara",
     "country": "Uzbekistan",
@@ -14628,18 +13908,6 @@ export const airportData = [
     "objectID": "734"
   },
   {
-    "name": "Stebbins Airport",
-    "city": "Stebbins",
-    "country": "United States",
-    "iata_code": "WBB",
-    "_geoloc": {
-      "lat": 63.515833,
-      "lng": -162.278056
-    },
-    "links_count": 12,
-    "objectID": "7193"
-  },
-  {
     "name": "Gallivare",
     "city": "Gallivare",
     "country": "Sweden",
@@ -14650,42 +13918,6 @@ export const airportData = [
     },
     "links_count": 12,
     "objectID": "715"
-  },
-  {
-    "name": "Show Low Regional Airport",
-    "city": "Show Low",
-    "country": "United States",
-    "iata_code": "SOW",
-    "_geoloc": {
-      "lat": 34.265556,
-      "lng": -110.005556
-    },
-    "links_count": 12,
-    "objectID": "7078"
-  },
-  {
-    "name": "San Luis Valley Regional Airport",
-    "city": "Alamosa",
-    "country": "United States",
-    "iata_code": "ALS",
-    "_geoloc": {
-      "lat": 37.435,
-      "lng": -105.866667
-    },
-    "links_count": 12,
-    "objectID": "7073"
-  },
-  {
-    "name": "Charles M Schulz Sonoma Co",
-    "city": "Santa Rosa",
-    "country": "United States",
-    "iata_code": "STS",
-    "_geoloc": {
-      "lat": 38.508978,
-      "lng": -122.81288
-    },
-    "links_count": 12,
-    "objectID": "6992"
   },
   {
     "name": "Vieques Airport",
@@ -14868,18 +14100,6 @@ export const airportData = [
     "objectID": "5997"
   },
   {
-    "name": "McGrath Airport",
-    "city": "Mcgrath",
-    "country": "United States",
-    "iata_code": "MCG",
-    "_geoloc": {
-      "lat": 62.9529,
-      "lng": -155.606
-    },
-    "links_count": 12,
-    "objectID": "5965"
-  },
-  {
     "name": "Lar Airport",
     "city": "Lar",
     "country": "Iran",
@@ -15060,30 +14280,6 @@ export const airportData = [
     "objectID": "4141"
   },
   {
-    "name": "Page Municipal Airport",
-    "city": "Page",
-    "country": "United States",
-    "iata_code": "PGA",
-    "_geoloc": {
-      "lat": 36.9261,
-      "lng": -111.4483
-    },
-    "links_count": 12,
-    "objectID": "4124"
-  },
-  {
-    "name": "Bismarck Municipal Airport",
-    "city": "Bismarck",
-    "country": "United States",
-    "iata_code": "BIS",
-    "_geoloc": {
-      "lat": 46.775842,
-      "lng": -100.757931
-    },
-    "links_count": 12,
-    "objectID": "4083"
-  },
-  {
     "name": "Mulu",
     "city": "Mulu",
     "country": "Malaysia",
@@ -15096,18 +14292,6 @@ export const airportData = [
     "objectID": "4056"
   },
   {
-    "name": "Kalamazoo",
-    "city": "Kalamazoo",
-    "country": "United States",
-    "iata_code": "AZO",
-    "_geoloc": {
-      "lat": 42.234875,
-      "lng": -85.552058
-    },
-    "links_count": 12,
-    "objectID": "4039"
-  },
-  {
     "name": "Batumi",
     "city": "Batumi",
     "country": "Georgia",
@@ -15118,30 +14302,6 @@ export const airportData = [
     },
     "links_count": 12,
     "objectID": "3971"
-  },
-  {
-    "name": "Elmira Corning Rgnl",
-    "city": "Elmira",
-    "country": "United States",
-    "iata_code": "ELM",
-    "_geoloc": {
-      "lat": 42.159889,
-      "lng": -76.891611
-    },
-    "links_count": 12,
-    "objectID": "3946"
-  },
-  {
-    "name": "New Castle",
-    "city": "Wilmington",
-    "country": "United States",
-    "iata_code": "ILG",
-    "_geoloc": {
-      "lat": 39.678722,
-      "lng": -75.606528
-    },
-    "links_count": 12,
-    "objectID": "3859"
   },
   {
     "name": "Alexandria Intl",
@@ -15190,54 +14350,6 @@ export const airportData = [
     },
     "links_count": 12,
     "objectID": "3784"
-  },
-  {
-    "name": "Robert Gray Aaf",
-    "city": "Killeen",
-    "country": "United States",
-    "iata_code": "GRK",
-    "_geoloc": {
-      "lat": 31.06725,
-      "lng": -97.828917
-    },
-    "links_count": 12,
-    "objectID": "3775"
-  },
-  {
-    "name": "Monroe Rgnl",
-    "city": "Monroe",
-    "country": "United States",
-    "iata_code": "MLU",
-    "_geoloc": {
-      "lat": 32.510864,
-      "lng": -92.037689
-    },
-    "links_count": 12,
-    "objectID": "3732"
-  },
-  {
-    "name": "Stewart Intl",
-    "city": "Newburgh",
-    "country": "United States",
-    "iata_code": "SWF",
-    "_geoloc": {
-      "lat": 41.504094,
-      "lng": -74.104839
-    },
-    "links_count": 12,
-    "objectID": "3661"
-  },
-  {
-    "name": "Meadows Fld",
-    "city": "Bakersfield",
-    "country": "United States",
-    "iata_code": "BFL",
-    "_geoloc": {
-      "lat": 35.433598,
-      "lng": -119.05677
-    },
-    "links_count": 12,
-    "objectID": "3558"
   },
   {
     "name": "Nantucket Mem",
@@ -15912,18 +15024,6 @@ export const airportData = [
     "objectID": "1106"
   },
   {
-    "name": "Shaktoolik Airport",
-    "city": "Shaktoolik",
-    "country": "United States",
-    "iata_code": "SKK",
-    "_geoloc": {
-      "lat": 64.371111,
-      "lng": -161.223889
-    },
-    "links_count": 11,
-    "objectID": "7192"
-  },
-  {
     "name": "Zweibruecken",
     "city": "Zweibruecken",
     "country": "Germany",
@@ -16030,18 +15130,6 @@ export const airportData = [
     },
     "links_count": 11,
     "objectID": "41"
-  },
-  {
-    "name": "Deadhorse",
-    "city": "Deadhorse",
-    "country": "United States",
-    "iata_code": "SCC",
-    "_geoloc": {
-      "lat": 70.19475,
-      "lng": -148.465167
-    },
-    "links_count": 11,
-    "objectID": "3620"
   },
   {
     "name": "Carriel Sur Intl",
@@ -16356,42 +15444,6 @@ export const airportData = [
     "objectID": "721"
   },
   {
-    "name": "Koyuk Alfred Adams Airport",
-    "city": "Koyuk",
-    "country": "United States",
-    "iata_code": "KKA",
-    "_geoloc": {
-      "lat": 64.939444,
-      "lng": -161.154167
-    },
-    "links_count": 10,
-    "objectID": "7190"
-  },
-  {
-    "name": "Hollis Seaplane Base",
-    "city": "Hollis",
-    "country": "United States",
-    "iata_code": "HYL",
-    "_geoloc": {
-      "lat": 55.481667,
-      "lng": -132.646111
-    },
-    "links_count": 10,
-    "objectID": "7145"
-  },
-  {
-    "name": "Craig Seaplane Base",
-    "city": "Craig",
-    "country": "United States",
-    "iata_code": "CGA",
-    "_geoloc": {
-      "lat": 55.478889,
-      "lng": -133.147778
-    },
-    "links_count": 10,
-    "objectID": "7144"
-  },
-  {
     "name": "Halmstad",
     "city": "Halmstad",
     "country": "Sweden",
@@ -16438,18 +15490,6 @@ export const airportData = [
     },
     "links_count": 10,
     "objectID": "6753"
-  },
-  {
-    "name": "St Marys Airport",
-    "city": "St Mary's",
-    "country": "United States",
-    "iata_code": "KSM",
-    "_geoloc": {
-      "lat": 62.0605,
-      "lng": -163.302
-    },
-    "links_count": 10,
-    "objectID": "6718"
   },
   {
     "name": "Dandong",
@@ -16632,30 +15672,6 @@ export const airportData = [
     "objectID": "5905"
   },
   {
-    "name": "Tri State Milton J Ferguson Field",
-    "city": "Huntington",
-    "country": "United States",
-    "iata_code": "HTS",
-    "_geoloc": {
-      "lat": 38.3667,
-      "lng": -82.558
-    },
-    "links_count": 10,
-    "objectID": "5742"
-  },
-  {
-    "name": "Dodge City Regional Airport",
-    "city": "Dodge City",
-    "country": "United States",
-    "iata_code": "DDC",
-    "_geoloc": {
-      "lat": 37.7634,
-      "lng": -99.9656
-    },
-    "links_count": 10,
-    "objectID": "5733"
-  },
-  {
     "name": "Port Sudan New International Airport",
     "city": "Port Sudan",
     "country": "Sudan",
@@ -16824,18 +15840,6 @@ export const airportData = [
     "objectID": "4363"
   },
   {
-    "name": "Liberal Muni",
-    "city": "Liberal",
-    "country": "United States",
-    "iata_code": "LBL",
-    "_geoloc": {
-      "lat": 37.044222,
-      "lng": -100.95986
-    },
-    "links_count": 10,
-    "objectID": "4341"
-  },
-  {
     "name": "Mehamn",
     "city": "Mehamn",
     "country": "Norway",
@@ -16846,18 +15850,6 @@ export const airportData = [
     },
     "links_count": 10,
     "objectID": "4327"
-  },
-  {
-    "name": "University Park Airport",
-    "city": "State College Pennsylvania",
-    "country": "United States",
-    "iata_code": "SCE",
-    "_geoloc": {
-      "lat": 40.849278,
-      "lng": -77.848694
-    },
-    "links_count": 10,
-    "objectID": "4318"
   },
   {
     "name": "Tomsk Bogashevo Airport",
@@ -16944,30 +15936,6 @@ export const airportData = [
     "objectID": "4128"
   },
   {
-    "name": "Glacier Park Intl",
-    "city": "Kalispell",
-    "country": "United States",
-    "iata_code": "FCA",
-    "_geoloc": {
-      "lat": 48.310472,
-      "lng": -114.256
-    },
-    "links_count": 10,
-    "objectID": "4127"
-  },
-  {
-    "name": "Central Wisconsin",
-    "city": "Wassau",
-    "country": "United States",
-    "iata_code": "CWA",
-    "_geoloc": {
-      "lat": 44.772726,
-      "lng": -89.646635
-    },
-    "links_count": 10,
-    "objectID": "4045"
-  },
-  {
     "name": "Toledo",
     "city": "Toledo",
     "country": "United States",
@@ -16978,30 +15946,6 @@ export const airportData = [
     },
     "links_count": 10,
     "objectID": "4040"
-  },
-  {
-    "name": "Chicago Rockford International Airport ",
-    "city": "Rockford",
-    "country": "United States",
-    "iata_code": "RFD",
-    "_geoloc": {
-      "lat": 42.1953611,
-      "lng": -89.0972222
-    },
-    "links_count": 10,
-    "objectID": "4028"
-  },
-  {
-    "name": "Cherry Capital Airport",
-    "city": "Traverse City",
-    "country": "United States",
-    "iata_code": "TVC",
-    "_geoloc": {
-      "lat": 44.741445,
-      "lng": -85.582235
-    },
-    "links_count": 10,
-    "objectID": "4023"
   },
   {
     "name": "Ilulissat",
@@ -17028,54 +15972,6 @@ export const airportData = [
     "objectID": "3950"
   },
   {
-    "name": "Cold Bay",
-    "city": "Cold Bay",
-    "country": "United States",
-    "iata_code": "CDB",
-    "_geoloc": {
-      "lat": 55.206061,
-      "lng": -162.725436
-    },
-    "links_count": 10,
-    "objectID": "3854"
-  },
-  {
-    "name": "Corpus Christi Intl",
-    "city": "Corpus Christi",
-    "country": "United States",
-    "iata_code": "CRP",
-    "_geoloc": {
-      "lat": 27.770361,
-      "lng": -97.501222
-    },
-    "links_count": 10,
-    "objectID": "3744"
-  },
-  {
-    "name": "Craven Co Rgnl",
-    "city": "New Bern",
-    "country": "United States",
-    "iata_code": "EWN",
-    "_geoloc": {
-      "lat": 35.072972,
-      "lng": -77.042944
-    },
-    "links_count": 10,
-    "objectID": "3730"
-  },
-  {
-    "name": "Durango La Plata Co",
-    "city": "Durango",
-    "country": "United States",
-    "iata_code": "DRO",
-    "_geoloc": {
-      "lat": 37.151516,
-      "lng": -107.75377
-    },
-    "links_count": 10,
-    "objectID": "3713"
-  },
-  {
     "name": "Kugluktuk",
     "city": "Coppermine",
     "country": "Canada",
@@ -17088,18 +15984,6 @@ export const airportData = [
     "objectID": "37"
   },
   {
-    "name": "Melbourne Intl",
-    "city": "Melbourne",
-    "country": "United States",
-    "iata_code": "MLB",
-    "_geoloc": {
-      "lat": 28.102753,
-      "lng": -80.645258
-    },
-    "links_count": 10,
-    "objectID": "3671"
-  },
-  {
     "name": "Niagara Falls Intl",
     "city": "Niagara Falls",
     "country": "United States",
@@ -17110,42 +15994,6 @@ export const airportData = [
     },
     "links_count": 10,
     "objectID": "3630"
-  },
-  {
-    "name": "Minot Intl",
-    "city": "Minot",
-    "country": "United States",
-    "iata_code": "MOT",
-    "_geoloc": {
-      "lat": 48.259378,
-      "lng": -101.280333
-    },
-    "links_count": 10,
-    "objectID": "3498"
-  },
-  {
-    "name": "Grand Forks Intl",
-    "city": "Grand Forks",
-    "country": "United States",
-    "iata_code": "GFK",
-    "_geoloc": {
-      "lat": 47.949256,
-      "lng": -97.176111
-    },
-    "links_count": 10,
-    "objectID": "3442"
-  },
-  {
-    "name": "Fort Smith Rgnl",
-    "city": "Fort Smith",
-    "country": "United States",
-    "iata_code": "FSM",
-    "_geoloc": {
-      "lat": 35.336583,
-      "lng": -94.367444
-    },
-    "links_count": 10,
-    "objectID": "3437"
   },
   {
     "name": "Qingshan",
@@ -17928,54 +16776,6 @@ export const airportData = [
     "objectID": "1"
   },
   {
-    "name": "Quinhagak Airport",
-    "city": "Quinhagak",
-    "country": "United States",
-    "iata_code": "KWN",
-    "_geoloc": {
-      "lat": 59.755,
-      "lng": -161.845278
-    },
-    "links_count": 9,
-    "objectID": "7206"
-  },
-  {
-    "name": "Wales Airport",
-    "city": "Wales",
-    "country": "United States",
-    "iata_code": "WAA",
-    "_geoloc": {
-      "lat": 65.6225,
-      "lng": -168.095
-    },
-    "links_count": 9,
-    "objectID": "7187"
-  },
-  {
-    "name": "Elim Airport",
-    "city": "Elim",
-    "country": "United States",
-    "iata_code": "ELI",
-    "_geoloc": {
-      "lat": 64.615,
-      "lng": -162.270556
-    },
-    "links_count": 9,
-    "objectID": "7184"
-  },
-  {
-    "name": "Tanana Airport",
-    "city": "Tanana",
-    "country": "United States",
-    "iata_code": "TAL",
-    "_geoloc": {
-      "lat": 65.179556,
-      "lng": -152.075833
-    },
-    "links_count": 9,
-    "objectID": "7113"
-  },
-  {
     "name": "Gjoa Haven",
     "city": "Gjoa Haven",
     "country": "Canada",
@@ -17986,18 +16786,6 @@ export const airportData = [
     },
     "links_count": 9,
     "objectID": "69"
-  },
-  {
-    "name": "Ruby Airport",
-    "city": "Ruby",
-    "country": "United States",
-    "iata_code": "RBY",
-    "_geoloc": {
-      "lat": 64.7272,
-      "lng": -155.47
-    },
-    "links_count": 9,
-    "objectID": "6722"
   },
   {
     "name": "Stokka",
@@ -18142,18 +16930,6 @@ export const airportData = [
     },
     "links_count": 9,
     "objectID": "3504"
-  },
-  {
-    "name": "Bettles",
-    "city": "Bettles",
-    "country": "United States",
-    "iata_code": "BTT",
-    "_geoloc": {
-      "lat": 66.913944,
-      "lng": -151.529056
-    },
-    "links_count": 9,
-    "objectID": "3417"
   },
   {
     "name": "Tachileik",
@@ -18396,18 +17172,6 @@ export const airportData = [
     "objectID": "7252"
   },
   {
-    "name": "St. Michael Airport",
-    "city": "St. Michael",
-    "country": "United States",
-    "iata_code": "SMK",
-    "_geoloc": {
-      "lat": 63.49,
-      "lng": -162.110278
-    },
-    "links_count": 8,
-    "objectID": "7191"
-  },
-  {
     "name": "Lycksele",
     "city": "Lycksele",
     "country": "Sweden",
@@ -18418,54 +17182,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "719"
-  },
-  {
-    "name": "White Mountain Airport",
-    "city": "White Mountain",
-    "country": "United States",
-    "iata_code": "WMO",
-    "_geoloc": {
-      "lat": 64.689167,
-      "lng": -163.412778
-    },
-    "links_count": 8,
-    "objectID": "7188"
-  },
-  {
-    "name": "Golovin Airport",
-    "city": "Golovin",
-    "country": "United States",
-    "iata_code": "GLV",
-    "_geoloc": {
-      "lat": 64.550556,
-      "lng": -163.007222
-    },
-    "links_count": 8,
-    "objectID": "7185"
-  },
-  {
-    "name": "Brevig Mission Airport",
-    "city": "Brevig Mission",
-    "country": "United States",
-    "iata_code": "KTS",
-    "_geoloc": {
-      "lat": 65.331389,
-      "lng": -166.465833
-    },
-    "links_count": 8,
-    "objectID": "7183"
-  },
-  {
-    "name": "Robert Curtis Memorial Airport",
-    "city": "Noorvik",
-    "country": "United States",
-    "iata_code": "ORV",
-    "_geoloc": {
-      "lat": 66.8175,
-      "lng": -161.022222
-    },
-    "links_count": 8,
-    "objectID": "7181"
   },
   {
     "name": "Kramfors Solleftea",
@@ -18480,54 +17196,6 @@ export const airportData = [
     "objectID": "718"
   },
   {
-    "name": "Bob Baker Memorial Airport",
-    "city": "Kiana",
-    "country": "United States",
-    "iata_code": "IAN",
-    "_geoloc": {
-      "lat": 66.975833,
-      "lng": -160.436667
-    },
-    "links_count": 8,
-    "objectID": "7179"
-  },
-  {
-    "name": "Buckland Airport",
-    "city": "Buckland",
-    "country": "United States",
-    "iata_code": "BKC",
-    "_geoloc": {
-      "lat": 65.981667,
-      "lng": -161.149167
-    },
-    "links_count": 8,
-    "objectID": "7178"
-  },
-  {
-    "name": "Ambler Airport",
-    "city": "Ambler",
-    "country": "United States",
-    "iata_code": "ABL",
-    "_geoloc": {
-      "lat": 67.106389,
-      "lng": -157.8575
-    },
-    "links_count": 8,
-    "objectID": "7177"
-  },
-  {
-    "name": "Thorne Bay Seaplane Base",
-    "city": "Thorne Bay",
-    "country": "United States",
-    "iata_code": "KTB",
-    "_geoloc": {
-      "lat": 55.688056,
-      "lng": -132.536667
-    },
-    "links_count": 8,
-    "objectID": "7147"
-  },
-  {
     "name": "Toowoomba",
     "city": "Toowoomba",
     "country": "Australia",
@@ -18540,18 +17208,6 @@ export const airportData = [
     "objectID": "7128"
   },
   {
-    "name": "Huslia Airport",
-    "city": "Huslia",
-    "country": "United States",
-    "iata_code": "HSL",
-    "_geoloc": {
-      "lat": 65.697778,
-      "lng": -156.351389
-    },
-    "links_count": 8,
-    "objectID": "7108"
-  },
-  {
     "name": "St Hubert",
     "city": "Montreal",
     "country": "Canada",
@@ -18562,18 +17218,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "71"
-  },
-  {
-    "name": "Russian Mission Airport",
-    "city": "Russian Mission",
-    "country": "United States",
-    "iata_code": "RSH",
-    "_geoloc": {
-      "lat": 61.775,
-      "lng": -161.319444
-    },
-    "links_count": 8,
-    "objectID": "7098"
   },
   {
     "name": "Hilton Head",
@@ -18600,18 +17244,6 @@ export const airportData = [
     "objectID": "70"
   },
   {
-    "name": "Branson LLC",
-    "city": "Branson",
-    "country": "United States",
-    "iata_code": "BKG",
-    "_geoloc": {
-      "lat": 36.531994,
-      "lng": -93.200556
-    },
-    "links_count": 8,
-    "objectID": "6962"
-  },
-  {
     "name": "Choibalsan Airport",
     "city": "Choibalsan",
     "country": "Mongolia",
@@ -18636,18 +17268,6 @@ export const airportData = [
     "objectID": "6789"
   },
   {
-    "name": "Deering Airport",
-    "city": "Deering",
-    "country": "United States",
-    "iata_code": "DRG",
-    "_geoloc": {
-      "lat": 66.0696,
-      "lng": -162.766
-    },
-    "links_count": 8,
-    "objectID": "6755"
-  },
-  {
     "name": "Puvirnituq Airport",
     "city": "Puvirnituq",
     "country": "Canada",
@@ -18658,42 +17278,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "6727"
-  },
-  {
-    "name": "Savoonga Airport",
-    "city": "Savoonga",
-    "country": "United States",
-    "iata_code": "SVA",
-    "_geoloc": {
-      "lat": 63.6864,
-      "lng": -170.493
-    },
-    "links_count": 8,
-    "objectID": "6724"
-  },
-  {
-    "name": "Point Hope Airport",
-    "city": "Point Hope",
-    "country": "United States",
-    "iata_code": "PHO",
-    "_geoloc": {
-      "lat": 68.3488,
-      "lng": -166.799
-    },
-    "links_count": 8,
-    "objectID": "6721"
-  },
-  {
-    "name": "Gambell Airport",
-    "city": "Gambell",
-    "country": "United States",
-    "iata_code": "GAM",
-    "_geoloc": {
-      "lat": 63.7668,
-      "lng": -171.733
-    },
-    "links_count": 8,
-    "objectID": "6715"
   },
   {
     "name": "Panzhihua",
@@ -18852,18 +17436,6 @@ export const airportData = [
     "objectID": "6139"
   },
   {
-    "name": "Kingman Airport",
-    "city": "Kingman",
-    "country": "United States",
-    "iata_code": "IGM",
-    "_geoloc": {
-      "lat": 35.2595,
-      "lng": -113.938
-    },
-    "links_count": 8,
-    "objectID": "6132"
-  },
-  {
     "name": "Virgin Gorda Airport",
     "city": "Spanish Town",
     "country": "British Virgin Islands",
@@ -18936,18 +17508,6 @@ export const airportData = [
     "objectID": "5979"
   },
   {
-    "name": "Kalskag Airport",
-    "city": "Kalskag",
-    "country": "United States",
-    "iata_code": "KLG",
-    "_geoloc": {
-      "lat": 61.5363,
-      "lng": -160.341
-    },
-    "links_count": 8,
-    "objectID": "5964"
-  },
-  {
     "name": "Hiva Oa-Atuona Airport",
     "city": "Hiva-oa",
     "country": "French Polynesia",
@@ -18994,30 +17554,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "5807"
-  },
-  {
-    "name": "San Luis County Regional Airport",
-    "city": "San Luis Obispo",
-    "country": "United States",
-    "iata_code": "SBP",
-    "_geoloc": {
-      "lat": 35.2368,
-      "lng": -120.642
-    },
-    "links_count": 8,
-    "objectID": "5768"
-  },
-  {
-    "name": "Central Nebraska Regional Airport",
-    "city": "Grand Island",
-    "country": "United States",
-    "iata_code": "GRI",
-    "_geoloc": {
-      "lat": 40.9675,
-      "lng": -98.3096
-    },
-    "links_count": 8,
-    "objectID": "5740"
   },
   {
     "name": "Southwest Georgia Regional Airport",
@@ -19428,18 +17964,6 @@ export const airportData = [
     "objectID": "4276"
   },
   {
-    "name": "Martha\\\\'s Vineyard",
-    "city": "Vineyard Haven MA",
-    "country": "United States",
-    "iata_code": "MVY",
-    "_geoloc": {
-      "lat": 41.391667,
-      "lng": -70.615278
-    },
-    "links_count": 8,
-    "objectID": "4265"
-  },
-  {
     "name": "Ozamis",
     "city": "Ozamis",
     "country": "Philippines",
@@ -19498,18 +18022,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "4190"
-  },
-  {
-    "name": "Greater Binghamton Edwin A Link Fld",
-    "city": "Binghamton",
-    "country": "United States",
-    "iata_code": "BGM",
-    "_geoloc": {
-      "lat": 42.208689,
-      "lng": -75.979839
-    },
-    "links_count": 8,
-    "objectID": "4129"
   },
   {
     "name": "Idaho Falls Rgnl",
@@ -19644,18 +18156,6 @@ export const airportData = [
     "objectID": "3947"
   },
   {
-    "name": "Lewiston Nez Perce Co",
-    "city": "Lewiston",
-    "country": "United States",
-    "iata_code": "LWS",
-    "_geoloc": {
-      "lat": 46.3745,
-      "lng": -117.015389
-    },
-    "links_count": 8,
-    "objectID": "3945"
-  },
-  {
     "name": "Mutiara Ii",
     "city": "Labuhan Bajo",
     "country": "Indonesia",
@@ -19704,30 +18204,6 @@ export const airportData = [
     "objectID": "3890"
   },
   {
-    "name": "Youngstown Warren Rgnl",
-    "city": "Youngstown",
-    "country": "United States",
-    "iata_code": "YNG",
-    "_geoloc": {
-      "lat": 41.260736,
-      "lng": -80.679097
-    },
-    "links_count": 8,
-    "objectID": "3881"
-  },
-  {
-    "name": "Watertown Intl",
-    "city": "Watertown",
-    "country": "United States",
-    "iata_code": "ART",
-    "_geoloc": {
-      "lat": 43.991922,
-      "lng": -76.021739
-    },
-    "links_count": 8,
-    "objectID": "3838"
-  },
-  {
     "name": "Columbia Rgnl",
     "city": "Columbia",
     "country": "United States",
@@ -19738,30 +18214,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "3719"
-  },
-  {
-    "name": "Laredo Intl",
-    "city": "Laredo",
-    "country": "United States",
-    "iata_code": "LRD",
-    "_geoloc": {
-      "lat": 27.54375,
-      "lng": -99.461556
-    },
-    "links_count": 8,
-    "objectID": "3691"
-  },
-  {
-    "name": "Salisbury Ocean City Wicomico Rgnl",
-    "city": "Salisbury",
-    "country": "United States",
-    "iata_code": "SBY",
-    "_geoloc": {
-      "lat": 38.340525,
-      "lng": -75.510289
-    },
-    "links_count": 8,
-    "objectID": "3642"
   },
   {
     "name": "Lubeck Blankensee",
@@ -20712,42 +19164,6 @@ export const airportData = [
     "objectID": "7424"
   },
   {
-    "name": "Kotlik Airport",
-    "city": "Kotlik",
-    "country": "United States",
-    "iata_code": "KOT",
-    "_geoloc": {
-      "lat": 63.030556,
-      "lng": -163.532778
-    },
-    "links_count": 7,
-    "objectID": "7207"
-  },
-  {
-    "name": "Kwigillingok Airport",
-    "city": "Kwigillingok",
-    "country": "United States",
-    "iata_code": "KWK",
-    "_geoloc": {
-      "lat": 59.876389,
-      "lng": -163.168611
-    },
-    "links_count": 7,
-    "objectID": "7096"
-  },
-  {
-    "name": "Emmonak Airport",
-    "city": "Emmonak",
-    "country": "United States",
-    "iata_code": "EMK",
-    "_geoloc": {
-      "lat": 62.786111,
-      "lng": -164.490833
-    },
-    "links_count": 7,
-    "objectID": "7087"
-  },
-  {
     "name": "Bonaventure Airport",
     "city": "Bonaventure",
     "country": "Canada",
@@ -20796,18 +19212,6 @@ export const airportData = [
     "objectID": "6732"
   },
   {
-    "name": "Anaktuvuk Pass Airport",
-    "city": "Anaktuvuk Pass",
-    "country": "United States",
-    "iata_code": "AKP",
-    "_geoloc": {
-      "lat": 68.1336,
-      "lng": -151.743
-    },
-    "links_count": 7,
-    "objectID": "6712"
-  },
-  {
     "name": "Dryden Rgnl",
     "city": "Dryden",
     "country": "Canada",
@@ -20842,30 +19246,6 @@ export const airportData = [
     },
     "links_count": 7,
     "objectID": "6289"
-  },
-  {
-    "name": "Haines Airport",
-    "city": "Haines",
-    "country": "United States",
-    "iata_code": "HNS",
-    "_geoloc": {
-      "lat": 59.2438,
-      "lng": -135.524
-    },
-    "links_count": 7,
-    "objectID": "5963"
-  },
-  {
-    "name": "Skagway Airport",
-    "city": "Skagway",
-    "country": "United States",
-    "iata_code": "SGY",
-    "_geoloc": {
-      "lat": 59.4601,
-      "lng": -135.316
-    },
-    "links_count": 7,
-    "objectID": "5961"
   },
   {
     "name": "Craig Cove Airport",
@@ -21300,18 +19680,6 @@ export const airportData = [
     "objectID": "8238"
   },
   {
-    "name": "Toksook Bay Airport",
-    "city": "Toksook Bay",
-    "country": "United States",
-    "iata_code": "OOK",
-    "_geoloc": {
-      "lat": 60.541389,
-      "lng": -165.087222
-    },
-    "links_count": 6,
-    "objectID": "8200"
-  },
-  {
     "name": "Tianyang",
     "city": "Baise",
     "country": "China",
@@ -21516,18 +19884,6 @@ export const airportData = [
     "objectID": "7255"
   },
   {
-    "name": "St. George Airport",
-    "city": "St. George",
-    "country": "United States",
-    "iata_code": "STG",
-    "_geoloc": {
-      "lat": 56.577222,
-      "lng": -169.663611
-    },
-    "links_count": 6,
-    "objectID": "7247"
-  },
-  {
     "name": "Kiruna",
     "city": "Kiruna",
     "country": "Sweden",
@@ -21538,90 +19894,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "724"
-  },
-  {
-    "name": "Grayling Airport",
-    "city": "Grayling",
-    "country": "United States",
-    "iata_code": "KGX",
-    "_geoloc": {
-      "lat": 62.894444,
-      "lng": -160.065
-    },
-    "links_count": 6,
-    "objectID": "7219"
-  },
-  {
-    "name": "Tuluksak Airport",
-    "city": "Tuluksak",
-    "country": "United States",
-    "iata_code": "TLT",
-    "_geoloc": {
-      "lat": 61.096944,
-      "lng": -160.969444
-    },
-    "links_count": 6,
-    "objectID": "7218"
-  },
-  {
-    "name": "Akiak Airport",
-    "city": "Akiak",
-    "country": "United States",
-    "iata_code": "AKI",
-    "_geoloc": {
-      "lat": 60.902778,
-      "lng": -161.230556
-    },
-    "links_count": 6,
-    "objectID": "7217"
-  },
-  {
-    "name": "Pilot Station Airport",
-    "city": "Pilot Station",
-    "country": "United States",
-    "iata_code": "PQS",
-    "_geoloc": {
-      "lat": 61.934444,
-      "lng": -162.899444
-    },
-    "links_count": 6,
-    "objectID": "7216"
-  },
-  {
-    "name": "Kongiganak Airport",
-    "city": "Kongiganak",
-    "country": "United States",
-    "iata_code": "KKH",
-    "_geoloc": {
-      "lat": 59.960833,
-      "lng": -162.881111
-    },
-    "links_count": 6,
-    "objectID": "7213"
-  },
-  {
-    "name": "Klawock Airport",
-    "city": "Klawock",
-    "country": "United States",
-    "iata_code": "KLW",
-    "_geoloc": {
-      "lat": 55.579167,
-      "lng": -133.076111
-    },
-    "links_count": 6,
-    "objectID": "7205"
-  },
-  {
-    "name": "Kipnuk Airport",
-    "city": "Kipnuk",
-    "country": "United States",
-    "iata_code": "KPN",
-    "_geoloc": {
-      "lat": 59.933056,
-      "lng": -164.030556
-    },
-    "links_count": 6,
-    "objectID": "7201"
   },
   {
     "name": "Hay River",
@@ -21636,114 +19908,6 @@ export const airportData = [
     "objectID": "72"
   },
   {
-    "name": "Teller Airport",
-    "city": "Teller",
-    "country": "United States",
-    "iata_code": "TLA",
-    "_geoloc": {
-      "lat": 65.240278,
-      "lng": -166.339444
-    },
-    "links_count": 6,
-    "objectID": "7186"
-  },
-  {
-    "name": "Kobuk Airport",
-    "city": "Kobuk",
-    "country": "United States",
-    "iata_code": "OBU",
-    "_geoloc": {
-      "lat": 66.912222,
-      "lng": -156.897222
-    },
-    "links_count": 6,
-    "objectID": "7180"
-  },
-  {
-    "name": "Metlakatla Seaplane Base",
-    "city": "Metakatla",
-    "country": "United States",
-    "iata_code": "MTM",
-    "_geoloc": {
-      "lat": 55.131111,
-      "lng": -131.578056
-    },
-    "links_count": 6,
-    "objectID": "7146"
-  },
-  {
-    "name": "Hoonah Airport",
-    "city": "Hoonah",
-    "country": "United States",
-    "iata_code": "HNH",
-    "_geoloc": {
-      "lat": 58.096111,
-      "lng": -135.409722
-    },
-    "links_count": 6,
-    "objectID": "7142"
-  },
-  {
-    "name": "Shungnak Airport",
-    "city": "Shungnak",
-    "country": "United States",
-    "iata_code": "SHG",
-    "_geoloc": {
-      "lat": 66.888056,
-      "lng": -157.1625
-    },
-    "links_count": 6,
-    "objectID": "7117"
-  },
-  {
-    "name": "Nulato Airport",
-    "city": "Nulato",
-    "country": "United States",
-    "iata_code": "NUL",
-    "_geoloc": {
-      "lat": 64.729444,
-      "lng": -158.074167
-    },
-    "links_count": 6,
-    "objectID": "7111"
-  },
-  {
-    "name": "Kwethluk Airport",
-    "city": "Kwethluk",
-    "country": "United States",
-    "iata_code": "KWT",
-    "_geoloc": {
-      "lat": 60.790278,
-      "lng": -161.443611
-    },
-    "links_count": 6,
-    "objectID": "7095"
-  },
-  {
-    "name": "Eek Airport",
-    "city": "Eek",
-    "country": "United States",
-    "iata_code": "EEK",
-    "_geoloc": {
-      "lat": 60.213611,
-      "lng": -162.043889
-    },
-    "links_count": 6,
-    "objectID": "7093"
-  },
-  {
-    "name": "Shageluk Airport",
-    "city": "Shageluk",
-    "country": "United States",
-    "iata_code": "SHX",
-    "_geoloc": {
-      "lat": 62.692222,
-      "lng": -159.569167
-    },
-    "links_count": 6,
-    "objectID": "7090"
-  },
-  {
     "name": "Kalmar",
     "city": "Kalkmar",
     "country": "Sweden",
@@ -21756,30 +19920,6 @@ export const airportData = [
     "objectID": "707"
   },
   {
-    "name": "Alliance Municipal Airport",
-    "city": "Alliance",
-    "country": "United States",
-    "iata_code": "AIA",
-    "_geoloc": {
-      "lat": 42.053333,
-      "lng": -102.803889
-    },
-    "links_count": 6,
-    "objectID": "7067"
-  },
-  {
-    "name": "Chadron Municipal Airport",
-    "city": "Chadron",
-    "country": "United States",
-    "iata_code": "CDR",
-    "_geoloc": {
-      "lat": 42.8375,
-      "lng": -103.095556
-    },
-    "links_count": 6,
-    "objectID": "7066"
-  },
-  {
     "name": "Municipal",
     "city": "Corozal",
     "country": "Belize",
@@ -21790,18 +19930,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "7029"
-  },
-  {
-    "name": "Chefornak Airport",
-    "city": "Chefornak",
-    "country": "United States",
-    "iata_code": "CYF",
-    "_geoloc": {
-      "lat": 60.149167,
-      "lng": -164.285556
-    },
-    "links_count": 6,
-    "objectID": "6960"
   },
   {
     "name": "Drake Bay Airport",
@@ -21838,18 +19966,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "685"
-  },
-  {
-    "name": "Sawyer International Airport",
-    "city": "Marquette",
-    "country": "United States",
-    "iata_code": "MQT",
-    "_geoloc": {
-      "lat": 46.353611,
-      "lng": -87.395278
-    },
-    "links_count": 6,
-    "objectID": "6838"
   },
   {
     "name": "Ulukhaktok Holman",
@@ -21936,54 +20052,6 @@ export const airportData = [
     "objectID": "6731"
   },
   {
-    "name": "Shishmaref Airport",
-    "city": "Shishmaref",
-    "country": "United States",
-    "iata_code": "SHH",
-    "_geoloc": {
-      "lat": 66.2496,
-      "lng": -166.089
-    },
-    "links_count": 6,
-    "objectID": "6723"
-  },
-  {
-    "name": "Kivalina Airport",
-    "city": "Kivalina",
-    "country": "United States",
-    "iata_code": "KVL",
-    "_geoloc": {
-      "lat": 67.7362,
-      "lng": -164.563
-    },
-    "links_count": 6,
-    "objectID": "6719"
-  },
-  {
-    "name": "Kaltag Airport",
-    "city": "Kaltag",
-    "country": "United States",
-    "iata_code": "KAL",
-    "_geoloc": {
-      "lat": 64.3191,
-      "lng": -158.741
-    },
-    "links_count": 6,
-    "objectID": "6717"
-  },
-  {
-    "name": "Anvik Airport",
-    "city": "Anvik",
-    "country": "United States",
-    "iata_code": "ANV",
-    "_geoloc": {
-      "lat": 62.6467,
-      "lng": -160.191
-    },
-    "links_count": 6,
-    "objectID": "6713"
-  },
-  {
     "name": "Sorstokken",
     "city": "Stord",
     "country": "Norway",
@@ -22006,18 +20074,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "658"
-  },
-  {
-    "name": "Iles De La Madeleine",
-    "city": "Iles De La Madeleine",
-    "country": "Canada",
-    "iata_code": "YGR",
-    "_geoloc": {
-      "lat": 47.424721,
-      "lng": -61.778056
-    },
-    "links_count": 6,
-    "objectID": "65"
   },
   {
     "name": "Heihe Airport",
@@ -22080,126 +20136,6 @@ export const airportData = [
     "objectID": "6338"
   },
   {
-    "name": "Roma Airport",
-    "city": "Roma",
-    "country": "Australia",
-    "iata_code": "RMA",
-    "_geoloc": {
-      "lat": -26.545,
-      "lng": 148.775
-    },
-    "links_count": 6,
-    "objectID": "6324"
-  },
-  {
-    "name": "Paraburdoo Airport",
-    "city": "Paraburdoo",
-    "country": "Australia",
-    "iata_code": "PBO",
-    "_geoloc": {
-      "lat": -23.1711,
-      "lng": 117.745
-    },
-    "links_count": 6,
-    "objectID": "6314"
-  },
-  {
-    "name": "Mornington Island Airport",
-    "city": "Mornington Island",
-    "country": "Australia",
-    "iata_code": "ONG",
-    "_geoloc": {
-      "lat": -16.6625,
-      "lng": 139.178
-    },
-    "links_count": 6,
-    "objectID": "6304"
-  },
-  {
-    "name": "Moranbah Airport",
-    "city": "Moranbah",
-    "country": "Australia",
-    "iata_code": "MOV",
-    "_geoloc": {
-      "lat": -22.0578,
-      "lng": 148.077
-    },
-    "links_count": 6,
-    "objectID": "6301"
-  },
-  {
-    "name": "Maningrida Airport",
-    "city": "Maningrida",
-    "country": "Australia",
-    "iata_code": "MNG",
-    "_geoloc": {
-      "lat": -12.0561,
-      "lng": 134.234
-    },
-    "links_count": 6,
-    "objectID": "6296"
-  },
-  {
-    "name": "Merimbula Airport",
-    "city": "Merimbula",
-    "country": "Australia",
-    "iata_code": "MIM",
-    "_geoloc": {
-      "lat": -36.9086,
-      "lng": 149.901
-    },
-    "links_count": 6,
-    "objectID": "6294"
-  },
-  {
-    "name": "Lord Howe Island Airport",
-    "city": "Lord Howe Island",
-    "country": "Australia",
-    "iata_code": "LDH",
-    "_geoloc": {
-      "lat": -31.5383,
-      "lng": 159.077
-    },
-    "links_count": 6,
-    "objectID": "6285"
-  },
-  {
-    "name": "Geraldton Airport",
-    "city": "Geraldton",
-    "country": "Australia",
-    "iata_code": "GET",
-    "_geoloc": {
-      "lat": -28.7961,
-      "lng": 114.707
-    },
-    "links_count": 6,
-    "objectID": "6268"
-  },
-  {
-    "name": "Doomadgee Airport",
-    "city": "Doomadgee",
-    "country": "Australia",
-    "iata_code": "DMD",
-    "_geoloc": {
-      "lat": -17.9403,
-      "lng": 138.822
-    },
-    "links_count": 6,
-    "objectID": "6262"
-  },
-  {
-    "name": "Albany Airport",
-    "city": "Albany",
-    "country": "Australia",
-    "iata_code": "ALH",
-    "_geoloc": {
-      "lat": -34.9433,
-      "lng": 117.809
-    },
-    "links_count": 6,
-    "objectID": "6235"
-  },
-  {
     "name": "Lawas Airport",
     "city": "Lawas",
     "country": "Malaysia",
@@ -22210,54 +20146,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "6219"
-  },
-  {
-    "name": "Dumatubun Airport",
-    "city": "Langgur-Kei Islands",
-    "country": "Indonesia",
-    "iata_code": "LUV",
-    "_geoloc": {
-      "lat": -5.661619,
-      "lng": 132.731431
-    },
-    "links_count": 6,
-    "objectID": "6212"
-  },
-  {
-    "name": "Barau(Kalimaru) Airport",
-    "city": "Tanjung Redep-Borneo Island",
-    "country": "Indonesia",
-    "iata_code": "BEJ",
-    "_geoloc": {
-      "lat": 2.155497,
-      "lng": 117.432256
-    },
-    "links_count": 6,
-    "objectID": "6209"
-  },
-  {
-    "name": "Tambolaka Airport",
-    "city": "Waikabubak-Sumba Island",
-    "country": "Indonesia",
-    "iata_code": "TMC",
-    "_geoloc": {
-      "lat": -9.409717,
-      "lng": 119.244494
-    },
-    "links_count": 6,
-    "objectID": "6204"
-  },
-  {
-    "name": "La Grande Riviere",
-    "city": "La Grande Riviere",
-    "country": "Canada",
-    "iata_code": "YGL",
-    "_geoloc": {
-      "lat": 53.625278,
-      "lng": -77.704167
-    },
-    "links_count": 6,
-    "objectID": "62"
   },
   {
     "name": "Pleiku Airport",
@@ -22426,30 +20314,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "6007"
-  },
-  {
-    "name": "Holy Cross Airport",
-    "city": "Holy Cross",
-    "country": "United States",
-    "iata_code": "HCR",
-    "_geoloc": {
-      "lat": 62.1883,
-      "lng": -159.775
-    },
-    "links_count": 6,
-    "objectID": "5962"
-  },
-  {
-    "name": "Gustavus Airport",
-    "city": "Gustavus",
-    "country": "United States",
-    "iata_code": "GST",
-    "_geoloc": {
-      "lat": 58.4253,
-      "lng": -135.707
-    },
-    "links_count": 6,
-    "objectID": "5960"
   },
   {
     "name": "Uromiyeh Airport",
@@ -22654,78 +20518,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "5794"
-  },
-  {
-    "name": "Worland Municipal Airport",
-    "city": "Worland",
-    "country": "United States",
-    "iata_code": "WRL",
-    "_geoloc": {
-      "lat": 43.9657,
-      "lng": -107.951
-    },
-    "links_count": 6,
-    "objectID": "5777"
-  },
-  {
-    "name": "Valdosta Regional Airport",
-    "city": "Valdosta",
-    "country": "United States",
-    "iata_code": "VLD",
-    "_geoloc": {
-      "lat": 30.7825,
-      "lng": -83.2767
-    },
-    "links_count": 6,
-    "objectID": "5776"
-  },
-  {
-    "name": "Rock Springs Sweetwater County Airport",
-    "city": "Rock Springs",
-    "country": "United States",
-    "iata_code": "RKS",
-    "_geoloc": {
-      "lat": 41.5942,
-      "lng": -109.065
-    },
-    "links_count": 6,
-    "objectID": "5766"
-  },
-  {
-    "name": "Arnold Palmer Regional Airport",
-    "city": "Latrobe",
-    "country": "United States",
-    "iata_code": "LBE",
-    "_geoloc": {
-      "lat": 40.2759,
-      "lng": -79.4048
-    },
-    "links_count": 6,
-    "objectID": "5747"
-  },
-  {
-    "name": "Brunswick Golden Isles Airport",
-    "city": "Brunswick",
-    "country": "United States",
-    "iata_code": "BQK",
-    "_geoloc": {
-      "lat": 31.2588,
-      "lng": -81.4665
-    },
-    "links_count": 6,
-    "objectID": "5725"
-  },
-  {
-    "name": "Watertown Regional Airport",
-    "city": "Watertown",
-    "country": "United States",
-    "iata_code": "ATY",
-    "_geoloc": {
-      "lat": 44.914,
-      "lng": -97.1547
-    },
-    "links_count": 6,
-    "objectID": "5721"
   },
   {
     "name": "La Abraq Airport",
@@ -23100,18 +20892,6 @@ export const airportData = [
     "objectID": "441"
   },
   {
-    "name": "Arcata",
-    "city": "Arcata CA",
-    "country": "United States",
-    "iata_code": "ACV",
-    "_geoloc": {
-      "lat": 40.978111,
-      "lng": -124.108611
-    },
-    "links_count": 6,
-    "objectID": "4384"
-  },
-  {
     "name": "Uraj",
     "city": "Uraj",
     "country": "Russia",
@@ -23160,30 +20940,6 @@ export const airportData = [
     "objectID": "4347"
   },
   {
-    "name": "Gillette-Campbell County Airport",
-    "city": "Gillette",
-    "country": "United States",
-    "iata_code": "GCC",
-    "_geoloc": {
-      "lat": 44.3489167,
-      "lng": -105.5393611
-    },
-    "links_count": 6,
-    "objectID": "4296"
-  },
-  {
-    "name": "Golden Triangle Regional Airport",
-    "city": "Columbus Mississippi",
-    "country": "United States",
-    "iata_code": "GTR",
-    "_geoloc": {
-      "lat": 33.450333,
-      "lng": -88.591361
-    },
-    "links_count": 6,
-    "objectID": "4273"
-  },
-  {
     "name": "Columbus Metropolitan Airport",
     "city": "Columbus",
     "country": "United States",
@@ -23230,18 +20986,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "4076"
-  },
-  {
-    "name": "La Crosse Municipal",
-    "city": "La Crosse",
-    "country": "United States",
-    "iata_code": "LSE",
-    "_geoloc": {
-      "lat": 43.878986,
-      "lng": -91.256711
-    },
-    "links_count": 6,
-    "objectID": "4044"
   },
   {
     "name": "Mundo Maya International",
@@ -23352,78 +21096,6 @@ export const airportData = [
     "objectID": "3894"
   },
   {
-    "name": "Natrona Co Intl",
-    "city": "Casper",
-    "country": "United States",
-    "iata_code": "CPR",
-    "_geoloc": {
-      "lat": 42.908,
-      "lng": -106.464417
-    },
-    "links_count": 6,
-    "objectID": "3872"
-  },
-  {
-    "name": "Unalaska",
-    "city": "Unalaska",
-    "country": "United States",
-    "iata_code": "DUT",
-    "_geoloc": {
-      "lat": 53.900139,
-      "lng": -166.5435
-    },
-    "links_count": 6,
-    "objectID": "3860"
-  },
-  {
-    "name": "Sitka Rocky Gutierrez",
-    "city": "Sitka",
-    "country": "United States",
-    "iata_code": "SIT",
-    "_geoloc": {
-      "lat": 57.047138,
-      "lng": -135.361611
-    },
-    "links_count": 6,
-    "objectID": "3856"
-  },
-  {
-    "name": "Tyler Pounds Rgnl",
-    "city": "Tyler",
-    "country": "United States",
-    "iata_code": "TYR",
-    "_geoloc": {
-      "lat": 32.354139,
-      "lng": -95.402386
-    },
-    "links_count": 6,
-    "objectID": "3848"
-  },
-  {
-    "name": "Dothan Rgnl",
-    "city": "Dothan",
-    "country": "United States",
-    "iata_code": "DHN",
-    "_geoloc": {
-      "lat": 31.321339,
-      "lng": -85.449628
-    },
-    "links_count": 6,
-    "objectID": "3739"
-  },
-  {
-    "name": "Brownsville South Padre Island Intl",
-    "city": "Brownsville",
-    "country": "United States",
-    "iata_code": "BRO",
-    "_geoloc": {
-      "lat": 25.906833,
-      "lng": -97.425861
-    },
-    "links_count": 6,
-    "objectID": "3738"
-  },
-  {
     "name": "Easterwood Fld",
     "city": "College Station",
     "country": "United States",
@@ -23446,30 +21118,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "3681"
-  },
-  {
-    "name": "Kenai Muni",
-    "city": "Kenai",
-    "country": "United States",
-    "iata_code": "ENA",
-    "_geoloc": {
-      "lat": 60.573111,
-      "lng": -151.245
-    },
-    "links_count": 6,
-    "objectID": "3628"
-  },
-  {
-    "name": "Merle K Mudhole Smith",
-    "city": "Cordova",
-    "country": "United States",
-    "iata_code": "CDV",
-    "_geoloc": {
-      "lat": 60.491778,
-      "lng": -145.477556
-    },
-    "links_count": 6,
-    "objectID": "3610"
   },
   {
     "name": "Yuma Mcas Yuma Intl",
@@ -23506,42 +21154,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "3513"
-  },
-  {
-    "name": "Huron Rgnl",
-    "city": "Huron",
-    "country": "United States",
-    "iata_code": "HON",
-    "_geoloc": {
-      "lat": 44.3852,
-      "lng": -98.228542
-    },
-    "links_count": 6,
-    "objectID": "3491"
-  },
-  {
-    "name": "Dillingham",
-    "city": "Dillingham",
-    "country": "United States",
-    "iata_code": "DLG",
-    "_geoloc": {
-      "lat": 59.044667,
-      "lng": -158.5055
-    },
-    "links_count": 6,
-    "objectID": "3460"
-  },
-  {
-    "name": "St Paul Island",
-    "city": "St. Paul Island",
-    "country": "United States",
-    "iata_code": "SNP",
-    "_geoloc": {
-      "lat": 57.167333,
-      "lng": -170.220444
-    },
-    "links_count": 6,
-    "objectID": "3426"
   },
   {
     "name": "Wagga Wagga",
@@ -24864,30 +22476,6 @@ export const airportData = [
     "objectID": "946"
   },
   {
-    "name": "Tununak Airport",
-    "city": "Tununak",
-    "country": "United States",
-    "iata_code": "TNK",
-    "_geoloc": {
-      "lat": 60.575556,
-      "lng": -165.271667
-    },
-    "links_count": 5,
-    "objectID": "8201"
-  },
-  {
-    "name": "Nightmute Airport",
-    "city": "Nightmute",
-    "country": "United States",
-    "iata_code": "NME",
-    "_geoloc": {
-      "lat": 60.471111,
-      "lng": -164.700833
-    },
-    "links_count": 5,
-    "objectID": "8199"
-  },
-  {
     "name": "Ravensthorpe Airport",
     "city": "Ravensthorpe",
     "country": "Australia",
@@ -24898,30 +22486,6 @@ export const airportData = [
     },
     "links_count": 5,
     "objectID": "7577"
-  },
-  {
-    "name": "Allakaket Airport",
-    "city": "Allakaket",
-    "country": "United States",
-    "iata_code": "AET",
-    "_geoloc": {
-      "lat": 66.5519,
-      "lng": -152.6222
-    },
-    "links_count": 5,
-    "objectID": "6839"
-  },
-  {
-    "name": "Noatak Airport",
-    "city": "Noatak",
-    "country": "United States",
-    "iata_code": "WTK",
-    "_geoloc": {
-      "lat": 67.5661,
-      "lng": -162.975
-    },
-    "links_count": 5,
-    "objectID": "6725"
   },
   {
     "name": "Erechim Airport",
@@ -25006,30 +22570,6 @@ export const airportData = [
     },
     "links_count": 5,
     "objectID": "5889"
-  },
-  {
-    "name": "New Bedford Regional Airport",
-    "city": "New Bedford",
-    "country": "United States",
-    "iata_code": "EWB",
-    "_geoloc": {
-      "lat": 41.6761,
-      "lng": -70.9569
-    },
-    "links_count": 5,
-    "objectID": "5737"
-  },
-  {
-    "name": "Harrison Marion Regional Airport",
-    "city": "Clarksburg",
-    "country": "United States",
-    "iata_code": "CKB",
-    "_geoloc": {
-      "lat": 39.2966,
-      "lng": -80.2281
-    },
-    "links_count": 5,
-    "objectID": "5730"
   },
   {
     "name": "Sorkjosen Airport",
@@ -25200,18 +22740,6 @@ export const airportData = [
     "objectID": "430"
   },
   {
-    "name": "Barnstable Muni Boardman Polando Fld",
-    "city": "Barnstable",
-    "country": "United States",
-    "iata_code": "HYA",
-    "_geoloc": {
-      "lat": 41.669336,
-      "lng": -70.280356
-    },
-    "links_count": 5,
-    "objectID": "4278"
-  },
-  {
     "name": "Wai Oti",
     "city": "Maumere",
     "country": "Indonesia",
@@ -25222,18 +22750,6 @@ export const airportData = [
     },
     "links_count": 5,
     "objectID": "3913"
-  },
-  {
-    "name": "South Arkansas Rgnl At Goodwin Fld",
-    "city": "El Dorado",
-    "country": "United States",
-    "iata_code": "ELD",
-    "_geoloc": {
-      "lat": 33.220972,
-      "lng": -92.813278
-    },
-    "links_count": 5,
-    "objectID": "3696"
   },
   {
     "name": "Norfolk Island Intl",
@@ -25680,18 +23196,6 @@ export const airportData = [
     "objectID": "8217"
   },
   {
-    "name": "Newtok Airport",
-    "city": "Newtok",
-    "country": "United States",
-    "iata_code": "WWT",
-    "_geoloc": {
-      "lat": 60.939167,
-      "lng": -164.641111
-    },
-    "links_count": 4,
-    "objectID": "8203"
-  },
-  {
     "name": "Zona da Mata Regional Airport",
     "city": "Juiz de Fora",
     "country": "Brazil",
@@ -25702,42 +23206,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "8180"
-  },
-  {
-    "name": "Friday Harbor Seaplane Base",
-    "city": "Friday Harbor",
-    "country": "United States",
-    "iata_code": "FBS",
-    "_geoloc": {
-      "lat": 48.537222,
-      "lng": -123.009722
-    },
-    "links_count": 4,
-    "objectID": "8174"
-  },
-  {
-    "name": "Westsound Seaplane Base",
-    "city": "Westsound",
-    "country": "United States",
-    "iata_code": "WSX",
-    "_geoloc": {
-      "lat": 48.617778,
-      "lng": -122.952778
-    },
-    "links_count": 4,
-    "objectID": "8173"
-  },
-  {
-    "name": "Roche Harbor Seaplane Base",
-    "city": "Roche Harbor",
-    "country": "United States",
-    "iata_code": "RCE",
-    "_geoloc": {
-      "lat": 48.608056,
-      "lng": -123.159722
-    },
-    "links_count": 4,
-    "objectID": "8170"
   },
   {
     "name": "Kimberley",
@@ -26100,102 +23568,6 @@ export const airportData = [
     "objectID": "7253"
   },
   {
-    "name": "Sleetmute Airport",
-    "city": "Sleetmute",
-    "country": "United States",
-    "iata_code": "SLQ",
-    "_geoloc": {
-      "lat": 61.700566,
-      "lng": -157.165833
-    },
-    "links_count": 4,
-    "objectID": "7240"
-  },
-  {
-    "name": "Wainwright Airport",
-    "city": "Wainwright",
-    "country": "United States",
-    "iata_code": "AIN",
-    "_geoloc": {
-      "lat": 70.638056,
-      "lng": -159.994722
-    },
-    "links_count": 4,
-    "objectID": "7220"
-  },
-  {
-    "name": "Nunapitchuk Airport",
-    "city": "Nunapitchuk",
-    "country": "United States",
-    "iata_code": "NUP",
-    "_geoloc": {
-      "lat": 60.905833,
-      "lng": -162.439167
-    },
-    "links_count": 4,
-    "objectID": "7212"
-  },
-  {
-    "name": "Koyukuk Airport",
-    "city": "Koyukuk",
-    "country": "United States",
-    "iata_code": "KYU",
-    "_geoloc": {
-      "lat": 64.875833,
-      "lng": -157.730556
-    },
-    "links_count": 4,
-    "objectID": "7208"
-  },
-  {
-    "name": "Sheldon Point Airport",
-    "city": "Nunam Iqua",
-    "country": "United States",
-    "iata_code": "SXP",
-    "_geoloc": {
-      "lat": 62.520556,
-      "lng": -164.847778
-    },
-    "links_count": 4,
-    "objectID": "7200"
-  },
-  {
-    "name": "Alakanuk Airport",
-    "city": "Alakanuk",
-    "country": "United States",
-    "iata_code": "AUK",
-    "_geoloc": {
-      "lat": 62.68,
-      "lng": -164.66
-    },
-    "links_count": 4,
-    "objectID": "7199"
-  },
-  {
-    "name": "Selawik Airport",
-    "city": "Selawik",
-    "country": "United States",
-    "iata_code": "WLK",
-    "_geoloc": {
-      "lat": 66.6,
-      "lng": -159.985833
-    },
-    "links_count": 4,
-    "objectID": "7182"
-  },
-  {
-    "name": "Ouzinkie Airport",
-    "city": "Ouzinkie",
-    "country": "United States",
-    "iata_code": "KOZ",
-    "_geoloc": {
-      "lat": 57.922876,
-      "lng": -152.500511
-    },
-    "links_count": 4,
-    "objectID": "7164"
-  },
-  {
     "name": "Sveg",
     "city": "Sveg",
     "country": "Sweden",
@@ -26206,138 +23578,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "714"
-  },
-  {
-    "name": "Beaver Airport",
-    "city": "Beaver",
-    "country": "United States",
-    "iata_code": "WBQ",
-    "_geoloc": {
-      "lat": 66.362222,
-      "lng": -147.406667
-    },
-    "links_count": 4,
-    "objectID": "7115"
-  },
-  {
-    "name": "Venetie Airport",
-    "city": "Venetie",
-    "country": "United States",
-    "iata_code": "VEE",
-    "_geoloc": {
-      "lat": 67.008611,
-      "lng": -146.366389
-    },
-    "links_count": 4,
-    "objectID": "7114"
-  },
-  {
-    "name": "Hughes Airport",
-    "city": "Hughes",
-    "country": "United States",
-    "iata_code": "HUS",
-    "_geoloc": {
-      "lat": 66.039167,
-      "lng": -154.264722
-    },
-    "links_count": 4,
-    "objectID": "7107"
-  },
-  {
-    "name": "Chalkyitsik Airport",
-    "city": "Chalkyitsik",
-    "country": "United States",
-    "iata_code": "CIK",
-    "_geoloc": {
-      "lat": 66.645,
-      "lng": -143.74
-    },
-    "links_count": 4,
-    "objectID": "7105"
-  },
-  {
-    "name": "Tuntutuliak Airport",
-    "city": "Tuntutuliak",
-    "country": "United States",
-    "iata_code": "WTL",
-    "_geoloc": {
-      "lat": 60.335278,
-      "lng": -162.666944
-    },
-    "links_count": 4,
-    "objectID": "7099"
-  },
-  {
-    "name": "Marshall Don Hunter Sr. Airport",
-    "city": "Marshall",
-    "country": "United States",
-    "iata_code": "MLL",
-    "_geoloc": {
-      "lat": 61.8646418,
-      "lng": -162.026111
-    },
-    "links_count": 4,
-    "objectID": "7097"
-  },
-  {
-    "name": "Kasigluk Airport",
-    "city": "Kasigluk",
-    "country": "United States",
-    "iata_code": "KUK",
-    "_geoloc": {
-      "lat": 60.873333,
-      "lng": -162.524444
-    },
-    "links_count": 4,
-    "objectID": "7094"
-  },
-  {
-    "name": "Nuiqsut Airport",
-    "city": "Nuiqsut",
-    "country": "United States",
-    "iata_code": "NUI",
-    "_geoloc": {
-      "lat": 70.21,
-      "lng": -151.005556
-    },
-    "links_count": 4,
-    "objectID": "7092"
-  },
-  {
-    "name": "Mammoth Yosemite Airport",
-    "city": "Mammoth Lakes",
-    "country": "United States",
-    "iata_code": "MMH",
-    "_geoloc": {
-      "lat": 37.624049,
-      "lng": -118.837772
-    },
-    "links_count": 4,
-    "objectID": "7081"
-  },
-  {
-    "name": "Dickinson Theodore Roosevelt Regional Airport",
-    "city": "Dickinson",
-    "country": "United States",
-    "iata_code": "DIK",
-    "_geoloc": {
-      "lat": 46.7975,
-      "lng": -102.801944
-    },
-    "links_count": 4,
-    "objectID": "7064"
-  },
-  {
-    "name": "Chautauqua County-Jamestown",
-    "city": "Jamestown",
-    "country": "United States",
-    "iata_code": "JHW",
-    "_geoloc": {
-      "lat": 42.153333,
-      "lng": -79.258056
-    },
-    "links_count": 4,
-    "objectID": "7059"
   },
   {
     "name": "Barataevka",
@@ -26386,42 +23626,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "6972"
-  },
-  {
-    "name": "Pitt-Greenville Airport",
-    "city": "Greenville",
-    "country": "United States",
-    "iata_code": "PGV",
-    "_geoloc": {
-      "lat": 35.635278,
-      "lng": -77.385278
-    },
-    "links_count": 4,
-    "objectID": "6959"
-  },
-  {
-    "name": "Greenbrier Valley Airport",
-    "city": "Lewisburg",
-    "country": "United States",
-    "iata_code": "LWB",
-    "_geoloc": {
-      "lat": 37.858333,
-      "lng": -80.399444
-    },
-    "links_count": 4,
-    "objectID": "6958"
-  },
-  {
-    "name": "Brainerd Lakes Rgnl",
-    "city": "Brainerd",
-    "country": "United States",
-    "iata_code": "BRD",
-    "_geoloc": {
-      "lat": 46.398308,
-      "lng": -94.138078
-    },
-    "links_count": 4,
-    "objectID": "6957"
   },
   {
     "name": "Altay Airport",
@@ -26482,30 +23686,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "688"
-  },
-  {
-    "name": "Ford Airport",
-    "city": "Iron Mountain",
-    "country": "United States",
-    "iata_code": "IMT",
-    "_geoloc": {
-      "lat": 45.8183611,
-      "lng": -88.1145556
-    },
-    "links_count": 4,
-    "objectID": "6837"
-  },
-  {
-    "name": "Yakutat",
-    "city": "Yakutat",
-    "country": "United States",
-    "iata_code": "YAK",
-    "_geoloc": {
-      "lat": 59.3012,
-      "lng": -139.3937
-    },
-    "links_count": 4,
-    "objectID": "6803"
   },
   {
     "name": "Taree Airport",
@@ -26580,18 +23760,6 @@ export const airportData = [
     "objectID": "6752"
   },
   {
-    "name": "Sand Point Airport",
-    "city": "Sand Point",
-    "country": "United States",
-    "iata_code": "SDP",
-    "_geoloc": {
-      "lat": 55.315,
-      "lng": -160.523
-    },
-    "links_count": 4,
-    "objectID": "6742"
-  },
-  {
     "name": "Gorakhpur Airport",
     "city": "Gorakhpur",
     "country": "India",
@@ -26614,18 +23782,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "6740"
-  },
-  {
-    "name": "Hagerstown Regional Richard A Henson Field",
-    "city": "Hagerstown",
-    "country": "United States",
-    "iata_code": "HGR",
-    "_geoloc": {
-      "lat": 39.7079,
-      "lng": -77.7295
-    },
-    "links_count": 4,
-    "objectID": "6739"
   },
   {
     "name": "Pajala Airport",
@@ -26664,30 +23820,6 @@ export const airportData = [
     "objectID": "6728"
   },
   {
-    "name": "Hooper Bay Airport",
-    "city": "Hooper Bay",
-    "country": "United States",
-    "iata_code": "HPB",
-    "_geoloc": {
-      "lat": 61.5239,
-      "lng": -166.147
-    },
-    "links_count": 4,
-    "objectID": "6716"
-  },
-  {
-    "name": "Atqasuk Edward Burnell Sr Memorial Airport",
-    "city": "Atqasuk",
-    "country": "United States",
-    "iata_code": "ATK",
-    "_geoloc": {
-      "lat": 70.4673,
-      "lng": -157.436
-    },
-    "links_count": 4,
-    "objectID": "6714"
-  },
-  {
     "name": "Banak",
     "city": "Lakselv",
     "country": "Norway",
@@ -26710,18 +23842,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "646"
-  },
-  {
-    "name": "Worcester Regional Airport",
-    "city": "Worcester",
-    "country": "United States",
-    "iata_code": "ORH",
-    "_geoloc": {
-      "lat": 42.2673,
-      "lng": -71.8757
-    },
-    "links_count": 4,
-    "objectID": "6426"
   },
   {
     "name": "Karamay Airport",
@@ -27576,42 +24696,6 @@ export const airportData = [
     "objectID": "60"
   },
   {
-    "name": "Wrangell Airport",
-    "city": "Wrangell",
-    "country": "United States",
-    "iata_code": "WRG",
-    "_geoloc": {
-      "lat": 56.4843,
-      "lng": -132.37
-    },
-    "links_count": 4,
-    "objectID": "5969"
-  },
-  {
-    "name": "Chevak Airport",
-    "city": "Chevak",
-    "country": "United States",
-    "iata_code": "VAK",
-    "_geoloc": {
-      "lat": 61.5338,
-      "lng": -165.584
-    },
-    "links_count": 4,
-    "objectID": "5968"
-  },
-  {
-    "name": "Mountain Village Airport",
-    "city": "Mountain Village",
-    "country": "United States",
-    "iata_code": "MOU",
-    "_geoloc": {
-      "lat": 62.0954,
-      "lng": -163.682
-    },
-    "links_count": 4,
-    "objectID": "5966"
-  },
-  {
     "name": "Dera Ismael Khan Airport",
     "city": "Dera Ismael Khan",
     "country": "Pakistan",
@@ -27898,186 +24982,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "5787"
-  },
-  {
-    "name": "Tupelo Regional Airport",
-    "city": "Tupelo",
-    "country": "United States",
-    "iata_code": "TUP",
-    "_geoloc": {
-      "lat": 34.2681,
-      "lng": -88.7699
-    },
-    "links_count": 4,
-    "objectID": "5773"
-  },
-  {
-    "name": "Santa Maria Pub Cpt G Allan Hancock Airport",
-    "city": "Santa Maria",
-    "country": "United States",
-    "iata_code": "SMX",
-    "_geoloc": {
-      "lat": 34.8989,
-      "lng": -120.457
-    },
-    "links_count": 4,
-    "objectID": "5772"
-  },
-  {
-    "name": "Rhinelander Oneida County Airport",
-    "city": "Rhinelander",
-    "country": "United States",
-    "iata_code": "RHI",
-    "_geoloc": {
-      "lat": 45.6312,
-      "lng": -89.4675
-    },
-    "links_count": 4,
-    "objectID": "5765"
-  },
-  {
-    "name": "Owensboro Daviess County Airport",
-    "city": "Owensboro",
-    "country": "United States",
-    "iata_code": "OWB",
-    "_geoloc": {
-      "lat": 37.7401,
-      "lng": -87.1668
-    },
-    "links_count": 4,
-    "objectID": "5758"
-  },
-  {
-    "name": "Southwest Oregon Regional Airport",
-    "city": "North Bend",
-    "country": "United States",
-    "iata_code": "OTH",
-    "_geoloc": {
-      "lat": 43.4171,
-      "lng": -124.246
-    },
-    "links_count": 4,
-    "objectID": "5757"
-  },
-  {
-    "name": "Lynchburg Regional Preston Glenn Field",
-    "city": "Lynchburg",
-    "country": "United States",
-    "iata_code": "LYH",
-    "_geoloc": {
-      "lat": 37.3267,
-      "lng": -79.2004
-    },
-    "links_count": 4,
-    "objectID": "5753"
-  },
-  {
-    "name": "Klamath Falls Airport",
-    "city": "Klamath Falls",
-    "country": "United States",
-    "iata_code": "LMT",
-    "_geoloc": {
-      "lat": 42.1561,
-      "lng": -121.733
-    },
-    "links_count": 4,
-    "objectID": "5750"
-  },
-  {
-    "name": "Lebanon Municipal Airport",
-    "city": "Lebanon",
-    "country": "United States",
-    "iata_code": "LEB",
-    "_geoloc": {
-      "lat": 43.6261,
-      "lng": -72.3042
-    },
-    "links_count": 4,
-    "objectID": "5749"
-  },
-  {
-    "name": "Memorial Field",
-    "city": "Hot Springs",
-    "country": "United States",
-    "iata_code": "HOT",
-    "_geoloc": {
-      "lat": 34.478,
-      "lng": -93.0962
-    },
-    "links_count": 4,
-    "objectID": "5741"
-  },
-  {
-    "name": "DuBois Regional Airport",
-    "city": "Du Bois",
-    "country": "United States",
-    "iata_code": "DUJ",
-    "_geoloc": {
-      "lat": 41.1783,
-      "lng": -78.8987
-    },
-    "links_count": 4,
-    "objectID": "5734"
-  },
-  {
-    "name": "Del Norte County Airport",
-    "city": "Crescent City",
-    "country": "United States",
-    "iata_code": "CEC",
-    "_geoloc": {
-      "lat": 41.7802,
-      "lng": -124.237
-    },
-    "links_count": 4,
-    "objectID": "5727"
-  },
-  {
-    "name": "Southeast Iowa Regional Airport",
-    "city": "Burlington",
-    "country": "United States",
-    "iata_code": "BRL",
-    "_geoloc": {
-      "lat": 40.7832,
-      "lng": -91.1255
-    },
-    "links_count": 4,
-    "objectID": "5726"
-  },
-  {
-    "name": "Bradford Regional Airport",
-    "city": "Bradford",
-    "country": "United States",
-    "iata_code": "BFD",
-    "_geoloc": {
-      "lat": 41.8031,
-      "lng": -78.6401
-    },
-    "links_count": 4,
-    "objectID": "5722"
-  },
-  {
-    "name": "Alpena County Regional Airport",
-    "city": "Alpena",
-    "country": "United States",
-    "iata_code": "APN",
-    "_geoloc": {
-      "lat": 45.0781,
-      "lng": -83.5603
-    },
-    "links_count": 4,
-    "objectID": "5720"
-  },
-  {
-    "name": "Waterloo Regional Airport",
-    "city": "Waterloo",
-    "country": "United States",
-    "iata_code": "ALO",
-    "_geoloc": {
-      "lat": 42.5571,
-      "lng": -92.4003
-    },
-    "links_count": 4,
-    "objectID": "5718"
   },
   {
     "name": "Diu Airport",
@@ -28752,18 +25656,6 @@ export const airportData = [
     "objectID": "4388"
   },
   {
-    "name": "Camp Mabry Austin City",
-    "city": "Austin TX",
-    "country": "United States",
-    "iata_code": "ATT",
-    "_geoloc": {
-      "lat": 30.31666,
-      "lng": -97.7666
-    },
-    "links_count": 4,
-    "objectID": "4385"
-  },
-  {
     "name": "Kittila",
     "city": "Kittila",
     "country": "Finland",
@@ -28786,30 +25678,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "4369"
-  },
-  {
-    "name": "Joplin Rgnl",
-    "city": "Joplin",
-    "country": "United States",
-    "iata_code": "JLN",
-    "_geoloc": {
-      "lat": 37.151814,
-      "lng": -94.498269
-    },
-    "links_count": 4,
-    "objectID": "4354"
-  },
-  {
-    "name": "Yellowstone Rgnl",
-    "city": "Cody",
-    "country": "United States",
-    "iata_code": "COD",
-    "_geoloc": {
-      "lat": 44.520194,
-      "lng": -109.023806
-    },
-    "links_count": 4,
-    "objectID": "4344"
   },
   {
     "name": "Kajaani",
@@ -28836,30 +25704,6 @@ export const airportData = [
     "objectID": "4314"
   },
   {
-    "name": "Morgantown Muni Walter L Bill Hart Fld",
-    "city": "Morgantown",
-    "country": "United States",
-    "iata_code": "MGW",
-    "_geoloc": {
-      "lat": 39.642908,
-      "lng": -79.916314
-    },
-    "links_count": 4,
-    "objectID": "4284"
-  },
-  {
-    "name": "Saint Cloud Regional Airport",
-    "city": "Saint Cloud",
-    "country": "United States",
-    "iata_code": "STC",
-    "_geoloc": {
-      "lat": 45.546556,
-      "lng": -94.059889
-    },
-    "links_count": 4,
-    "objectID": "4271"
-  },
-  {
     "name": "Flagstaff Pulliam Airport",
     "city": "Flagstaff",
     "country": "United States",
@@ -28870,18 +25714,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "4261"
-  },
-  {
-    "name": "Lawton-Fort Sill Regional Airport",
-    "city": "Lawton",
-    "country": "United States",
-    "iata_code": "LAW",
-    "_geoloc": {
-      "lat": 34.5677144,
-      "lng": -98.4166367
-    },
-    "links_count": 4,
-    "objectID": "4256"
   },
   {
     "name": "Fort Good Hope",
@@ -29016,18 +25848,6 @@ export const airportData = [
     "objectID": "4193"
   },
   {
-    "name": "John Murtha Johnstown-Cambria County Airport",
-    "city": "Johnstown",
-    "country": "United States",
-    "iata_code": "JST",
-    "_geoloc": {
-      "lat": 40.316111,
-      "lng": -78.833889
-    },
-    "links_count": 4,
-    "objectID": "4169"
-  },
-  {
     "name": "Tartu",
     "city": "Tartu",
     "country": "Estonia",
@@ -29076,18 +25896,6 @@ export const airportData = [
     "objectID": "4154"
   },
   {
-    "name": "Petersburg James A. Johnson",
-    "city": "Petersburg",
-    "country": "United States",
-    "iata_code": "PSG",
-    "_geoloc": {
-      "lat": 56.801667,
-      "lng": -132.945278
-    },
-    "links_count": 4,
-    "objectID": "4147"
-  },
-  {
     "name": "Nan",
     "city": "Nan",
     "country": "Thailand",
@@ -29112,18 +25920,6 @@ export const airportData = [
     "objectID": "4106"
   },
   {
-    "name": "St George Muni",
-    "city": "Saint George",
-    "country": "United States",
-    "iata_code": "SGU",
-    "_geoloc": {
-      "lat": 37.090583,
-      "lng": -113.593056
-    },
-    "links_count": 4,
-    "objectID": "4064"
-  },
-  {
     "name": "Armidale",
     "city": "Armidale",
     "country": "Australia",
@@ -29136,18 +25932,6 @@ export const airportData = [
     "objectID": "4062"
   },
   {
-    "name": "Franklin",
-    "city": "Franklin",
-    "country": "United States",
-    "iata_code": "FKL",
-    "_geoloc": {
-      "lat": 41.377874,
-      "lng": -79.860362
-    },
-    "links_count": 4,
-    "objectID": "4058"
-  },
-  {
     "name": "Hervey Bay Airport",
     "city": "Hervey Bay",
     "country": "Australia",
@@ -29158,18 +25942,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "4052"
-  },
-  {
-    "name": "Decatur",
-    "city": "Decatur",
-    "country": "United States",
-    "iata_code": "DEC",
-    "_geoloc": {
-      "lat": 39.834564,
-      "lng": -88.865689
-    },
-    "links_count": 4,
-    "objectID": "4042"
   },
   {
     "name": "Jackson Hole Airport",
@@ -29256,18 +26028,6 @@ export const airportData = [
     "objectID": "3984"
   },
   {
-    "name": "Pullman-Moscow Rgnl",
-    "city": "Pullman",
-    "country": "United States",
-    "iata_code": "PUW",
-    "_geoloc": {
-      "lat": 46.743861,
-      "lng": -117.109583
-    },
-    "links_count": 4,
-    "objectID": "3944"
-  },
-  {
     "name": "Khon Kaen",
     "city": "Khon Kaen",
     "country": "Thailand",
@@ -29304,30 +26064,6 @@ export const airportData = [
     "objectID": "3933"
   },
   {
-    "name": "Florence Rgnl",
-    "city": "Florence",
-    "country": "United States",
-    "iata_code": "FLO",
-    "_geoloc": {
-      "lat": 34.185361,
-      "lng": -79.723889
-    },
-    "links_count": 4,
-    "objectID": "3879"
-  },
-  {
-    "name": "Valdez Pioneer Fld",
-    "city": "Valdez",
-    "country": "United States",
-    "iata_code": "VDZ",
-    "_geoloc": {
-      "lat": 61.133949,
-      "lng": -146.248342
-    },
-    "links_count": 4,
-    "objectID": "3865"
-  },
-  {
     "name": "Kapalua",
     "city": "Kapalua",
     "country": "United States",
@@ -29338,150 +26074,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "3796"
-  },
-  {
-    "name": "Texarkana Rgnl Webb Fld",
-    "city": "Texarkana",
-    "country": "United States",
-    "iata_code": "TXK",
-    "_geoloc": {
-      "lat": 33.453722,
-      "lng": -93.991028
-    },
-    "links_count": 4,
-    "objectID": "3770"
-  },
-  {
-    "name": "Middle Georgia Rgnl",
-    "city": "Macon",
-    "country": "United States",
-    "iata_code": "MCN",
-    "_geoloc": {
-      "lat": 32.69285,
-      "lng": -83.649211
-    },
-    "links_count": 4,
-    "objectID": "3754"
-  },
-  {
-    "name": "Sioux Gateway Col Bud Day Fld",
-    "city": "Sioux City",
-    "country": "United States",
-    "iata_code": "SUX",
-    "_geoloc": {
-      "lat": 42.402603,
-      "lng": -96.384367
-    },
-    "links_count": 4,
-    "objectID": "3753"
-  },
-  {
-    "name": "Roswell Intl Air Center",
-    "city": "Roswell",
-    "country": "United States",
-    "iata_code": "ROW",
-    "_geoloc": {
-      "lat": 33.301556,
-      "lng": -104.530556
-    },
-    "links_count": 4,
-    "objectID": "3736"
-  },
-  {
-    "name": "Boeing Fld King Co Intl",
-    "city": "Seattle",
-    "country": "United States",
-    "iata_code": "BFI",
-    "_geoloc": {
-      "lat": 47.53,
-      "lng": -122.301947
-    },
-    "links_count": 4,
-    "objectID": "3726"
-  },
-  {
-    "name": "Abilene Rgnl",
-    "city": "Abilene",
-    "country": "United States",
-    "iata_code": "ABI",
-    "_geoloc": {
-      "lat": 32.411319,
-      "lng": -99.681897
-    },
-    "links_count": 4,
-    "objectID": "3718"
-  },
-  {
-    "name": "San Angelo Rgnl Mathis Fld",
-    "city": "San Angelo",
-    "country": "United States",
-    "iata_code": "SJT",
-    "_geoloc": {
-      "lat": 31.35775,
-      "lng": -100.496306
-    },
-    "links_count": 4,
-    "objectID": "3708"
-  },
-  {
-    "name": "Mc Kellar Sipes Rgnl",
-    "city": "Jackson",
-    "country": "United States",
-    "iata_code": "MKL",
-    "_geoloc": {
-      "lat": 35.599889,
-      "lng": -88.915611
-    },
-    "links_count": 4,
-    "objectID": "3704"
-  },
-  {
-    "name": "Waco Rgnl",
-    "city": "Waco",
-    "country": "United States",
-    "iata_code": "ACT",
-    "_geoloc": {
-      "lat": 31.611289,
-      "lng": -97.230519
-    },
-    "links_count": 4,
-    "objectID": "3700"
-  },
-  {
-    "name": "Altoona Blair Co",
-    "city": "Altoona",
-    "country": "United States",
-    "iata_code": "AOO",
-    "_geoloc": {
-      "lat": 40.296372,
-      "lng": -78.320022
-    },
-    "links_count": 4,
-    "objectID": "3694"
-  },
-  {
-    "name": "Imperial Co",
-    "city": "Imperial",
-    "country": "United States",
-    "iata_code": "IPL",
-    "_geoloc": {
-      "lat": 32.834219,
-      "lng": -115.578744
-    },
-    "links_count": 4,
-    "objectID": "3689"
-  },
-  {
-    "name": "Sheppard Afb Wichita Falls Muni",
-    "city": "Wichita Falls",
-    "country": "United States",
-    "iata_code": "SPS",
-    "_geoloc": {
-      "lat": 33.988797,
-      "lng": -98.491894
-    },
-    "links_count": 4,
-    "objectID": "3680"
   },
   {
     "name": "Rickenbacker Intl",
@@ -29496,42 +26088,6 @@ export const airportData = [
     "objectID": "3674"
   },
   {
-    "name": "Homer",
-    "city": "Homer",
-    "country": "United States",
-    "iata_code": "HOM",
-    "_geoloc": {
-      "lat": 59.645556,
-      "lng": -151.476583
-    },
-    "links_count": 4,
-    "objectID": "3664"
-  },
-  {
-    "name": "Sloulin Fld Intl",
-    "city": "Williston",
-    "country": "United States",
-    "iata_code": "ISN",
-    "_geoloc": {
-      "lat": 48.177939,
-      "lng": -103.642347
-    },
-    "links_count": 4,
-    "objectID": "3659"
-  },
-  {
-    "name": "Southeast Texas Rgnl",
-    "city": "Beaumont",
-    "country": "United States",
-    "iata_code": "BPT",
-    "_geoloc": {
-      "lat": 29.950833,
-      "lng": -94.020694
-    },
-    "links_count": 4,
-    "objectID": "3612"
-  },
-  {
     "name": "Charlo",
     "city": "Charlo",
     "country": "Canada",
@@ -29542,102 +26098,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "36"
-  },
-  {
-    "name": "Williamsport Rgnl",
-    "city": "Williamsport",
-    "country": "United States",
-    "iata_code": "IPT",
-    "_geoloc": {
-      "lat": 41.241836,
-      "lng": -76.921094
-    },
-    "links_count": 4,
-    "objectID": "3584"
-  },
-  {
-    "name": "Falls Intl",
-    "city": "International Falls",
-    "country": "United States",
-    "iata_code": "INL",
-    "_geoloc": {
-      "lat": 48.566186,
-      "lng": -93.403067
-    },
-    "links_count": 4,
-    "objectID": "3535"
-  },
-  {
-    "name": "Northern Maine Rgnl At Presque Isle",
-    "city": "Presque Isle",
-    "country": "United States",
-    "iata_code": "PQI",
-    "_geoloc": {
-      "lat": 46.688958,
-      "lng": -68.044797
-    },
-    "links_count": 4,
-    "objectID": "3528"
-  },
-  {
-    "name": "Garden City Rgnl",
-    "city": "Garden City",
-    "country": "United States",
-    "iata_code": "GCK",
-    "_geoloc": {
-      "lat": 37.927528,
-      "lng": -100.724417
-    },
-    "links_count": 4,
-    "objectID": "3497"
-  },
-  {
-    "name": "East Texas Rgnl",
-    "city": "Longview",
-    "country": "United States",
-    "iata_code": "GGG",
-    "_geoloc": {
-      "lat": 32.384014,
-      "lng": -94.711486
-    },
-    "links_count": 4,
-    "objectID": "3465"
-  },
-  {
-    "name": "Boone Co",
-    "city": "Harrison",
-    "country": "United States",
-    "iata_code": "HRO",
-    "_geoloc": {
-      "lat": 36.261519,
-      "lng": -93.154728
-    },
-    "links_count": 4,
-    "objectID": "3461"
-  },
-  {
-    "name": "Point Lay Lrrs",
-    "city": "Point Lay",
-    "country": "United States",
-    "iata_code": "PIZ",
-    "_geoloc": {
-      "lat": 69.732875,
-      "lng": -163.005342
-    },
-    "links_count": 4,
-    "objectID": "3414"
-  },
-  {
-    "name": "Barter Island Lrrs",
-    "city": "Barter Island",
-    "country": "United States",
-    "iata_code": "BTI",
-    "_geoloc": {
-      "lat": 70.133989,
-      "lng": -143.581867
-    },
-    "links_count": 4,
-    "objectID": "3411"
   },
   {
     "name": "Castlegar",
@@ -31608,78 +28068,6 @@ export const airportData = [
     "objectID": "7617"
   },
   {
-    "name": "Crooked Creek Airport",
-    "city": "Crooked Creek",
-    "country": "United States",
-    "iata_code": "CKD",
-    "_geoloc": {
-      "lat": 61.867778,
-      "lng": -158.135
-    },
-    "links_count": 3,
-    "objectID": "7238"
-  },
-  {
-    "name": "Coffman Cove Seaplane Base",
-    "city": "Coffman Cove",
-    "country": "United States",
-    "iata_code": "KCC",
-    "_geoloc": {
-      "lat": 56.014722,
-      "lng": -132.833889
-    },
-    "links_count": 3,
-    "objectID": "7237"
-  },
-  {
-    "name": "Scammon Bay Airport",
-    "city": "Scammon Bay",
-    "country": "United States",
-    "iata_code": "SCM",
-    "_geoloc": {
-      "lat": 61.845278,
-      "lng": -165.571389
-    },
-    "links_count": 3,
-    "objectID": "7209"
-  },
-  {
-    "name": "Port Lions Airport",
-    "city": "Port Lions",
-    "country": "United States",
-    "iata_code": "ORI",
-    "_geoloc": {
-      "lat": 57.885278,
-      "lng": -152.846111
-    },
-    "links_count": 3,
-    "objectID": "7165"
-  },
-  {
-    "name": "Old Harbor Airport",
-    "city": "Old Harbor",
-    "country": "United States",
-    "iata_code": "OLH",
-    "_geoloc": {
-      "lat": 57.218056,
-      "lng": -153.269722
-    },
-    "links_count": 3,
-    "objectID": "7163"
-  },
-  {
-    "name": "Shenandoah Valley Regional Airport",
-    "city": "Weyers Cave",
-    "country": "United States",
-    "iata_code": "SHD",
-    "_geoloc": {
-      "lat": 38.263889,
-      "lng": -78.896389
-    },
-    "links_count": 3,
-    "objectID": "7062"
-  },
-  {
     "name": "Bella Coola Airport",
     "city": "Bella Coola",
     "country": "Canada",
@@ -31750,18 +28138,6 @@ export const airportData = [
     },
     "links_count": 3,
     "objectID": "5861"
-  },
-  {
-    "name": "Raleigh County Memorial Airport",
-    "city": "Beckley",
-    "country": "United States",
-    "iata_code": "BKW",
-    "_geoloc": {
-      "lat": 37.7873,
-      "lng": -81.1242
-    },
-    "links_count": 3,
-    "objectID": "5724"
   },
   {
     "name": "Amboseli Airport",
@@ -32580,18 +28956,6 @@ export const airportData = [
     "objectID": "8204"
   },
   {
-    "name": "Goodnews Airport",
-    "city": "Goodnews Bay",
-    "country": "United States",
-    "iata_code": "GNU",
-    "_geoloc": {
-      "lat": 59.1175,
-      "lng": -161.5775
-    },
-    "links_count": 2,
-    "objectID": "8202"
-  },
-  {
     "name": "Puerto Obaldia",
     "city": "Puerto Obaldia",
     "country": "Panama",
@@ -32662,18 +29026,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "77"
-  },
-  {
-    "name": "Los Alamos Airport",
-    "city": "Los Alamos",
-    "country": "United States",
-    "iata_code": "LAM",
-    "_geoloc": {
-      "lat": 35.8798019,
-      "lng": -106.2694153
-    },
-    "links_count": 2,
-    "objectID": "7584"
   },
   {
     "name": "Dickwella Airport",
@@ -32952,78 +29304,6 @@ export const airportData = [
     "objectID": "7310"
   },
   {
-    "name": "Manley Hot Springs Airport",
-    "city": "Manley Hot Springs",
-    "country": "United States",
-    "iata_code": "MLY",
-    "_geoloc": {
-      "lat": 64.9975,
-      "lng": -150.644167
-    },
-    "links_count": 2,
-    "objectID": "7246"
-  },
-  {
-    "name": "Kake Seaplane Base",
-    "city": "Kake",
-    "country": "United States",
-    "iata_code": "KAE",
-    "_geoloc": {
-      "lat": 56.973056,
-      "lng": -133.945556
-    },
-    "links_count": 2,
-    "objectID": "7243"
-  },
-  {
-    "name": "Healy River Airport",
-    "city": "Healy",
-    "country": "United States",
-    "iata_code": "HKB",
-    "_geoloc": {
-      "lat": 63.8675,
-      "lng": -148.968889
-    },
-    "links_count": 2,
-    "objectID": "7242"
-  },
-  {
-    "name": "Stony River 2 Airport",
-    "city": "Stony River",
-    "country": "United States",
-    "iata_code": "SRV",
-    "_geoloc": {
-      "lat": 61.7875,
-      "lng": -156.591111
-    },
-    "links_count": 2,
-    "objectID": "7241"
-  },
-  {
-    "name": "Red Devil Airport",
-    "city": "Red Devil",
-    "country": "United States",
-    "iata_code": "RDV",
-    "_geoloc": {
-      "lat": 61.788056,
-      "lng": -157.350278
-    },
-    "links_count": 2,
-    "objectID": "7239"
-  },
-  {
-    "name": "Circle City Airport",
-    "city": "Circle",
-    "country": "United States",
-    "iata_code": "IRC",
-    "_geoloc": {
-      "lat": 65.827778,
-      "lng": -144.076111
-    },
-    "links_count": 2,
-    "objectID": "7236"
-  },
-  {
     "name": "Ornskoldsvik",
     "city": "Ornskoldsvik",
     "country": "Sweden",
@@ -33034,558 +29314,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "722"
-  },
-  {
-    "name": "Takotna Airport",
-    "city": "Takotna",
-    "country": "United States",
-    "iata_code": "TCT",
-    "_geoloc": {
-      "lat": 62.971944,
-      "lng": -156.082778
-    },
-    "links_count": 2,
-    "objectID": "7215"
-  },
-  {
-    "name": "Nikolai Airport",
-    "city": "Nikolai",
-    "country": "United States",
-    "iata_code": "NIB",
-    "_geoloc": {
-      "lat": 63.010833,
-      "lng": -154.383889
-    },
-    "links_count": 2,
-    "objectID": "7214"
-  },
-  {
-    "name": "Nelson Lagoon",
-    "city": "Nelson Lagoon",
-    "country": "United States",
-    "iata_code": "NLG",
-    "_geoloc": {
-      "lat": 56.0075,
-      "lng": -161.160278
-    },
-    "links_count": 2,
-    "objectID": "7203"
-  },
-  {
-    "name": "False Pass Airport",
-    "city": "False Pass",
-    "country": "United States",
-    "iata_code": "KFP",
-    "_geoloc": {
-      "lat": 54.8475,
-      "lng": -163.410278
-    },
-    "links_count": 2,
-    "objectID": "7202"
-  },
-  {
-    "name": "Nikolski Air Station",
-    "city": "Nikolski",
-    "country": "United States",
-    "iata_code": "IKO",
-    "_geoloc": {
-      "lat": 52.941667,
-      "lng": -168.848889
-    },
-    "links_count": 2,
-    "objectID": "7196"
-  },
-  {
-    "name": "Atka Airport",
-    "city": "Atka",
-    "country": "United States",
-    "iata_code": "AKB",
-    "_geoloc": {
-      "lat": 52.220278,
-      "lng": -174.206389
-    },
-    "links_count": 2,
-    "objectID": "7195"
-  },
-  {
-    "name": "Tin City LRRS Airport",
-    "city": "Tin City",
-    "country": "United States",
-    "iata_code": "TNC",
-    "_geoloc": {
-      "lat": 65.563056,
-      "lng": -167.921667
-    },
-    "links_count": 2,
-    "objectID": "7194"
-  },
-  {
-    "name": "Seal Bay Seaplane Base",
-    "city": "Seal Bay",
-    "country": "United States",
-    "iata_code": "SYB",
-    "_geoloc": {
-      "lat": 58.166667,
-      "lng": -152.5
-    },
-    "links_count": 2,
-    "objectID": "7173"
-  },
-  {
-    "name": "Kitoi Bay Seaplane Base",
-    "city": "Kitoi Bay",
-    "country": "United States",
-    "iata_code": "KKB",
-    "_geoloc": {
-      "lat": 58.190833,
-      "lng": -152.370556
-    },
-    "links_count": 2,
-    "objectID": "7168"
-  },
-  {
-    "name": "Amook Bay Seaplane Base",
-    "city": "Amook Bay",
-    "country": "United States",
-    "iata_code": "AOS",
-    "_geoloc": {
-      "lat": 57.471389,
-      "lng": -153.815278
-    },
-    "links_count": 2,
-    "objectID": "7167"
-  },
-  {
-    "name": "Larsen Bay Airport",
-    "city": "Larsen Bay",
-    "country": "United States",
-    "iata_code": "KLN",
-    "_geoloc": {
-      "lat": 57.535,
-      "lng": -153.976667
-    },
-    "links_count": 2,
-    "objectID": "7162"
-  },
-  {
-    "name": "Akhiok Airport",
-    "city": "Akhiok",
-    "country": "United States",
-    "iata_code": "AKK",
-    "_geoloc": {
-      "lat": 56.938611,
-      "lng": -154.1825
-    },
-    "links_count": 2,
-    "objectID": "7160"
-  },
-  {
-    "name": "South Naknek Airport",
-    "city": "South Naknek",
-    "country": "United States",
-    "iata_code": "WSN",
-    "_geoloc": {
-      "lat": 58.702222,
-      "lng": -157.0025
-    },
-    "links_count": 2,
-    "objectID": "7159"
-  },
-  {
-    "name": "Pilot Point Airport",
-    "city": "Pilot Point",
-    "country": "United States",
-    "iata_code": "PIP",
-    "_geoloc": {
-      "lat": 57.585393,
-      "lng": -157.571944
-    },
-    "links_count": 2,
-    "objectID": "7158"
-  },
-  {
-    "name": "Perryville Airport",
-    "city": "Perryville",
-    "country": "United States",
-    "iata_code": "KPV",
-    "_geoloc": {
-      "lat": 55.906667,
-      "lng": -159.160833
-    },
-    "links_count": 2,
-    "objectID": "7157"
-  },
-  {
-    "name": "Chignik Lagoon Airport",
-    "city": "Chignik Lagoon",
-    "country": "United States",
-    "iata_code": "KCL",
-    "_geoloc": {
-      "lat": 56.311111,
-      "lng": -158.534167
-    },
-    "links_count": 2,
-    "objectID": "7155"
-  },
-  {
-    "name": "Egegik Airport",
-    "city": "Egegik",
-    "country": "United States",
-    "iata_code": "EGX",
-    "_geoloc": {
-      "lat": 58.185556,
-      "lng": -157.375556
-    },
-    "links_count": 2,
-    "objectID": "7154"
-  },
-  {
-    "name": "Chignik Lake Airport",
-    "city": "Chignik Lake",
-    "country": "United States",
-    "iata_code": "KCQ",
-    "_geoloc": {
-      "lat": 56.255,
-      "lng": -158.775278
-    },
-    "links_count": 2,
-    "objectID": "7153"
-  },
-  {
-    "name": "North Whale Seaplane Base",
-    "city": "North Whale Pass",
-    "country": "United States",
-    "iata_code": "WWP",
-    "_geoloc": {
-      "lat": 56.116389,
-      "lng": -133.121667
-    },
-    "links_count": 2,
-    "objectID": "7152"
-  },
-  {
-    "name": "Port Protection Seaplane Base",
-    "city": "Port Protection",
-    "country": "United States",
-    "iata_code": "PPV",
-    "_geoloc": {
-      "lat": 56.328889,
-      "lng": -133.61
-    },
-    "links_count": 2,
-    "objectID": "7151"
-  },
-  {
-    "name": "Point Baker Seaplane Base",
-    "city": "Point Baker",
-    "country": "United States",
-    "iata_code": "KPB",
-    "_geoloc": {
-      "lat": 56.351944,
-      "lng": -133.6225
-    },
-    "links_count": 2,
-    "objectID": "7150"
-  },
-  {
-    "name": "Hydaburg Seaplane Base",
-    "city": "Hydaburg",
-    "country": "United States",
-    "iata_code": "HYG",
-    "_geoloc": {
-      "lat": 55.206389,
-      "lng": -132.828333
-    },
-    "links_count": 2,
-    "objectID": "7148"
-  },
-  {
-    "name": "Excursion Inlet Seaplane Base",
-    "city": "Excursion Inlet",
-    "country": "United States",
-    "iata_code": "EXI",
-    "_geoloc": {
-      "lat": 58.420556,
-      "lng": -135.449167
-    },
-    "links_count": 2,
-    "objectID": "7141"
-  },
-  {
-    "name": "Pelican Seaplane Base",
-    "city": "Pelican",
-    "country": "United States",
-    "iata_code": "PEC",
-    "_geoloc": {
-      "lat": 57.955278,
-      "lng": -136.236389
-    },
-    "links_count": 2,
-    "objectID": "7138"
-  },
-  {
-    "name": "Tenakee Seaplane Base",
-    "city": "Tenakee Springs",
-    "country": "United States",
-    "iata_code": "TKE",
-    "_geoloc": {
-      "lat": 57.779722,
-      "lng": -135.218333
-    },
-    "links_count": 2,
-    "objectID": "7137"
-  },
-  {
-    "name": "Elfin Cove Seaplane Base",
-    "city": "Elfin Cove",
-    "country": "United States",
-    "iata_code": "ELV",
-    "_geoloc": {
-      "lat": 58.195278,
-      "lng": -136.3475
-    },
-    "links_count": 2,
-    "objectID": "7136"
-  },
-  {
-    "name": "Angoon Seaplane Base",
-    "city": "Angoon",
-    "country": "United States",
-    "iata_code": "AGN",
-    "_geoloc": {
-      "lat": 57.503611,
-      "lng": -134.585
-    },
-    "links_count": 2,
-    "objectID": "7135"
-  },
-  {
-    "name": "Merced Municipal Airport",
-    "city": "Merced",
-    "country": "United States",
-    "iata_code": "MCE",
-    "_geoloc": {
-      "lat": 37.284722,
-      "lng": -120.513889
-    },
-    "links_count": 2,
-    "objectID": "7122"
-  },
-  {
-    "name": "Visalia Municipal Airport",
-    "city": "Visalia",
-    "country": "United States",
-    "iata_code": "VIS",
-    "_geoloc": {
-      "lat": 36.318611,
-      "lng": -119.392778
-    },
-    "links_count": 2,
-    "objectID": "7121"
-  },
-  {
-    "name": "Coldfoot Airport",
-    "city": "Coldfoot",
-    "country": "United States",
-    "iata_code": "CXF",
-    "_geoloc": {
-      "lat": 67.251389,
-      "lng": -150.176111
-    },
-    "links_count": 2,
-    "objectID": "7119"
-  },
-  {
-    "name": "Birch Creek Airport",
-    "city": "Brich Creek",
-    "country": "United States",
-    "iata_code": "KBC",
-    "_geoloc": {
-      "lat": 66.256708,
-      "lng": -145.815319
-    },
-    "links_count": 2,
-    "objectID": "7118"
-  },
-  {
-    "name": "Central Airport",
-    "city": "Central",
-    "country": "United States",
-    "iata_code": "CEM",
-    "_geoloc": {
-      "lat": 65.573889,
-      "lng": -144.780833
-    },
-    "links_count": 2,
-    "objectID": "7116"
-  },
-  {
-    "name": "Rampart Airport",
-    "city": "Rampart",
-    "country": "United States",
-    "iata_code": "RMP",
-    "_geoloc": {
-      "lat": 65.507778,
-      "lng": -150.140833
-    },
-    "links_count": 2,
-    "objectID": "7112"
-  },
-  {
-    "name": "Minto Airport",
-    "city": "Minto",
-    "country": "United States",
-    "iata_code": "MNT",
-    "_geoloc": {
-      "lat": 65.143611,
-      "lng": -149.37
-    },
-    "links_count": 2,
-    "objectID": "7110"
-  },
-  {
-    "name": "Levelock Airport",
-    "city": "Levelock",
-    "country": "United States",
-    "iata_code": "KLL",
-    "_geoloc": {
-      "lat": 59.128056,
-      "lng": -156.858611
-    },
-    "links_count": 2,
-    "objectID": "7102"
-  },
-  {
-    "name": "Chuathbaluk Airport",
-    "city": "Chuathbaluk",
-    "country": "United States",
-    "iata_code": "CHU",
-    "_geoloc": {
-      "lat": 61.579167,
-      "lng": -159.215556
-    },
-    "links_count": 2,
-    "objectID": "7091"
-  },
-  {
-    "name": "Orcas Island Airport",
-    "city": "Eastsound",
-    "country": "United States",
-    "iata_code": "ESD",
-    "_geoloc": {
-      "lat": 48.708056,
-      "lng": -122.910556
-    },
-    "links_count": 2,
-    "objectID": "7083"
-  },
-  {
-    "name": "Friday Harbor Airport",
-    "city": "Friday Harbor",
-    "country": "United States",
-    "iata_code": "FRD",
-    "_geoloc": {
-      "lat": 48.521944,
-      "lng": -123.024444
-    },
-    "links_count": 2,
-    "objectID": "7082"
-  },
-  {
-    "name": "Vernal Regional Airport",
-    "city": "Vernal",
-    "country": "United States",
-    "iata_code": "VEL",
-    "_geoloc": {
-      "lat": 40.440833,
-      "lng": -109.51
-    },
-    "links_count": 2,
-    "objectID": "7076"
-  },
-  {
-    "name": "Canyonlands Field",
-    "city": "Moab",
-    "country": "United States",
-    "iata_code": "CNY",
-    "_geoloc": {
-      "lat": 38.755,
-      "lng": -109.754722
-    },
-    "links_count": 2,
-    "objectID": "7074"
-  },
-  {
-    "name": "LM Clayton Airport",
-    "city": "Wolf Point",
-    "country": "United States",
-    "iata_code": "OLF",
-    "_geoloc": {
-      "lat": 48.094444,
-      "lng": -105.575
-    },
-    "links_count": 2,
-    "objectID": "7071"
-  },
-  {
-    "name": "Dawson Community Airport",
-    "city": "Glendive",
-    "country": "United States",
-    "iata_code": "GDV",
-    "_geoloc": {
-      "lat": 47.138611,
-      "lng": -104.807222
-    },
-    "links_count": 2,
-    "objectID": "7070"
-  },
-  {
-    "name": "McCook Regional Airport",
-    "city": "McCook",
-    "country": "United States",
-    "iata_code": "MCK",
-    "_geoloc": {
-      "lat": 40.206389,
-      "lng": -100.592222
-    },
-    "links_count": 2,
-    "objectID": "7068"
-  },
-  {
-    "name": "Sidney-Richland Municipal Airport",
-    "city": "Sidney",
-    "country": "United States",
-    "iata_code": "SDY",
-    "_geoloc": {
-      "lat": 47.706944,
-      "lng": -104.1925
-    },
-    "links_count": 2,
-    "objectID": "7065"
-  },
-  {
-    "name": "Manistee County-Blacker Airport",
-    "city": "Manistee",
-    "country": "United States",
-    "iata_code": "MBL",
-    "_geoloc": {
-      "lat": 44.2725,
-      "lng": -86.246944
-    },
-    "links_count": 2,
-    "objectID": "7054"
-  },
-  {
-    "name": "Gunnison - Crested Butte",
-    "city": "Gunnison",
-    "country": "United States",
-    "iata_code": "GUC",
-    "_geoloc": {
-      "lat": 38.533889,
-      "lng": -106.933056
-    },
-    "links_count": 2,
-    "objectID": "7051"
   },
   {
     "name": "Gelendzik",
@@ -33610,30 +29338,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "703"
-  },
-  {
-    "name": "Thief River Falls",
-    "city": "Thief River Falls",
-    "country": "United States",
-    "iata_code": "TVF",
-    "_geoloc": {
-      "lat": 48.065556,
-      "lng": -96.185
-    },
-    "links_count": 2,
-    "objectID": "7018"
-  },
-  {
-    "name": "St. Augustine Airport",
-    "city": "St. Augustine Airport",
-    "country": "United States",
-    "iata_code": "UST",
-    "_geoloc": {
-      "lat": 29.959167,
-      "lng": -81.339722
-    },
-    "links_count": 2,
-    "objectID": "6989"
   },
   {
     "name": "Tunoshna",
@@ -33672,42 +29376,6 @@ export const airportData = [
     "objectID": "6916"
   },
   {
-    "name": "Eastern Oregon Regional Airport",
-    "city": "Pendleton",
-    "country": "United States",
-    "iata_code": "PDT",
-    "_geoloc": {
-      "lat": 45.695,
-      "lng": -118.841389
-    },
-    "links_count": 2,
-    "objectID": "6883"
-  },
-  {
-    "name": "Riverton Regional",
-    "city": "Riverton WY",
-    "country": "United States",
-    "iata_code": "RIW",
-    "_geoloc": {
-      "lat": 43.064167,
-      "lng": -108.459722
-    },
-    "links_count": 2,
-    "objectID": "6881"
-  },
-  {
-    "name": "Montrose Regional Airport",
-    "city": "Montrose CO",
-    "country": "United States",
-    "iata_code": "MTJ",
-    "_geoloc": {
-      "lat": 38.509794,
-      "lng": -107.894242
-    },
-    "links_count": 2,
-    "objectID": "6880"
-  },
-  {
     "name": "Williamson Country Regional Airport",
     "city": "Marion",
     "country": "United States",
@@ -33730,18 +29398,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "6814"
-  },
-  {
-    "name": "Delta County Airport",
-    "city": "Escanaba",
-    "country": "United States",
-    "iata_code": "ESC",
-    "_geoloc": {
-      "lat": 45.722778,
-      "lng": -87.093611
-    },
-    "links_count": 2,
-    "objectID": "6800"
   },
   {
     "name": "Orange Airport",
@@ -33852,54 +29508,6 @@ export const airportData = [
     "objectID": "6770"
   },
   {
-    "name": "Togiak Airport",
-    "city": "Togiak Village",
-    "country": "United States",
-    "iata_code": "TOG",
-    "_geoloc": {
-      "lat": 59.0528,
-      "lng": -160.397
-    },
-    "links_count": 2,
-    "objectID": "6767"
-  },
-  {
-    "name": "Port Heiden Airport",
-    "city": "Port Heiden",
-    "country": "United States",
-    "iata_code": "PTH",
-    "_geoloc": {
-      "lat": 56.9591,
-      "lng": -158.633
-    },
-    "links_count": 2,
-    "objectID": "6766"
-  },
-  {
-    "name": "King Cove Airport",
-    "city": "King Cove",
-    "country": "United States",
-    "iata_code": "KVC",
-    "_geoloc": {
-      "lat": 55.1163,
-      "lng": -162.266
-    },
-    "links_count": 2,
-    "objectID": "6765"
-  },
-  {
-    "name": "Igiugig Airport",
-    "city": "Igiugig",
-    "country": "United States",
-    "iata_code": "IGG",
-    "_geoloc": {
-      "lat": 59.324,
-      "lng": -155.902
-    },
-    "links_count": 2,
-    "objectID": "6763"
-  },
-  {
     "name": "Burgos Airport",
     "city": "Burgos",
     "country": "Spain",
@@ -33996,30 +29604,6 @@ export const airportData = [
     "objectID": "6733"
   },
   {
-    "name": "Arctic Village Airport",
-    "city": "Arctic Village",
-    "country": "United States",
-    "iata_code": "ARC",
-    "_geoloc": {
-      "lat": 68.1147,
-      "lng": -145.579
-    },
-    "links_count": 2,
-    "objectID": "6729"
-  },
-  {
-    "name": "Mekoryuk Airport",
-    "city": "Mekoryuk",
-    "country": "United States",
-    "iata_code": "MYU",
-    "_geoloc": {
-      "lat": 60.3714,
-      "lng": -166.271
-    },
-    "links_count": 2,
-    "objectID": "6720"
-  },
-  {
     "name": "Geiteryggen",
     "city": "Skien",
     "country": "Norway",
@@ -34066,42 +29650,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "6466"
-  },
-  {
-    "name": "Provincetown Muni",
-    "city": "Provincetown",
-    "country": "United States",
-    "iata_code": "PVC",
-    "_geoloc": {
-      "lat": 42.071945,
-      "lng": -70.22139
-    },
-    "links_count": 2,
-    "objectID": "6456"
-  },
-  {
-    "name": "Boulder City Municipal Airport",
-    "city": "Boulder City",
-    "country": "United States",
-    "iata_code": "BLD",
-    "_geoloc": {
-      "lat": 35.5651,
-      "lng": -114.514
-    },
-    "links_count": 2,
-    "objectID": "6449"
-  },
-  {
-    "name": "Grand Canyon West Airport",
-    "city": "Grand Canyon West",
-    "country": "United States",
-    "iata_code": "GCW",
-    "_geoloc": {
-      "lat": 35.5925,
-      "lng": -113.4859
-    },
-    "links_count": 2,
-    "objectID": "6448"
   },
   {
     "name": "Leirin",
@@ -34512,66 +30060,6 @@ export const airportData = [
     "objectID": "6157"
   },
   {
-    "name": "Lopez Island Airport",
-    "city": "Lopez",
-    "country": "United States",
-    "iata_code": "LPS",
-    "_geoloc": {
-      "lat": 48.4839,
-      "lng": -122.938
-    },
-    "links_count": 2,
-    "objectID": "6136"
-  },
-  {
-    "name": "Grant County Airport",
-    "city": "Silver City",
-    "country": "United States",
-    "iata_code": "SVC",
-    "_geoloc": {
-      "lat": 32.6365,
-      "lng": -108.156
-    },
-    "links_count": 2,
-    "objectID": "6135"
-  },
-  {
-    "name": "Akutan Seaplane Base",
-    "city": "Akutan",
-    "country": "United States",
-    "iata_code": "KQA",
-    "_geoloc": {
-      "lat": 54.1325,
-      "lng": -165.785
-    },
-    "links_count": 2,
-    "objectID": "6134"
-  },
-  {
-    "name": "Mid Delta Regional Airport",
-    "city": "Greenville",
-    "country": "United States",
-    "iata_code": "GLH",
-    "_geoloc": {
-      "lat": 33.4829,
-      "lng": -90.9856
-    },
-    "links_count": 2,
-    "objectID": "6130"
-  },
-  {
-    "name": "Kearney Municipal Airport",
-    "city": "Kearney",
-    "country": "United States",
-    "iata_code": "EAR",
-    "_geoloc": {
-      "lat": 40.727,
-      "lng": -99.0068
-    },
-    "links_count": 2,
-    "objectID": "6129"
-  },
-  {
     "name": "Elista Airport",
     "city": "Elista",
     "country": "Russia",
@@ -34918,18 +30406,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "5980"
-  },
-  {
-    "name": "Adak Airport",
-    "city": "Adak Island",
-    "country": "United States",
-    "iata_code": "ADK",
-    "_geoloc": {
-      "lat": 51.878,
-      "lng": -176.646
-    },
-    "links_count": 2,
-    "objectID": "5959"
   },
   {
     "name": "Sambu Airport",
@@ -35340,210 +30816,6 @@ export const airportData = [
     "objectID": "5781"
   },
   {
-    "name": "Yakima Air Terminal McAllister Field",
-    "city": "Yakima",
-    "country": "United States",
-    "iata_code": "YKM",
-    "_geoloc": {
-      "lat": 46.5682,
-      "lng": -120.544
-    },
-    "links_count": 2,
-    "objectID": "5779"
-  },
-  {
-    "name": "Victoria Regional Airport",
-    "city": "Victoria",
-    "country": "United States",
-    "iata_code": "VCT",
-    "_geoloc": {
-      "lat": 28.8526,
-      "lng": -96.9185
-    },
-    "links_count": 2,
-    "objectID": "5775"
-  },
-  {
-    "name": "Quincy Regional Baldwin Field",
-    "city": "Quincy",
-    "country": "United States",
-    "iata_code": "UIN",
-    "_geoloc": {
-      "lat": 39.9427,
-      "lng": -91.1946
-    },
-    "links_count": 2,
-    "objectID": "5774"
-  },
-  {
-    "name": "Salina Municipal Airport",
-    "city": "Salina",
-    "country": "United States",
-    "iata_code": "SLN",
-    "_geoloc": {
-      "lat": 38.791,
-      "lng": -97.6522
-    },
-    "links_count": 2,
-    "objectID": "5771"
-  },
-  {
-    "name": "Adirondack Regional Airport",
-    "city": "Saranac Lake",
-    "country": "United States",
-    "iata_code": "SLK",
-    "_geoloc": {
-      "lat": 44.3853,
-      "lng": -74.2062
-    },
-    "links_count": 2,
-    "objectID": "5770"
-  },
-  {
-    "name": "Sheridan County Airport",
-    "city": "Sheridan",
-    "country": "United States",
-    "iata_code": "SHR",
-    "_geoloc": {
-      "lat": 44.7692,
-      "lng": -106.98
-    },
-    "links_count": 2,
-    "objectID": "5769"
-  },
-  {
-    "name": "Rutland State Airport",
-    "city": "Rutland",
-    "country": "United States",
-    "iata_code": "RUT",
-    "_geoloc": {
-      "lat": 43.5294,
-      "lng": -72.9496
-    },
-    "links_count": 2,
-    "objectID": "5767"
-  },
-  {
-    "name": "Pease International Tradeport",
-    "city": "Portsmouth",
-    "country": "United States",
-    "iata_code": "PSM",
-    "_geoloc": {
-      "lat": 43.0779,
-      "lng": -70.8233
-    },
-    "links_count": 2,
-    "objectID": "5763"
-  },
-  {
-    "name": "Pellston Regional Airport of Emmet County Airport",
-    "city": "Pellston",
-    "country": "United States",
-    "iata_code": "PLN",
-    "_geoloc": {
-      "lat": 45.5709,
-      "lng": -84.7967
-    },
-    "links_count": 2,
-    "objectID": "5762"
-  },
-  {
-    "name": "Pocatello Regional Airport",
-    "city": "Pocatello",
-    "country": "United States",
-    "iata_code": "PIH",
-    "_geoloc": {
-      "lat": 42.9098,
-      "lng": -112.596
-    },
-    "links_count": 2,
-    "objectID": "5760"
-  },
-  {
-    "name": "Hattiesburg Laurel Regional Airport",
-    "city": "Hattiesburg/Laurel",
-    "country": "United States",
-    "iata_code": "PIB",
-    "_geoloc": {
-      "lat": 31.4671,
-      "lng": -89.3371
-    },
-    "links_count": 2,
-    "objectID": "5759"
-  },
-  {
-    "name": "Northwest Alabama Regional Airport",
-    "city": "Muscle Shoals",
-    "country": "United States",
-    "iata_code": "MSL",
-    "_geoloc": {
-      "lat": 34.7453,
-      "lng": -87.6102
-    },
-    "links_count": 2,
-    "objectID": "5756"
-  },
-  {
-    "name": "Muskegon County Airport",
-    "city": "Muskegon",
-    "country": "United States",
-    "iata_code": "MKG",
-    "_geoloc": {
-      "lat": 43.1695,
-      "lng": -86.2382
-    },
-    "links_count": 2,
-    "objectID": "5754"
-  },
-  {
-    "name": "Lancaster Airport",
-    "city": "Lancaster",
-    "country": "United States",
-    "iata_code": "LNS",
-    "_geoloc": {
-      "lat": 40.1217,
-      "lng": -76.2961
-    },
-    "links_count": 2,
-    "objectID": "5751"
-  },
-  {
-    "name": "North Platte Regional Airport Lee Bird Field",
-    "city": "North Platte",
-    "country": "United States",
-    "iata_code": "LBF",
-    "_geoloc": {
-      "lat": 41.1262,
-      "lng": -100.684
-    },
-    "links_count": 2,
-    "objectID": "5748"
-  },
-  {
-    "name": "Laramie Regional Airport",
-    "city": "Laramie",
-    "country": "United States",
-    "iata_code": "LAR",
-    "_geoloc": {
-      "lat": 41.3121,
-      "lng": -105.675
-    },
-    "links_count": 2,
-    "objectID": "5746"
-  },
-  {
-    "name": "Kirksville Regional Airport",
-    "city": "Kirksville",
-    "country": "United States",
-    "iata_code": "IRK",
-    "_geoloc": {
-      "lat": 40.0935,
-      "lng": -92.5449
-    },
-    "links_count": 2,
-    "objectID": "5744"
-  },
-  {
     "name": "Wokal Field Glasgow International Airport",
     "city": "Glasgow",
     "country": "United States",
@@ -35556,90 +30828,6 @@ export const airportData = [
     "objectID": "5739"
   },
   {
-    "name": "Elko Regional Airport",
-    "city": "Elko",
-    "country": "United States",
-    "iata_code": "EKO",
-    "_geoloc": {
-      "lat": 40.8249,
-      "lng": -115.792
-    },
-    "links_count": 2,
-    "objectID": "5736"
-  },
-  {
-    "name": "Chippewa Valley Regional Airport",
-    "city": "Eau Claire",
-    "country": "United States",
-    "iata_code": "EAU",
-    "_geoloc": {
-      "lat": 44.8658,
-      "lng": -91.4843
-    },
-    "links_count": 2,
-    "objectID": "5735"
-  },
-  {
-    "name": "Houghton County Memorial Airport",
-    "city": "Hancock",
-    "country": "United States",
-    "iata_code": "CMX",
-    "_geoloc": {
-      "lat": 47.1684,
-      "lng": -88.4891
-    },
-    "links_count": 2,
-    "objectID": "5732"
-  },
-  {
-    "name": "William R Fairchild International Airport",
-    "city": "Port Angeles",
-    "country": "United States",
-    "iata_code": "CLM",
-    "_geoloc": {
-      "lat": 48.1202,
-      "lng": -123.5
-    },
-    "links_count": 2,
-    "objectID": "5731"
-  },
-  {
-    "name": "Chippewa County International Airport",
-    "city": "Sault Ste Marie",
-    "country": "United States",
-    "iata_code": "CIU",
-    "_geoloc": {
-      "lat": 46.2508,
-      "lng": -84.4724
-    },
-    "links_count": 2,
-    "objectID": "5729"
-  },
-  {
-    "name": "Cape Girardeau Regional Airport",
-    "city": "Cape Girardeau",
-    "country": "United States",
-    "iata_code": "CGI",
-    "_geoloc": {
-      "lat": 37.2253,
-      "lng": -89.5708
-    },
-    "links_count": 2,
-    "objectID": "5728"
-  },
-  {
-    "name": "Western Nebraska Regional Airport",
-    "city": "Scottsbluff",
-    "country": "United States",
-    "iata_code": "BFF",
-    "_geoloc": {
-      "lat": 41.874,
-      "lng": -103.596
-    },
-    "links_count": 2,
-    "objectID": "5723"
-  },
-  {
     "name": "Walla Walla Regional Airport",
     "city": "Walla Walla",
     "country": "United States",
@@ -35650,30 +30838,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "5719"
-  },
-  {
-    "name": "Athens Ben Epps Airport",
-    "city": "Athens",
-    "country": "United States",
-    "iata_code": "AHN",
-    "_geoloc": {
-      "lat": 33.9486,
-      "lng": -83.3263
-    },
-    "links_count": 2,
-    "objectID": "5716"
-  },
-  {
-    "name": "Aberdeen Regional Airport",
-    "city": "Aberdeen",
-    "country": "United States",
-    "iata_code": "ABR",
-    "_geoloc": {
-      "lat": 45.4491,
-      "lng": -98.4218
-    },
-    "links_count": 2,
-    "objectID": "5714"
   },
   {
     "name": "Arua Airport",
@@ -36228,42 +31392,6 @@ export const airportData = [
     "objectID": "4349"
   },
   {
-    "name": "Yampa Valley",
-    "city": "Hayden",
-    "country": "United States",
-    "iata_code": "HDN",
-    "_geoloc": {
-      "lat": 40.481181,
-      "lng": -107.21766
-    },
-    "links_count": 2,
-    "objectID": "4339"
-  },
-  {
-    "name": "Cortez Muni",
-    "city": "Cortez",
-    "country": "United States",
-    "iata_code": "CEZ",
-    "_geoloc": {
-      "lat": 37.303,
-      "lng": -108.628056
-    },
-    "links_count": 2,
-    "objectID": "4338"
-  },
-  {
-    "name": "Key Field",
-    "city": "Meridian",
-    "country": "United States",
-    "iata_code": "MEI",
-    "_geoloc": {
-      "lat": 32.332624,
-      "lng": -88.751868
-    },
-    "links_count": 2,
-    "objectID": "4335"
-  },
-  {
     "name": "Ogle",
     "city": "Georgetown",
     "country": "Guyana",
@@ -36300,18 +31428,6 @@ export const airportData = [
     "objectID": "429"
   },
   {
-    "name": "Bemidji Regional Airport",
-    "city": "Bemidji",
-    "country": "United States",
-    "iata_code": "BJI",
-    "_geoloc": {
-      "lat": 47.510722,
-      "lng": -94.934722
-    },
-    "links_count": 2,
-    "objectID": "4287"
-  },
-  {
     "name": "Monaco",
     "city": "Monaco",
     "country": "Monaco",
@@ -36322,18 +31438,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "4264"
-  },
-  {
-    "name": "Magic Valley Regional Airport",
-    "city": "Twin Falls",
-    "country": "United States",
-    "iata_code": "TWF",
-    "_geoloc": {
-      "lat": 42.481803,
-      "lng": -114.487733
-    },
-    "links_count": 2,
-    "objectID": "4263"
   },
   {
     "name": "Eagle Co Rgnl",
@@ -36540,30 +31644,6 @@ export const airportData = [
     "objectID": "4126"
   },
   {
-    "name": "Barkley Regional Airport",
-    "city": "PADUCAH",
-    "country": "United States",
-    "iata_code": "PAH",
-    "_geoloc": {
-      "lat": 37.0602875,
-      "lng": -88.7729583
-    },
-    "links_count": 2,
-    "objectID": "4117"
-  },
-  {
-    "name": "Mid-Ohio Valley Regional Airport",
-    "city": "PARKERSBURG",
-    "country": "United States",
-    "iata_code": "PKB",
-    "_geoloc": {
-      "lat": 39.3451039,
-      "lng": -81.4392031
-    },
-    "links_count": 2,
-    "objectID": "4114"
-  },
-  {
     "name": "Vancouver Coal Harbour",
     "city": "Vancouver",
     "country": "Canada",
@@ -36658,30 +31738,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "4051"
-  },
-  {
-    "name": "Knox County Regional Airport",
-    "city": "Rockland",
-    "country": "United States",
-    "iata_code": "RKD",
-    "_geoloc": {
-      "lat": 44.0601111,
-      "lng": -69.0992303
-    },
-    "links_count": 2,
-    "objectID": "4026"
-  },
-  {
-    "name": "Hancock County - Bar Harbor",
-    "city": "Bar Harbor",
-    "country": "United States",
-    "iata_code": "BHB",
-    "_geoloc": {
-      "lat": 44.4497689,
-      "lng": -68.3615653
-    },
-    "links_count": 2,
-    "objectID": "4025"
   },
   {
     "name": "Bert Mooney Airport",
@@ -36816,30 +31872,6 @@ export const airportData = [
     "objectID": "3805"
   },
   {
-    "name": "Scott Afb Midamerica",
-    "city": "Belleville",
-    "country": "United States",
-    "iata_code": "BLV",
-    "_geoloc": {
-      "lat": 38.545178,
-      "lng": -89.835183
-    },
-    "links_count": 2,
-    "objectID": "3790"
-  },
-  {
-    "name": "Lea Co Rgnl",
-    "city": "Hobbs",
-    "country": "United States",
-    "iata_code": "HOB",
-    "_geoloc": {
-      "lat": 32.687528,
-      "lng": -103.217028
-    },
-    "links_count": 2,
-    "objectID": "3749"
-  },
-  {
     "name": "Augsburg",
     "city": "Augsburg",
     "country": "Germany",
@@ -36888,30 +31920,6 @@ export const airportData = [
     "objectID": "3701"
   },
   {
-    "name": "Waynesville Rgnl Arpt At Forney Fld",
-    "city": "Fort Leonardwood",
-    "country": "United States",
-    "iata_code": "TBN",
-    "_geoloc": {
-      "lat": 37.741631,
-      "lng": -92.140736
-    },
-    "links_count": 2,
-    "objectID": "3665"
-  },
-  {
-    "name": "Chisholm Hibbing",
-    "city": "Hibbing",
-    "country": "United States",
-    "iata_code": "HIB",
-    "_geoloc": {
-      "lat": 47.3866,
-      "lng": -92.838994
-    },
-    "links_count": 2,
-    "objectID": "3650"
-  },
-  {
     "name": "Teterboro",
     "city": "Teterboro",
     "country": "United States",
@@ -36936,30 +31944,6 @@ export const airportData = [
     "objectID": "362"
   },
   {
-    "name": "Scappoose Industrial Airpark",
-    "city": "San Luis",
-    "country": "United States",
-    "iata_code": "SPB",
-    "_geoloc": {
-      "lat": 45.771028,
-      "lng": -122.861833
-    },
-    "links_count": 2,
-    "objectID": "3616"
-  },
-  {
-    "name": "Havre City Co",
-    "city": "Havre",
-    "country": "United States",
-    "iata_code": "HVR",
-    "_geoloc": {
-      "lat": 48.542983,
-      "lng": -109.762342
-    },
-    "links_count": 2,
-    "objectID": "3604"
-  },
-  {
     "name": "Cavern City Air Terminal",
     "city": "Carlsbad",
     "country": "United States",
@@ -36972,18 +31956,6 @@ export const airportData = [
     "objectID": "3597"
   },
   {
-    "name": "Jonesboro Muni",
-    "city": "Jonesboro",
-    "country": "United States",
-    "iata_code": "JBR",
-    "_geoloc": {
-      "lat": 35.831708,
-      "lng": -90.646417
-    },
-    "links_count": 2,
-    "objectID": "3591"
-  },
-  {
     "name": "Mannheim City",
     "city": "Mannheim",
     "country": "Germany",
@@ -36994,42 +31966,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "356"
-  },
-  {
-    "name": "Massena Intl Richards Fld",
-    "city": "Massena",
-    "country": "United States",
-    "iata_code": "MSS",
-    "_geoloc": {
-      "lat": 44.935833,
-      "lng": -74.845547
-    },
-    "links_count": 2,
-    "objectID": "3546"
-  },
-  {
-    "name": "Waimea Kohala",
-    "city": "Kamuela",
-    "country": "United States",
-    "iata_code": "MUE",
-    "_geoloc": {
-      "lat": 20.001328,
-      "lng": -155.668108
-    },
-    "links_count": 2,
-    "objectID": "3545"
-  },
-  {
-    "name": "Pueblo Memorial",
-    "city": "Pueblo",
-    "country": "United States",
-    "iata_code": "PUB",
-    "_geoloc": {
-      "lat": 38.289085,
-      "lng": -104.496572
-    },
-    "links_count": 2,
-    "objectID": "3527"
   },
   {
     "name": "Ernest A Love Fld",
@@ -37054,54 +31990,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "3445"
-  },
-  {
-    "name": "Platinum",
-    "city": "Port Moller",
-    "country": "United States",
-    "iata_code": "PTU",
-    "_geoloc": {
-      "lat": 59.011356,
-      "lng": -161.819664
-    },
-    "links_count": 2,
-    "objectID": "3430"
-  },
-  {
-    "name": "Iliamna",
-    "city": "Iliamna",
-    "country": "United States",
-    "iata_code": "ILI",
-    "_geoloc": {
-      "lat": 59.754356,
-      "lng": -154.910961
-    },
-    "links_count": 2,
-    "objectID": "3429"
-  },
-  {
-    "name": "Tatalina Lrrs",
-    "city": "Tatalina",
-    "country": "United States",
-    "iata_code": "TLJ",
-    "_geoloc": {
-      "lat": 62.894369,
-      "lng": -155.976525
-    },
-    "links_count": 2,
-    "objectID": "3423"
-  },
-  {
-    "name": "Cape Lisburne Lrrs",
-    "city": "Cape Lisburne",
-    "country": "United States",
-    "iata_code": "LUR",
-    "_geoloc": {
-      "lat": 68.875133,
-      "lng": -166.110022
-    },
-    "links_count": 2,
-    "objectID": "3413"
   },
   {
     "name": "Noto",
@@ -39214,42 +34102,6 @@ export const airportData = [
     },
     "links_count": 1,
     "objectID": "7369"
-  },
-  {
-    "name": "Zachar Bay Seaplane Base",
-    "city": "Zachar Bay",
-    "country": "United States",
-    "iata_code": "KZB",
-    "_geoloc": {
-      "lat": 57.55,
-      "lng": -153.75
-    },
-    "links_count": 1,
-    "objectID": "7176"
-  },
-  {
-    "name": "Port Williams Seaplane Base",
-    "city": "Port Williams",
-    "country": "United States",
-    "iata_code": "KPR",
-    "_geoloc": {
-      "lat": 58.49,
-      "lng": -152.582222
-    },
-    "links_count": 1,
-    "objectID": "7172"
-  },
-  {
-    "name": "Karuluk Airport",
-    "city": "Karluk",
-    "country": "United States",
-    "iata_code": "KYK",
-    "_geoloc": {
-      "lat": 57.566944,
-      "lng": -154.450278
-    },
-    "links_count": 1,
-    "objectID": "7161"
   },
   {
     "name": "Dalanzadgad Airport",
