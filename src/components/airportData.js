@@ -7572,18 +7572,6 @@ export const airportData = [
     "objectID": "2430"
   },
   {
-    "name": "Kagoshima",
-    "city": "Kagoshima",
-    "country": "Japan",
-    "iata_code": "KOJ",
-    "_geoloc": {
-      "lat": 31.803397,
-      "lng": 130.719408
-    },
-    "links_count": 36,
-    "objectID": "2307"
-  },
-  {
     "name": "Toncontin Intl",
     "city": "Tegucigalpa",
     "country": "Honduras",
@@ -7812,18 +7800,6 @@ export const airportData = [
     "objectID": "2326"
   },
   {
-    "name": "Komatsu",
-    "city": "Kanazawa",
-    "country": "Japan",
-    "iata_code": "KMQ",
-    "_geoloc": {
-      "lat": 36.394611,
-      "lng": 136.406544
-    },
-    "links_count": 34,
-    "objectID": "2322"
-  },
-  {
     "name": "Nagasaki",
     "city": "Nagasaki",
     "country": "Japan",
@@ -8026,18 +8002,6 @@ export const airportData = [
     },
     "links_count": 32,
     "objectID": "6343"
-  },
-  {
-    "name": "Niigata",
-    "city": "Niigata",
-    "country": "Japan",
-    "iata_code": "KIJ",
-    "_geoloc": {
-      "lat": 37.5711,
-      "lng": 139.0646
-    },
-    "links_count": 32,
-    "objectID": "4381"
   },
   {
     "name": "Novyi Urengoy",
@@ -8856,18 +8820,6 @@ export const airportData = [
     "objectID": "2848"
   },
   {
-    "name": "Ishigaki",
-    "city": "Ishigaki",
-    "country": "Japan",
-    "iata_code": "ISG",
-    "_geoloc": {
-      "lat": 24.344525,
-      "lng": 124.186983
-    },
-    "links_count": 28,
-    "objectID": "2387"
-  },
-  {
     "name": "Quetta",
     "city": "Quetta",
     "country": "Pakistan",
@@ -9276,18 +9228,6 @@ export const airportData = [
     "objectID": "2443"
   },
   {
-    "name": "Okayama",
-    "city": "Okayama",
-    "country": "Japan",
-    "iata_code": "OKJ",
-    "_geoloc": {
-      "lat": 34.756944,
-      "lng": 133.855278
-    },
-    "links_count": 26,
-    "objectID": "2327"
-  },
-  {
     "name": "Taif",
     "city": "Taif",
     "country": "Saudi Arabia",
@@ -9658,18 +9598,6 @@ export const airportData = [
     },
     "links_count": 24,
     "objectID": "2554"
-  },
-  {
-    "name": "Matsuyama",
-    "city": "Matsuyama",
-    "country": "Japan",
-    "iata_code": "MYJ",
-    "_geoloc": {
-      "lat": 33.827222,
-      "lng": 132.699722
-    },
-    "links_count": 24,
-    "objectID": "2333"
   },
   {
     "name": "Multan Intl",
@@ -10210,18 +10138,6 @@ export const airportData = [
     },
     "links_count": 22,
     "objectID": "2575"
-  },
-  {
-    "name": "Miyazaki",
-    "city": "Miyazaki",
-    "country": "Japan",
-    "iata_code": "KMI",
-    "_geoloc": {
-      "lat": 31.877222,
-      "lng": 131.448611
-    },
-    "links_count": 22,
-    "objectID": "2308"
   },
   {
     "name": "Zahedan Intl",
@@ -10786,18 +10702,6 @@ export const airportData = [
     },
     "links_count": 20,
     "objectID": "2429"
-  },
-  {
-    "name": "Hakodate",
-    "city": "Hakodate",
-    "country": "Japan",
-    "iata_code": "HKD",
-    "_geoloc": {
-      "lat": 41.77,
-      "lng": 140.821944
-    },
-    "links_count": 20,
-    "objectID": "2288"
   },
   {
     "name": "Francisco C Ada Saipan Intl",
@@ -11482,42 +11386,6 @@ export const airportData = [
     },
     "links_count": 18,
     "objectID": "2433"
-  },
-  {
-    "name": "Toyama",
-    "city": "Toyama",
-    "country": "Japan",
-    "iata_code": "TOY",
-    "_geoloc": {
-      "lat": 36.648333,
-      "lng": 137.1875
-    },
-    "links_count": 18,
-    "objectID": "2324"
-  },
-  {
-    "name": "Kumamoto",
-    "city": "Kumamoto",
-    "country": "Japan",
-    "iata_code": "KMJ",
-    "_geoloc": {
-      "lat": 32.837319,
-      "lng": 130.85505
-    },
-    "links_count": 18,
-    "objectID": "2312"
-  },
-  {
-    "name": "Oita",
-    "city": "Oita",
-    "country": "Japan",
-    "iata_code": "OIT",
-    "_geoloc": {
-      "lat": 33.479444,
-      "lng": 131.737222
-    },
-    "links_count": 18,
-    "objectID": "2310"
   },
   {
     "name": "Annaba",
@@ -12358,42 +12226,6 @@ export const airportData = [
     },
     "links_count": 16,
     "objectID": "2619"
-  },
-  {
-    "name": "Akita",
-    "city": "Akita",
-    "country": "Japan",
-    "iata_code": "AXT",
-    "_geoloc": {
-      "lat": 39.615556,
-      "lng": 140.218611
-    },
-    "links_count": 16,
-    "objectID": "2345"
-  },
-  {
-    "name": "Takamatsu",
-    "city": "Takamatsu",
-    "country": "Japan",
-    "iata_code": "TAK",
-    "_geoloc": {
-      "lat": 34.214167,
-      "lng": 134.015556
-    },
-    "links_count": 16,
-    "objectID": "2337"
-  },
-  {
-    "name": "Yonago Kitaro",
-    "city": "Miho",
-    "country": "Japan",
-    "iata_code": "YGJ",
-    "_geoloc": {
-      "lat": 35.492222,
-      "lng": 133.236389
-    },
-    "links_count": 16,
-    "objectID": "2330"
   },
   {
     "name": "Basrah Intl",
@@ -13438,18 +13270,6 @@ export const airportData = [
     },
     "links_count": 14,
     "objectID": "2400"
-  },
-  {
-    "name": "Asahikawa",
-    "city": "Asahikawa",
-    "country": "Japan",
-    "iata_code": "AKJ",
-    "_geoloc": {
-      "lat": 43.670833,
-      "lng": 142.4475
-    },
-    "links_count": 14,
-    "objectID": "2299"
   },
   {
     "name": "Salalah",
@@ -14748,18 +14568,6 @@ export const airportData = [
     "objectID": "230"
   },
   {
-    "name": "Memanbetsu",
-    "city": "Memanbetsu",
-    "country": "Japan",
-    "iata_code": "MMB",
-    "_geoloc": {
-      "lat": 43.880606,
-      "lng": 144.164053
-    },
-    "links_count": 12,
-    "objectID": "2290"
-  },
-  {
     "name": "Chah Bahar",
     "city": "Chah Bahar",
     "country": "Iran",
@@ -15636,18 +15444,6 @@ export const airportData = [
     "objectID": "6011"
   },
   {
-    "name": "Kushiro Airport",
-    "city": "Kushiro",
-    "country": "Japan",
-    "iata_code": "KUH",
-    "_geoloc": {
-      "lat": 43.041,
-      "lng": 144.193
-    },
-    "links_count": 10,
-    "objectID": "5994"
-  },
-  {
     "name": "Sayun International Airport",
     "city": "Sayun Intl",
     "country": "Yemen",
@@ -16306,42 +16102,6 @@ export const airportData = [
     },
     "links_count": 10,
     "objectID": "2422"
-  },
-  {
-    "name": "Miyako",
-    "city": "Miyako",
-    "country": "Japan",
-    "iata_code": "MMY",
-    "_geoloc": {
-      "lat": 24.782833,
-      "lng": 125.295111
-    },
-    "links_count": 10,
-    "objectID": "2390"
-  },
-  {
-    "name": "Aomori",
-    "city": "Aomori",
-    "country": "Japan",
-    "iata_code": "AOJ",
-    "_geoloc": {
-      "lat": 40.734722,
-      "lng": 140.690833
-    },
-    "links_count": 10,
-    "objectID": "2340"
-  },
-  {
-    "name": "Hyakuri",
-    "city": "Ibaraki",
-    "country": "Japan",
-    "iata_code": "IBR",
-    "_geoloc": {
-      "lat": 36.181083,
-      "lng": 140.415444
-    },
-    "links_count": 10,
-    "objectID": "2281"
   },
   {
     "name": "Magong",
@@ -18624,18 +18384,6 @@ export const airportData = [
     "objectID": "235"
   },
   {
-    "name": "Hanamaki",
-    "city": "Hanamaki",
-    "country": "Japan",
-    "iata_code": "HNA",
-    "_geoloc": {
-      "lat": 39.428611,
-      "lng": 141.135278
-    },
-    "links_count": 8,
-    "objectID": "2344"
-  },
-  {
     "name": "Kochi",
     "city": "Kochi",
     "country": "Japan",
@@ -18646,18 +18394,6 @@ export const airportData = [
     },
     "links_count": 8,
     "objectID": "2332"
-  },
-  {
-    "name": "Fukue",
-    "city": "Fukue",
-    "country": "Japan",
-    "iata_code": "FUJ",
-    "_geoloc": {
-      "lat": 32.666269,
-      "lng": 128.832808
-    },
-    "links_count": 8,
-    "objectID": "2304"
   },
   {
     "name": "Hualien",
@@ -21732,66 +21468,6 @@ export const airportData = [
     "objectID": "2365"
   },
   {
-    "name": "Yamagata",
-    "city": "Yamagata",
-    "country": "Japan",
-    "iata_code": "GAJ",
-    "_geoloc": {
-      "lat": 38.411894,
-      "lng": 140.371331
-    },
-    "links_count": 6,
-    "objectID": "2341"
-  },
-  {
-    "name": "New Kitakyushu",
-    "city": "Kitakyushu",
-    "country": "Japan",
-    "iata_code": "KKJ",
-    "_geoloc": {
-      "lat": 33.845942,
-      "lng": 131.034689
-    },
-    "links_count": 6,
-    "objectID": "2311"
-  },
-  {
-    "name": "Tsushima",
-    "city": "Tsushima",
-    "country": "Japan",
-    "iata_code": "TSJ",
-    "_geoloc": {
-      "lat": 34.284889,
-      "lng": 129.33055
-    },
-    "links_count": 6,
-    "objectID": "2297"
-  },
-  {
-    "name": "Yamaguchi Ube",
-    "city": "Yamaguchi",
-    "country": "Japan",
-    "iata_code": "UBJ",
-    "_geoloc": {
-      "lat": 33.93,
-      "lng": 131.278611
-    },
-    "links_count": 6,
-    "objectID": "2296"
-  },
-  {
-    "name": "Obihiro",
-    "city": "Obihiro",
-    "country": "Japan",
-    "iata_code": "OBO",
-    "_geoloc": {
-      "lat": 42.733333,
-      "lng": 143.217222
-    },
-    "links_count": 6,
-    "objectID": "2286"
-  },
-  {
     "name": "Pohnpei Intl",
     "city": "Pohnpei",
     "country": "Micronesia",
@@ -22522,18 +22198,6 @@ export const airportData = [
     },
     "links_count": 5,
     "objectID": "6266"
-  },
-  {
-    "name": "Saga Airport",
-    "city": "Saga",
-    "country": "Japan",
-    "iata_code": "HSG",
-    "_geoloc": {
-      "lat": 33.1497,
-      "lng": 130.302
-    },
-    "links_count": 5,
-    "objectID": "5996"
   },
   {
     "name": "Dera Ghazi Khan Airport",
@@ -26868,90 +26532,6 @@ export const airportData = [
     "objectID": "236"
   },
   {
-    "name": "Misawa Ab",
-    "city": "Misawa",
-    "country": "Japan",
-    "iata_code": "MSJ",
-    "_geoloc": {
-      "lat": 40.703222,
-      "lng": 141.368364
-    },
-    "links_count": 4,
-    "objectID": "2346"
-  },
-  {
-    "name": "Tokushima",
-    "city": "Tokushima",
-    "country": "Japan",
-    "iata_code": "TKS",
-    "_geoloc": {
-      "lat": 34.132808,
-      "lng": 134.606639
-    },
-    "links_count": 4,
-    "objectID": "2336"
-  },
-  {
-    "name": "Amami",
-    "city": "Amami",
-    "country": "Japan",
-    "iata_code": "ASJ",
-    "_geoloc": {
-      "lat": 28.430633,
-      "lng": 129.712542
-    },
-    "links_count": 4,
-    "objectID": "2316"
-  },
-  {
-    "name": "Iki",
-    "city": "Iki",
-    "country": "Japan",
-    "iata_code": "IKI",
-    "_geoloc": {
-      "lat": 33.749027,
-      "lng": 129.785417
-    },
-    "links_count": 4,
-    "objectID": "2295"
-  },
-  {
-    "name": "Wakkanai",
-    "city": "Wakkanai",
-    "country": "Japan",
-    "iata_code": "WKJ",
-    "_geoloc": {
-      "lat": 45.404167,
-      "lng": 141.800833
-    },
-    "links_count": 4,
-    "objectID": "2294"
-  },
-  {
-    "name": "Nakashibetsu",
-    "city": "Nakashibetsu",
-    "country": "Japan",
-    "iata_code": "SHB",
-    "_geoloc": {
-      "lat": 43.5775,
-      "lng": 144.96
-    },
-    "links_count": 4,
-    "objectID": "2291"
-  },
-  {
-    "name": "Matsumoto",
-    "city": "Matsumoto",
-    "country": "Japan",
-    "iata_code": "MMJ",
-    "_geoloc": {
-      "lat": 36.166758,
-      "lng": 137.922669
-    },
-    "links_count": 4,
-    "objectID": "2280"
-  },
-  {
     "name": "Yap Intl",
     "city": "Yap",
     "country": "Micronesia",
@@ -30360,42 +29940,6 @@ export const airportData = [
     "objectID": "6005"
   },
   {
-    "name": "Shonai Airport",
-    "city": "Shonai",
-    "country": "Japan",
-    "iata_code": "SYO",
-    "_geoloc": {
-      "lat": 38.812222,
-      "lng": 139.787222
-    },
-    "links_count": 2,
-    "objectID": "6001"
-  },
-  {
-    "name": "Odate Noshiro Airport",
-    "city": "Odate Noshiro",
-    "country": "Japan",
-    "iata_code": "ONJ",
-    "_geoloc": {
-      "lat": 40.1919,
-      "lng": 140.371
-    },
-    "links_count": 2,
-    "objectID": "6000"
-  },
-  {
-    "name": "Iwami Airport",
-    "city": "Iwami",
-    "country": "Japan",
-    "iata_code": "IWJ",
-    "_geoloc": {
-      "lat": 34.6764,
-      "lng": 131.79
-    },
-    "links_count": 2,
-    "objectID": "5998"
-  },
-  {
     "name": "Losuia Airport",
     "city": "Losuia",
     "country": "Papua New Guinea",
@@ -31992,18 +31536,6 @@ export const airportData = [
     "objectID": "3445"
   },
   {
-    "name": "Noto",
-    "city": "Wajima",
-    "country": "Japan",
-    "iata_code": "NTQ",
-    "_geoloc": {
-      "lat": 37.293097,
-      "lng": 136.961853
-    },
-    "links_count": 2,
-    "objectID": "3409"
-  },
-  {
     "name": "Tamworth",
     "city": "Tamworth",
     "country": "Australia",
@@ -33082,90 +32614,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "240"
-  },
-  {
-    "name": "Kumejima",
-    "city": "Kumejima",
-    "country": "Japan",
-    "iata_code": "UEO",
-    "_geoloc": {
-      "lat": 26.363506,
-      "lng": 126.713806
-    },
-    "links_count": 2,
-    "objectID": "2388"
-  },
-  {
-    "name": "Oshima",
-    "city": "Oshima",
-    "country": "Japan",
-    "iata_code": "OIM",
-    "_geoloc": {
-      "lat": 34.782033,
-      "lng": 139.360306
-    },
-    "links_count": 2,
-    "objectID": "2356"
-  },
-  {
-    "name": "Hachijojima",
-    "city": "Hachijojima",
-    "country": "Japan",
-    "iata_code": "HAC",
-    "_geoloc": {
-      "lat": 33.115,
-      "lng": 139.785833
-    },
-    "links_count": 2,
-    "objectID": "2352"
-  },
-  {
-    "name": "Tottori",
-    "city": "Tottori",
-    "country": "Japan",
-    "iata_code": "TTJ",
-    "_geoloc": {
-      "lat": 35.530069,
-      "lng": 134.166553
-    },
-    "links_count": 2,
-    "objectID": "2335"
-  },
-  {
-    "name": "Izumo",
-    "city": "Izumo",
-    "country": "Japan",
-    "iata_code": "IZO",
-    "_geoloc": {
-      "lat": 35.413611,
-      "lng": 132.89
-    },
-    "links_count": 2,
-    "objectID": "2328"
-  },
-  {
-    "name": "Monbetsu",
-    "city": "Monbetsu",
-    "country": "Japan",
-    "iata_code": "MBE",
-    "_geoloc": {
-      "lat": 44.303914,
-      "lng": 143.404028
-    },
-    "links_count": 2,
-    "objectID": "2298"
-  },
-  {
-    "name": "Nanki Shirahama",
-    "city": "Nanki-shirahama",
-    "country": "Japan",
-    "iata_code": "SHM",
-    "_geoloc": {
-      "lat": 33.662222,
-      "lng": 135.364444
-    },
-    "links_count": 2,
-    "objectID": "2284"
   },
   {
     "name": "Tainan",
