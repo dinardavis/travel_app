@@ -1044,18 +1044,6 @@ export const airportData = [
     "objectID": "3375"
   },
   {
-    "name": "Stansted",
-    "city": "London",
-    "country": "United Kingdom",
-    "iata_code": "STN",
-    "_geoloc": {
-      "lat": 51.885,
-      "lng": 0.235
-    },
-    "links_count": 343,
-    "objectID": "548"
-  },
-  {
     "name": "Lukou",
     "city": "Nanjing",
     "country": "China",
@@ -1812,18 +1800,6 @@ export const airportData = [
     "objectID": "4120"
   },
   {
-    "name": "Luton",
-    "city": "London",
-    "country": "United Kingdom",
-    "iata_code": "LTN",
-    "_geoloc": {
-      "lat": 51.874722,
-      "lng": -0.368333
-    },
-    "links_count": 214,
-    "objectID": "492"
-  },
-  {
     "name": "Liangjiang",
     "city": "Guilin",
     "country": "China",
@@ -2098,18 +2074,6 @@ export const airportData = [
     },
     "links_count": 194,
     "objectID": "2560"
-  },
-  {
-    "name": "Nottingham East Midlands",
-    "city": "East Midlands",
-    "country": "United Kingdom",
-    "iata_code": "EMA",
-    "_geoloc": {
-      "lat": 52.831111,
-      "lng": -1.328056
-    },
-    "links_count": 192,
-    "objectID": "523"
   },
   {
     "name": "Fuerteventura",
@@ -3046,18 +3010,6 @@ export const airportData = [
     },
     "links_count": 129,
     "objectID": "2264"
-  },
-  {
-    "name": "City",
-    "city": "London",
-    "country": "United Kingdom",
-    "iata_code": "LCY",
-    "_geoloc": {
-      "lat": 51.505278,
-      "lng": 0.055278
-    },
-    "links_count": 128,
-    "objectID": "503"
   },
   {
     "name": "Mashhad",
@@ -20664,18 +20616,6 @@ export const airportData = [
     "objectID": "435"
   },
   {
-    "name": "ISLES OF SCILLY",
-    "city": "ST MARY\\\\'S",
-    "country": "United Kingdom",
-    "iata_code": "ISC",
-    "_geoloc": {
-      "lat": 49.919,
-      "lng": -6.3075
-    },
-    "links_count": 6,
-    "objectID": "4347"
-  },
-  {
     "name": "Columbus Metropolitan Airport",
     "city": "Columbus",
     "country": "United States",
@@ -30550,18 +30490,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "5575"
-  },
-  {
-    "name": "Land's End / St. Just Airport",
-    "city": "Land's End",
-    "country": "United Kingdom",
-    "iata_code": "LEQ",
-    "_geoloc": {
-      "lat": 50.1028,
-      "lng": -5.67056
-    },
-    "links_count": 2,
-    "objectID": "5572"
   },
   {
     "name": "Campbeltown Airport",
