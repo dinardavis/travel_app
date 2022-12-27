@@ -5724,18 +5724,6 @@ export const airportData = [
     "objectID": "2268"
   },
   {
-    "name": "Yellowknife",
-    "city": "Yellowknife",
-    "country": "Canada",
-    "iata_code": "YZF",
-    "_geoloc": {
-      "lat": 62.462778,
-      "lng": -114.440278
-    },
-    "links_count": 58,
-    "objectID": "196"
-  },
-  {
     "name": "Norman Manley Intl",
     "city": "Kingston",
     "country": "Jamaica",
@@ -6396,18 +6384,6 @@ export const airportData = [
     "objectID": "1359"
   },
   {
-    "name": "Rankin Inlet",
-    "city": "Rankin Inlet",
-    "country": "Canada",
-    "iata_code": "YRT",
-    "_geoloc": {
-      "lat": 62.81139,
-      "lng": -92.115833
-    },
-    "links_count": 48,
-    "objectID": "132"
-  },
-  {
     "name": "El Paso Intl",
     "city": "El Paso",
     "country": "United States",
@@ -6610,18 +6586,6 @@ export const airportData = [
     },
     "links_count": 44,
     "objectID": "2944"
-  },
-  {
-    "name": "Sept Iles",
-    "city": "Sept-iles",
-    "country": "Canada",
-    "iata_code": "YZV",
-    "_geoloc": {
-      "lat": 50.223333,
-      "lng": -66.265556
-    },
-    "links_count": 44,
-    "objectID": "202"
   },
   {
     "name": "Casale",
@@ -7332,18 +7296,6 @@ export const airportData = [
     "objectID": "5673"
   },
   {
-    "name": "Iqaluit",
-    "city": "Iqaluit",
-    "country": "Canada",
-    "iata_code": "YFB",
-    "_geoloc": {
-      "lat": 63.75639,
-      "lng": -68.555832
-    },
-    "links_count": 36,
-    "objectID": "55"
-  },
-  {
     "name": "Nantong Airport",
     "city": "Nantong",
     "country": "China",
@@ -7762,18 +7714,6 @@ export const airportData = [
     },
     "links_count": 34,
     "objectID": "2313"
-  },
-  {
-    "name": "Sioux Lookout",
-    "city": "Sioux Lookout",
-    "country": "Canada",
-    "iata_code": "YXL",
-    "_geoloc": {
-      "lat": 50.113889,
-      "lng": -91.905278
-    },
-    "links_count": 34,
-    "objectID": "169"
   },
   {
     "name": "Adana",
@@ -8196,18 +8136,6 @@ export const airportData = [
     "objectID": "2616"
   },
   {
-    "name": "Wabush",
-    "city": "Wabush",
-    "country": "Canada",
-    "iata_code": "YWK",
-    "_geoloc": {
-      "lat": 52.921944,
-      "lng": -66.864444
-    },
-    "links_count": 31,
-    "objectID": "161"
-  },
-  {
     "name": "Santorini",
     "city": "Thira",
     "country": "Greece",
@@ -8230,18 +8158,6 @@ export const airportData = [
     },
     "links_count": 30,
     "objectID": "915"
-  },
-  {
-    "name": "Kelowna",
-    "city": "Kelowna",
-    "country": "Canada",
-    "iata_code": "YLW",
-    "_geoloc": {
-      "lat": 49.956112,
-      "lng": -119.377778
-    },
-    "links_count": 30,
-    "objectID": "87"
   },
   {
     "name": "Nanping Wuyishan Airport",
@@ -8410,18 +8326,6 @@ export const airportData = [
     },
     "links_count": 30,
     "objectID": "1948"
-  },
-  {
-    "name": "Goose Bay",
-    "city": "Goose Bay",
-    "country": "Canada",
-    "iata_code": "YYR",
-    "_geoloc": {
-      "lat": 53.319168,
-      "lng": -60.425833
-    },
-    "links_count": 30,
-    "objectID": "188"
   },
   {
     "name": "General Rafael Buelna Intl",
@@ -8904,18 +8808,6 @@ export const airportData = [
     "objectID": "1850"
   },
   {
-    "name": "Thunder Bay",
-    "city": "Thunder Bay",
-    "country": "Canada",
-    "iata_code": "YQT",
-    "_geoloc": {
-      "lat": 48.371944,
-      "lng": -89.323889
-    },
-    "links_count": 27,
-    "objectID": "121"
-  },
-  {
     "name": "Bujumbura Intl",
     "city": "Bujumbura",
     "country": "Burundi",
@@ -9286,18 +9178,6 @@ export const airportData = [
     },
     "links_count": 26,
     "objectID": "1050"
-  },
-  {
-    "name": "Fort Mcmurray",
-    "city": "Fort Mcmurray",
-    "country": "Canada",
-    "iata_code": "YMM",
-    "_geoloc": {
-      "lat": 56.653333,
-      "lng": -111.221944
-    },
-    "links_count": 25,
-    "objectID": "90"
   },
   {
     "name": "Tokua Airport",
@@ -10752,18 +10632,6 @@ export const airportData = [
     "objectID": "1726"
   },
   {
-    "name": "Prince George",
-    "city": "Prince George",
-    "country": "Canada",
-    "iata_code": "YXS",
-    "_geoloc": {
-      "lat": 53.889444,
-      "lng": -122.678889
-    },
-    "links_count": 20,
-    "objectID": "172"
-  },
-  {
     "name": "Mitilini",
     "city": "Mytilini",
     "country": "Greece",
@@ -10966,18 +10834,6 @@ export const airportData = [
     },
     "links_count": 19,
     "objectID": "2096"
-  },
-  {
-    "name": "Kuujjuaq",
-    "city": "Quujjuaq",
-    "country": "Canada",
-    "iata_code": "YVP",
-    "_geoloc": {
-      "lat": 58.096111,
-      "lng": -68.426944
-    },
-    "links_count": 19,
-    "objectID": "154"
   },
   {
     "name": "Nampula",
@@ -11844,18 +11700,6 @@ export const airportData = [
     "objectID": "5712"
   },
   {
-    "name": "Red Lake Airport",
-    "city": "Red Lake",
-    "country": "Canada",
-    "iata_code": "YRL",
-    "_geoloc": {
-      "lat": 51.0669,
-      "lng": -93.7931
-    },
-    "links_count": 16,
-    "objectID": "5527"
-  },
-  {
     "name": "Inuvik Mike Zubko",
     "city": "Inuvik",
     "country": "Canada",
@@ -12346,18 +12190,6 @@ export const airportData = [
     },
     "links_count": 15,
     "objectID": "6152"
-  },
-  {
-    "name": "Deer Lake",
-    "city": "Deer Lake",
-    "country": "Canada",
-    "iata_code": "YDF",
-    "_geoloc": {
-      "lat": 49.210833,
-      "lng": -57.391388
-    },
-    "links_count": 15,
-    "objectID": "45"
   },
   {
     "name": "Asmara Intl",
