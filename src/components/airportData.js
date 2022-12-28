@@ -14064,18 +14064,6 @@ export const airportData = [
     "objectID": "3183"
   },
   {
-    "name": "Hat Yai Intl",
-    "city": "Hat Yai",
-    "country": "Thailand",
-    "iata_code": "HDY",
-    "_geoloc": {
-      "lat": 6.933206,
-      "lng": 100.392975
-    },
-    "links_count": 12,
-    "objectID": "3181"
-  },
-  {
     "name": "Leh",
     "city": "Leh",
     "country": "India",
@@ -17664,18 +17652,6 @@ export const airportData = [
     "objectID": "4002"
   },
   {
-    "name": "Surat Thani",
-    "city": "Surat Thani",
-    "country": "Thailand",
-    "iata_code": "URT",
-    "_geoloc": {
-      "lat": 9.1325,
-      "lng": 99.135556
-    },
-    "links_count": 8,
-    "objectID": "4000"
-  },
-  {
     "name": "Clyde River",
     "city": "Clyde River",
     "country": "Canada",
@@ -20544,18 +20520,6 @@ export const airportData = [
     "objectID": "3958"
   },
   {
-    "name": "Ubon Ratchathani",
-    "city": "Ubon Ratchathani",
-    "country": "Thailand",
-    "iata_code": "UBP",
-    "_geoloc": {
-      "lat": 15.251278,
-      "lng": 104.870231
-    },
-    "links_count": 6,
-    "objectID": "3937"
-  },
-  {
     "name": "Muhammad Salahuddin",
     "city": "Bima",
     "country": "Indonesia",
@@ -20746,18 +20710,6 @@ export const airportData = [
     },
     "links_count": 6,
     "objectID": "3235"
-  },
-  {
-    "name": "Phitsanulok",
-    "city": "Phitsanulok",
-    "country": "Thailand",
-    "iata_code": "PHS",
-    "_geoloc": {
-      "lat": 16.782939,
-      "lng": 100.279122
-    },
-    "links_count": 6,
-    "objectID": "3170"
   },
   {
     "name": "Rajahmundry",
@@ -25332,18 +25284,6 @@ export const airportData = [
     "objectID": "4154"
   },
   {
-    "name": "Nan",
-    "city": "Nan",
-    "country": "Thailand",
-    "iata_code": "NNT",
-    "_geoloc": {
-      "lat": 18.807914,
-      "lng": 100.783419
-    },
-    "links_count": 4,
-    "objectID": "4131"
-  },
-  {
     "name": "Victoria Inner Harbour Airport",
     "city": "Victoria",
     "country": "Canada",
@@ -25462,42 +25402,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "3984"
-  },
-  {
-    "name": "Khon Kaen",
-    "city": "Khon Kaen",
-    "country": "Thailand",
-    "iata_code": "KKC",
-    "_geoloc": {
-      "lat": 16.466628,
-      "lng": 102.783661
-    },
-    "links_count": 4,
-    "objectID": "3938"
-  },
-  {
-    "name": "Nakhon Phanom",
-    "city": "Nakhon Phanom",
-    "country": "Thailand",
-    "iata_code": "KOP",
-    "_geoloc": {
-      "lat": 17.383794,
-      "lng": 104.643022
-    },
-    "links_count": 4,
-    "objectID": "3936"
-  },
-  {
-    "name": "Nakhon Si Thammarat",
-    "city": "Nakhon Si Thammarat",
-    "country": "Thailand",
-    "iata_code": "NST",
-    "_geoloc": {
-      "lat": 8.539617,
-      "lng": 99.944725
-    },
-    "links_count": 4,
-    "objectID": "3933"
   },
   {
     "name": "Kapalua",
@@ -25654,18 +25558,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "3223"
-  },
-  {
-    "name": "Trang",
-    "city": "Trang",
-    "country": "Thailand",
-    "iata_code": "TST",
-    "_geoloc": {
-      "lat": 7.508744,
-      "lng": 99.616578
-    },
-    "links_count": 4,
-    "objectID": "3182"
   },
   {
     "name": "U Taphao Intl",
@@ -29292,18 +29184,6 @@ export const airportData = [
     "objectID": "619"
   },
   {
-    "name": "Mae Sot Airport",
-    "city": "Tak",
-    "country": "Thailand",
-    "iata_code": "MAQ",
-    "_geoloc": {
-      "lat": 16.699856,
-      "lng": 98.545056
-    },
-    "links_count": 2,
-    "objectID": "6186"
-  },
-  {
     "name": "Nepalgunj Airport",
     "city": "Nepalgunj",
     "country": "Nepal",
@@ -30708,18 +30588,6 @@ export const airportData = [
     "objectID": "4306"
   },
   {
-    "name": "Chumphon",
-    "city": "Chumphon",
-    "country": "Thailand",
-    "iata_code": "CJM",
-    "_geoloc": {
-      "lat": 10.7112,
-      "lng": 99.361706
-    },
-    "links_count": 2,
-    "objectID": "4300"
-  },
-  {
     "name": "Joensuu",
     "city": "Joensuu",
     "country": "Finland",
@@ -30816,18 +30684,6 @@ export const airportData = [
     "objectID": "4160"
   },
   {
-    "name": "Pai",
-    "city": "Pai",
-    "country": "Thailand",
-    "iata_code": "PYY",
-    "_geoloc": {
-      "lat": 19.372,
-      "lng": 98.437
-    },
-    "links_count": 2,
-    "objectID": "4159"
-  },
-  {
     "name": "Ca Mau",
     "city": "Ca Mau",
     "country": "Vietnam",
@@ -30874,54 +30730,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "4142"
-  },
-  {
-    "name": "Trat",
-    "city": "Trat",
-    "country": "Thailand",
-    "iata_code": "TDX",
-    "_geoloc": {
-      "lat": 12.274572,
-      "lng": 102.318958
-    },
-    "links_count": 2,
-    "objectID": "4135"
-  },
-  {
-    "name": "Ranong",
-    "city": "Ranong",
-    "country": "Thailand",
-    "iata_code": "UNN",
-    "_geoloc": {
-      "lat": 9.777622,
-      "lng": 98.585483
-    },
-    "links_count": 2,
-    "objectID": "4134"
-  },
-  {
-    "name": "Buri Ram",
-    "city": "Buri Ram",
-    "country": "Thailand",
-    "iata_code": "BFV",
-    "_geoloc": {
-      "lat": 15.229539,
-      "lng": 103.253231
-    },
-    "links_count": 2,
-    "objectID": "4133"
-  },
-  {
-    "name": "Roi Et",
-    "city": "Roi Et",
-    "country": "Thailand",
-    "iata_code": "ROI",
-    "_geoloc": {
-      "lat": 16.116761,
-      "lng": 103.773797
-    },
-    "links_count": 2,
-    "objectID": "4132"
   },
   {
     "name": "Kuressaare",
@@ -30994,18 +30802,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "4088"
-  },
-  {
-    "name": "Mae Hong Son",
-    "city": "Mae Hong Son",
-    "country": "Thailand",
-    "iata_code": "HGN",
-    "_geoloc": {
-      "lat": 19.301667,
-      "lng": 97.975
-    },
-    "links_count": 2,
-    "objectID": "4086"
   },
   {
     "name": "Xieng Khouang",
@@ -31090,18 +30886,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "3965"
-  },
-  {
-    "name": "Sukhothai",
-    "city": "Sukhothai",
-    "country": "Thailand",
-    "iata_code": "THS",
-    "_geoloc": {
-      "lat": 17.237992,
-      "lng": 99.818183
-    },
-    "links_count": 2,
-    "objectID": "3939"
   },
   {
     "name": "Mau Hau",
@@ -31450,66 +31234,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "3215"
-  },
-  {
-    "name": "Loei",
-    "city": "Loei",
-    "country": "Thailand",
-    "iata_code": "LOE",
-    "_geoloc": {
-      "lat": 17.439133,
-      "lng": 101.722064
-    },
-    "links_count": 2,
-    "objectID": "3186"
-  },
-  {
-    "name": "Sakon Nakhon",
-    "city": "Sakon Nakhon",
-    "country": "Thailand",
-    "iata_code": "SNO",
-    "_geoloc": {
-      "lat": 17.195142,
-      "lng": 104.118625
-    },
-    "links_count": 2,
-    "objectID": "3184"
-  },
-  {
-    "name": "Narathiwat",
-    "city": "Narathiwat",
-    "country": "Thailand",
-    "iata_code": "NAW",
-    "_geoloc": {
-      "lat": 6.519922,
-      "lng": 101.7434
-    },
-    "links_count": 2,
-    "objectID": "3173"
-  },
-  {
-    "name": "Phrae",
-    "city": "Phrae",
-    "country": "Thailand",
-    "iata_code": "PRH",
-    "_geoloc": {
-      "lat": 18.132169,
-      "lng": 100.164664
-    },
-    "links_count": 2,
-    "objectID": "3164"
-  },
-  {
-    "name": "Lampang",
-    "city": "Lampang",
-    "country": "Thailand",
-    "iata_code": "LPT",
-    "_geoloc": {
-      "lat": 18.270933,
-      "lng": 99.504167
-    },
-    "links_count": 2,
-    "objectID": "3163"
   },
   {
     "name": "Agatti",
