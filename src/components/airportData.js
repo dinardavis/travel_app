@@ -3588,18 +3588,6 @@ export const airportData = [
     "objectID": "3269"
   },
   {
-    "name": "Astana Intl",
-    "city": "Tselinograd",
-    "country": "Kazakhstan",
-    "iata_code": "TSE",
-    "_geoloc": {
-      "lat": 51.022222,
-      "lng": 71.466944
-    },
-    "links_count": 104,
-    "objectID": "2910"
-  },
-  {
     "name": "Olbia Costa Smeralda",
     "city": "Olbia",
     "country": "Italy",
@@ -5566,18 +5554,6 @@ export const airportData = [
     },
     "links_count": 60,
     "objectID": "3622"
-  },
-  {
-    "name": "Osh",
-    "city": "Osh",
-    "country": "Kyrgyzstan",
-    "iata_code": "OSS",
-    "_geoloc": {
-      "lat": 40.608989,
-      "lng": 72.793269
-    },
-    "links_count": 60,
-    "objectID": "2913"
   },
   {
     "name": "Nnamdi Azikiwe Intl",
@@ -23902,18 +23878,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "6093"
-  },
-  {
-    "name": "Zhezkazgan Airport",
-    "city": "Zhezkazgan",
-    "country": "Kazakhstan",
-    "iata_code": "DZN",
-    "_geoloc": {
-      "lat": 47.708333,
-      "lng": 67.733333
-    },
-    "links_count": 4,
-    "objectID": "6085"
   },
   {
     "name": "Petropavlosk South Airport",
