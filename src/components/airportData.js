@@ -4056,30 +4056,6 @@ export const airportData = [
     "objectID": "2895"
   },
   {
-    "name": "Souda",
-    "city": "Chania",
-    "country": "Greece",
-    "iata_code": "CHQ",
-    "_geoloc": {
-      "lat": 35.531747,
-      "lng": 24.149678
-    },
-    "links_count": 90,
-    "objectID": "1474"
-  },
-  {
-    "name": "Kos",
-    "city": "Kos",
-    "country": "Greece",
-    "iata_code": "KGS",
-    "_geoloc": {
-      "lat": 36.793335,
-      "lng": 27.091667
-    },
-    "links_count": 90,
-    "objectID": "1458"
-  },
-  {
     "name": "Sangster Intl",
     "city": "Montego Bay",
     "country": "Jamaica",
