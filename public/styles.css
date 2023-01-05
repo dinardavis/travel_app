@@ -22,11 +22,17 @@
 }
 
 /* Define desktop grid */
+body {
+  min-height: 820px;
+  overflow-y: scroll;
+}
 
 .main-container {
   display: grid;
   max-width: 1200px;
-  max-height: 90vh;
+  max-height: 90vh; 
+  min-height: 820px;
+  overflow-y: scroll;   
   grid-template-columns: 150px repeat(3, 1fr);
   grid-template-rows: repeat(20, 1fr);
   grid-gap: 10px;
@@ -784,12 +790,20 @@ input[type="date"]{
 /* SCREEN MEDIA QUERIES */
 
 @media only screen and (max-width: 1150px) {
+  body {
+    min-width: 1150px;
+  }
+
   .main-container {
-    min-width: 1250px;
+    min-width: 1150px;
   }
 }
 
 @media only screen and (max-width: 800px) {
+  body {
+    min-width: 100vw;
+  }
+
   section,
   .section {
     border-radius: 0px;
@@ -806,6 +820,7 @@ input[type="date"]{
     grid-template-columns: 1fr;
     grid-gap: 0;
     background-image: none;
+    border-radius: 0px;
   }
 
   .main-nav {
@@ -853,11 +868,10 @@ input[type="date"]{
   }
 
   .widgets-container {
-    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 0px;
   }
