@@ -32928,54 +32928,6 @@ export const airportData = [
     "objectID": "1018"
   },
   {
-    "name": "Sao Felix do Xingu Airport",
-    "city": "Sao Felix do Xingu",
-    "country": "Brazil",
-    "iata_code": "SXX",
-    "_geoloc": {
-      "lat": -6.641389,
-      "lng": -51.952222
-    },
-    "links_count": 1,
-    "objectID": "8241"
-  },
-  {
-    "name": "Confresa Airport",
-    "city": "Santa Terezinha",
-    "country": "Brazil",
-    "iata_code": "STZ",
-    "_geoloc": {
-      "lat": -10.47,
-      "lng": -50.502778
-    },
-    "links_count": 1,
-    "objectID": "7374"
-  },
-  {
-    "name": "Breves Airport",
-    "city": "Breves",
-    "country": "Brazil",
-    "iata_code": "BVS",
-    "_geoloc": {
-      "lat": -1.681944,
-      "lng": -50.48
-    },
-    "links_count": 1,
-    "objectID": "7370"
-  },
-  {
-    "name": "Campo Alegre Airport",
-    "city": "Santana do Araguaia",
-    "country": "Brazil",
-    "iata_code": "CMP",
-    "_geoloc": {
-      "lat": -9.505,
-      "lng": -50.625
-    },
-    "links_count": 1,
-    "objectID": "7369"
-  },
-  {
     "name": "Dalanzadgad Airport",
     "city": "Dalanzadgad",
     "country": "Mongolia",
@@ -32986,18 +32938,6 @@ export const airportData = [
     },
     "links_count": 1,
     "objectID": "6372"
-  },
-  {
-    "name": "Portland Airport",
-    "city": "Portland",
-    "country": "Australia",
-    "iata_code": "PTJ",
-    "_geoloc": {
-      "lat": -38.3181,
-      "lng": 141.471
-    },
-    "links_count": 1,
-    "objectID": "6321"
   },
   {
     "name": "Niue International Airport",
@@ -33058,18 +32998,6 @@ export const airportData = [
     },
     "links_count": 1,
     "objectID": "2697"
-  },
-  {
-    "name": "Ovda",
-    "city": "Ovda",
-    "country": "Israel",
-    "iata_code": "VDA",
-    "_geoloc": {
-      "lat": 29.94025,
-      "lng": 34.93585
-    },
-    "links_count": 1,
-    "objectID": "1602"
   },
   {
     "name": "Filippos",
