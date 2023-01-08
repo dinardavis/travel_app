@@ -32868,30 +32868,6 @@ export const airportData = [
     "objectID": "1078"
   },
   {
-    "name": "Plage Blanche",
-    "city": "Tan Tan",
-    "country": "Morocco",
-    "iata_code": "TTA",
-    "_geoloc": {
-      "lat": 28.448194,
-      "lng": -11.161347
-    },
-    "links_count": 2,
-    "objectID": "1065"
-  },
-  {
-    "name": "Pickle Lake",
-    "city": "Pickle Lake",
-    "country": "Canada",
-    "iata_code": "YPL",
-    "_geoloc": {
-      "lat": 51.446388,
-      "lng": -90.214167
-    },
-    "links_count": 2,
-    "objectID": "105"
-  },
-  {
     "name": "Matari",
     "city": "Isiro",
     "country": "Congo (Kinshasa)",
@@ -32914,18 +32890,6 @@ export const airportData = [
     },
     "links_count": 2,
     "objectID": "1028"
-  },
-  {
-    "name": "Moshoeshoe I Intl",
-    "city": "Maseru",
-    "country": "Lesotho",
-    "iata_code": "MSU",
-    "_geoloc": {
-      "lat": -29.462256,
-      "lng": 27.552503
-    },
-    "links_count": 2,
-    "objectID": "1018"
   },
   {
     "name": "Dalanzadgad Airport",
