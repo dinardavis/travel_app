@@ -563,7 +563,7 @@ section,
 .flight-container {
   display: flex;
   flex-direction: column;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .flight-form {
@@ -621,6 +621,7 @@ input::-webkit-input-placeholder {
 }
 
 input[type="date"]{
+  font-size: .9em;
   background-color: transparent;
   border: 1px solid #727272;
   border-radius: 5px;
@@ -649,7 +650,7 @@ input[type="date"]{
   justify-content: space-between;
   width: 100%;
   font-size: .9em;
-  padding-bottom: 15px;
+  padding: 10px 0;
 }
 
 .flight--copy {
