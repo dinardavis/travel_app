@@ -776,6 +776,11 @@ input[type="date"]{
   cursor: pointer;
 }
 
+.todo-text {
+  width: 190px;
+  overflow-x: scroll;
+}
+
 .todo-icon {
   color: #a3a7bf;
   font-size: 1em;
@@ -955,6 +960,10 @@ input[type="date"]{
 
   .price-display {
     width: 40%;
+  }
+
+  .todo-icon {
+    opacity: 1;
   }
   
 }

@@ -14,7 +14,7 @@ export default function TodoMain() {
         count: 2,
       }, 
       {
-        text:"Add international phone plan",
+        text:"Add intl phone plan",
         id:"2",
         completed: false,
         priority: ['Low', 'Medium', 'High'],

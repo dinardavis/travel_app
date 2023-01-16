@@ -65,7 +65,7 @@ export default function Todo(props) {
         onClick={() => setPriorityLevel(props.id)}
       >
       </div>
-      {props.text}
+      <p className='todo-text'>{props.text}</p>
       <BsCheck2Square 
         className='todo-icon check-icon'
         style={checkmarkStyles}
