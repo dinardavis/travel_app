@@ -104,23 +104,7 @@ export default function App() {
     return false;
   });
 
-  console.log(filteredDepartureAirportData)
-
-  // const departureCityNames = filteredDepartureAirportData.map(departureAirport => {
-  //   const departureCities = departureAirport.city;
-  //   return departureCities.toUpperCase();
-  // })
-
-  // function getMatchingDepartureAirport() {
-  //   const matchingDepartureAirportCode = filteredDepartureAirportData.filter(departureAirport => {
-  //     const cityFromData = departureAirport.city.toUpperCase()
-  //     return cityFromData.includes(location.toUpperCase())
-  //   })
-  //   return matchingDepartureAirportCode
-  // }
-  
-
-  return (
+    return (
     <>    
       <div className="main-container">
         <Navbar 
