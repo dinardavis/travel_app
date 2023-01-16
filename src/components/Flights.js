@@ -23,32 +23,30 @@ export default function Flights(props) {
     return `${yyyy}-${mm}-${dd}`
   })
 
-  // SORT IMPORTED AIRPORT DATA BY CITY AND COUNTRY
+// SORT IMPORTED AIRPORT ARRIVAL DATA BY CITY AND COUNTRY
 
-  const citySort = props.filteredAirportData.sort(function(a, b) {
-    let cityA = a.city.toUpperCase();
-    let cityB = b.city.toUpperCase();
-    return (cityA < cityB) ? -1 : (cityA > cityB) ? 1 : 0;
+const departureCitySort = props.filteredDepartureAirportData.sort(function(a, b) {
+    let departureCityA = a.city.toUpperCase();
+    let departureCityB = b.city.toUpperCase();
+    return (departureCityA < departureCityB) ? -1 : (departureCityA > departureCityB) ? 1 : 0;
 });
 
-  const countrySort = citySort.sort(function(a, b) {
-    let countryA = a.country.toUpperCase();
-    let countryB = b.country.toUpperCase();
-    return (countryA < countryB) ? -1 : (countryA > countryB) ? 1 : 0;
+  const departureCountrySort = departureCitySort.sort(function(a, b) {
+    let departureCountryA = a.country.toUpperCase();
+    let departureCountryB = b.country.toUpperCase();
+    return (departureCountryA < departureCountryB) ? -1 : (departureCountryA > departureCountryB) ? 1 : 0;
 });
 
 function getDepartureCity() {
   const departureCityInput = document.querySelector('.city-input')
   props.setFromAirportCode(departureCityInput.value)
-  const matchingCityName = props.filteredAirportData.filter(airport => {
+  const matchingCityName = props.filteredDepartureAirportData.filter(airport => {
     const cityFromData = airport.iata_code
     return cityFromData.includes(departureCityInput.value)
     
   })
   setDepartureCity(matchingCityName[0].city)
 }
-
-
 
 function getDepatureDate(e) {
   let flightDateError = document.querySelector(".flight-date-error")
@@ -93,7 +91,7 @@ const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
         console.log(err)
         setFetchDataError(true)
      });
-  }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate])
+  }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate, FLIGHT_API_KEY])
 
   return (
     <>
@@ -107,7 +105,7 @@ const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
                 value={props.fromAirportCode}
                 onChange={getDepartureCity}
               >
-              {countrySort.map(data => {
+              {departureCountrySort.map(data => {
                 return <option className="from-input"
                           key={data.objectID}
                           value={data.iata_code}
@@ -155,7 +153,7 @@ const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
       </form>
 
       <div className="flight-date-error error-message"></div>
-      {fetchDataError && <div className="flight-data-error error-message">Error retrieving flight price. There may be no direct flights on those dates. Please try again.</div>}
+      {fetchDataError && <div className="flight-data-error error-message">Error retrieving flight price. Please modify your search and try again.</div>}
 
       <div className="flight-cta">
         <div className="flight--price">

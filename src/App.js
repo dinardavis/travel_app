@@ -7,6 +7,7 @@ import Weather from "./components/Weather"
 import Flights from "./components/Flights"
 import TodoMain from './components/todo/TodoMain'
 import { airportData } from "./components/airportData"
+import { departureAirportData } from "./components/departureAirportData"
 import ComingSoon from './components/ComingSoon'
 
 
@@ -29,7 +30,7 @@ export default function App() {
     localStorage.setItem("fromAirport", JSON.stringify(fromAirportCode))
   }, [fromAirportCode])
 
-  //Filter cities with multiple airports to simplify airport data
+  //Filter ARRIVAL cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
   const filteredAirportData = airportData.filter(airport => {
   const isDuplicate = uniqueCityAirports.includes(airport.city);
@@ -91,6 +92,34 @@ export default function App() {
     clearInput()
   }
 
+  //Filter DEPARTURE cities with multiple airports to simplify airport data
+  const uniqueDepartureCityAirports = [];
+  const filteredDepartureAirportData = departureAirportData.filter(airport => {
+  const departureIsDuplicate = uniqueDepartureCityAirports.includes(airport.city);
+
+  if(!departureIsDuplicate) {
+      uniqueDepartureCityAirports.push(airport.city);
+      return true;
+    } 
+    return false;
+  });
+
+  console.log(filteredDepartureAirportData)
+
+  // const departureCityNames = filteredDepartureAirportData.map(departureAirport => {
+  //   const departureCities = departureAirport.city;
+  //   return departureCities.toUpperCase();
+  // })
+
+  // function getMatchingDepartureAirport() {
+  //   const matchingDepartureAirportCode = filteredDepartureAirportData.filter(departureAirport => {
+  //     const cityFromData = departureAirport.city.toUpperCase()
+  //     return cityFromData.includes(location.toUpperCase())
+  //   })
+  //   return matchingDepartureAirportCode
+  // }
+  
+
   return (
     <>    
       <div className="main-container">
@@ -139,6 +168,7 @@ export default function App() {
             setFromAirportCode={setFromAirportCode}
             toAirportCode={toAirportCode}
             filteredAirportData={filteredAirportData}
+            filteredDepartureAirportData={filteredDepartureAirportData}
           />
         </section>
       </div>
