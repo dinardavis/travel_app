@@ -20,6 +20,8 @@ export default function Weather(props) {
       })
   }, [props.searchParam, tempUnits])
 
+  // Save chosen units to localStorage
+
   React.useEffect(() => {
     localStorage.setItem("currentTempUnits", JSON.stringify(tempUnits))
   }, [tempUnits])
@@ -32,6 +34,8 @@ export default function Weather(props) {
     }
   }
 
+  // Set corresponding weather icon image based on fetched data
+  
   const selectWeatherIcon = (data) => {
       let weatherIcon = ""
       if(data === "Clouds") {

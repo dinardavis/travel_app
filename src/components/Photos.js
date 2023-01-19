@@ -2,7 +2,7 @@ import React from "react";
 
 const PHOTOS_API_KEY = process.env.REACT_APP_UNSPLASH_API_KEY
 
-
+/* PHOTO CAROUSEL */
 
 export default function Photos(props) {
 
@@ -15,6 +15,8 @@ export default function Photos(props) {
       .then(res => res.json())
       .then(data => setPhotos(data.results))
   }, [props.searchParam])
+
+  // Image change timing
 
   function resetTimeout() {
     if (timeoutRef.current) {
@@ -37,6 +39,8 @@ export default function Photos(props) {
     };
   }, [index, photos.length]);
 
+  // Wrap images in link tags and connect to source url
+
   const slideShow = photos.map((photo, index) => {
     return (  
       <div className="slide" key={photo.id} to="route" target="_blank" rel="noopener noreferrer" alt={photo.alt_description}>
@@ -46,6 +50,8 @@ export default function Photos(props) {
       </div>
     )
   })
+
+  // Slide show image indicator markers 
 
   const slideshowMarkers = photos.map((_, idx) => {
     return (

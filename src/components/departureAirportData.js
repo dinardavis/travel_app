@@ -1,3 +1,5 @@
+/* MANUALLY EDITED INITIAL LIST IN ORDER TO ENHANCE UX */
+
 export const departureAirportData = [
   {
     "name": "Hartsfield Jackson Atlanta Intl",

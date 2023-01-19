@@ -2,6 +2,8 @@ import React from 'react'
 import { BsTrash } from "react-icons/bs"
 import { BsCheck2Square } from "react-icons/bs"
 
+/* STRUCTURE OF INDIVIDUAL TODO ITEMS */
+
 export default function Todo(props) {
   const listStyles = {
     textDecoration: props.completed ? "line-through" : "none"
@@ -25,11 +27,12 @@ export default function Todo(props) {
     borderPriorityColor = '1.5px solid #f41e1e'
   }
 
-
   const priorityStyles = {
     backgroundColor: bgPriorityColor,
     border: borderPriorityColor,
   }
+
+  // Add list item priority levels
 
   function setPriorityLevel(id) {
     props.setTodoList(prevList => prevList.map(item => {
@@ -42,6 +45,8 @@ export default function Todo(props) {
     }))
   }
 
+  // Add completed item toggle 
+
   function markCompleted(id){
     props.setTodoList(prevList => prevList.map(item => {
       return item.id === id ?
@@ -49,6 +54,8 @@ export default function Todo(props) {
       item
     }))
   }
+
+  // Add delete item functionality
 
   function deleteTodoItem(id) {
     props.setTodoList(props.todoList.filter(item => {

@@ -21,7 +21,8 @@
   color: var(--font-color-main);
 }
 
-/* Define desktop grid */
+/* DEFINE DESKTOP GRID */
+
 body {
   min-height: 820px;
   overflow-y: scroll;
@@ -78,7 +79,7 @@ body {
   grid-column: 4 / 5;
 }
 
-/* Main layout styling */
+/* MAIN LAYOUT STYLING */
 
 body {
   width: 100%;
@@ -695,7 +696,6 @@ input[type="date"]{
   background-size: 100% 55px;
   cursor: pointer;
 }
-
 
 /* TODO LIST COMPONENT STYLING */
 

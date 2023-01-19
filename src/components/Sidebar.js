@@ -6,6 +6,8 @@ import { BsPiggyBank } from "react-icons/bs"
 import { BsClock } from "react-icons/bs"
 import { BsCurrencyExchange } from "react-icons/bs"
 
+/* SIDEBAR CONTAINING FUTURE PLANNED FUNCTIONALITY FOR DASHBOARD */
+
 export default function Sidebar(props) {
 
   return (

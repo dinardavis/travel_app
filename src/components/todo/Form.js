@@ -1,11 +1,16 @@
 import React from 'react'
 
+/* FORM CONTAINER WHICH HOLDS TODO LIST*/
 
 export default function Form(props) {
+
+  // Listens for changes to form input field
 
   function handleChange(e) {
     props.setUserInput(e.target.value)
   }
+
+  // If input field is not empty create todo list object and add to the list
 
   function addTodoItem(e) {
     e.preventDefault();

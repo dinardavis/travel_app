@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineLogin } from "react-icons/md";
 
-
+/* PLAN FOR FUTURE FUNCTIONALITY TO ENABLE USERS TO LOGIN AND SAVE UNIQUE DATA TO PROFILE */
 
 export default function Login(props) {
 

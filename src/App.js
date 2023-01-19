@@ -66,6 +66,8 @@ export default function App() {
     document.querySelector('.search-input').value = ""
   }
 
+  // Select airport from user input
+
   function getMatchingAirport() {
     const matchingAirportCode = filteredAirportData.filter(airport => {
       const cityFromData = airport.city.toUpperCase()
@@ -131,20 +133,11 @@ export default function App() {
             Let's Go!
           </button>
         </form>
-
-      
-        <Photos 
-          searchParam={searchParam}
-        />
-
+    
+        <Photos searchParam={searchParam} />
         <Date />
-
-        <Weather 
-          searchParam={searchParam}
-        />
-
+        <Weather searchParam={searchParam} />
         <TodoMain />
-
         <section className="flight-container light-mode">
           <Flights 
             searchParam={searchParam}

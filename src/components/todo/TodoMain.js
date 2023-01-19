@@ -2,7 +2,11 @@ import React from "react";
 import Form from './Form';
 import List from './List';
 
+/* TODO LIST MAIN CONTAINER WRAPPER FOR FORM INPUT AND LIST CONTAINER*/
+
 export default function TodoMain() {
+
+  // Set state for default/example list items
   const [todoList, setTodoList] = React.useState(
       () => JSON.parse(localStorage.getItem("savedTodos")) || 
     [
@@ -23,6 +27,7 @@ export default function TodoMain() {
     ]
   )
   
+  // Set initial state for form input
   const [userInput, setUserInput] = React.useState("")
 
   React.useEffect(() => {

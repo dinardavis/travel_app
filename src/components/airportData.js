@@ -1,3 +1,5 @@
+/* LIST OF AIRPORTS IS SOURCE OF CITIES THAT USER CAN CHOOSE TO TRAVEL TO */
+
 export const airportData = [
   {
     "name": "Hartsfield Jackson Atlanta Intl",
