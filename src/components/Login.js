@@ -8,7 +8,7 @@ export default function Login(props) {
   return (
     <form className="login-container">  
         <div className="user-info">
-          <img src="/imgs/me.png" className="login-user-emoji" alt="User Login Emoji"></img> 
+          <img src="imgs/me.png" className="login-user-emoji" alt="User Login Emoji"></img> 
           <p className="user-msg">Welcome back, Dinar!</p> 
         </div>
    
