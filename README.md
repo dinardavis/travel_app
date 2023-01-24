@@ -144,15 +144,18 @@ npm start
 
 In this project I have included various error handling for instaces of failed API fetch retrievals. (Which happen frequently with the flight info. Apologies, but it's the best API that I could find for this data.) Also covered are cases where the user inputs a city that is not included in the working data set. 
 
-<img src="public/imgs/error.png" alt="Image showing an error message when the city is not included in the data set." height="400">
+<div align="center">
+  <img src="public/imgs/error.png" alt="Image showing an error message when the city is not included in the data set." height="500">
+</div>
 
 
 ## Future Iterations
 
 Additionally, included in the sidebar are examples of several widgets that could be added to the project in the future such as a user login component to personalize and store the search data, travel advisory alerts, and a foreign currency tracker. Currently, the user will be greeted with a "Coming Soon" notification when interacting with any of this planned enhancements. 
 
-<img src="public/imgs/app_demo.webp" alt="Demo of the coming soon notification attached to the sidebar widgets" height="400">
-
+<div align="center">
+  <img src="public/imgs/app_demo.webp" alt="Demo of the coming soon notification attached to the sidebar widgets" height="500">
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
