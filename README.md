@@ -9,7 +9,7 @@
 <h3 align="center">Travel Dream Dashboard</h3>
      
    <p align="center">
-    With the love of travel in mind, this project was created to serve as a one stop shop for travel junkies to get and/or stay excited for their next trip. The functionality is very straightforward; enter the name of a city that you've always dreamed of visiting, the dates that you're availabe to go there, and voila! The dashboard will return the price of a roundtrip flight to that destination, and some other useful info to get your imagination flowing about your next adventure!
+    With the love of travel in mind, this project was created to serve as a one stop shop for travel junkies to get and/or stay excited for their next trip. The functionality is very straightforward; enter the name of a city that you've always dreamed of visiting, the dates that you're available to go there, your return airport, and voila! The dashboard will return the price of a roundtrip flight to that destination, and some other useful info to get your imagination flowing about your next adventure!
     <br />
     <br />
     <a href="https://github.com/dinardavis/travel_app"><strong>Explore the docs »</strong></a>
@@ -107,7 +107,7 @@ However, if you do wish to adapt or make contributions please do the following:
 ```bash
 git clone https://github.com/dinardavis/travel_app
 ```
-* Once the files are on your machine, open the _travel_app_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+* Once you have the files locally, open the _travel_app_ folder in [Visual Studio Code](https://code.visualstudio.com/).
 
 * Sign up and obtain API keys for:
   <br />
@@ -142,7 +142,7 @@ npm start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-In this project I have included various error handling for instaces of failed API fetch retrievals. (Which happen frequently with the flight info. Apologies, but it's the best API that I could find for this data.) Also covered are cases where the user inputs a city that is not included in the working data set. 
+In this project I have included various error handling for instances of failed API fetch retrievals. Also covered are cases where the user inputs a city that is not included in the working data set. 
 
 <div align="center">
   <img src="public/imgs/error.png" alt="Image showing an error message when the city is not included in the data set." height="500">
@@ -151,7 +151,7 @@ In this project I have included various error handling for instaces of failed AP
 
 ## Future Iterations
 
-Additionally, included in the sidebar are examples of several widgets that could be added to the project in the future such as a user login component to personalize and store the search data, travel advisory alerts, and a foreign currency tracker. Currently, the user will be greeted with a "Coming Soon" notification when interacting with any of this planned enhancements. 
+Additionally included in the sidebar, are examples of several widgets that could be added to the project in the future, such as a user login component to personalize and store the search data, travel advisory alerts, and a foreign currency tracker. Currently, the user will be greeted with a "Coming Soon" notification when interacting with any of these planned enhancements. 
 
 <div align="center">
   <img src="public/imgs/app_demo.webp" alt="Demo of the coming soon notification attached to the sidebar widgets" height="500">
@@ -163,7 +163,7 @@ Additionally, included in the sidebar are examples of several widgets that could
 <!-- CONTRIBUTING -->
 ## Contributing
 
-This project has been a great opportunity to develop further familiarity with React and working with API data. It also provides a ton of flexibility and room to add and improve on this foundation, so if you want to make any contributions please feel free!
+This project has been a great opportunity to develop further familiarity with React and working with data from various APIs. It also provides a ton of flexibility and room to add and improve on this foundation, so if you want to make any contributions please feel free!
 
 If you like the project, a star would be much appreciated! Thanks again!
 
