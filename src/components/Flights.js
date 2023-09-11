@@ -78,12 +78,11 @@ const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': `${FLIGHT_API_KEY}`,
-        'X-RapidAPI-Host': 'skyscanner50.p.rapidapi.com'
+        'Authorization': `${FLIGHT_API_KEY}`,
       }
     };
 
-    fetch(`https://skyscanner50.p.rapidapi.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
+    fetch(`https://api1.diversesaga.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
     .then(res => res.json())
     .then(data => setFlightPrice(data.data[0].price.amount.toFixed(2) || 599.99))
       .then(setFetchDataError(false))
