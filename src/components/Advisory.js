@@ -22,7 +22,9 @@ export default function Advisory(props) {
           <div className="advisory-content">
             <div className="advisory-icon"><AiOutlineAlert /></div>
             <div className="advisory-message-container">
-              <p className="advisory-country">United Arab Emirates</p>
+              <div className="advisory-country-container">
+                <p className="advisory-country">United Arab Emirates</p>
+              </div>
               <div className="advisory-divider"></div>
               <p className="advisory-score">Risk Level - 3.2 (out of 5)</p>
               <p className="advisory-footer"><span>We advise:</span><br/> Use some caution when traveling United Arab Emirates</p>   

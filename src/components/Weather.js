@@ -9,16 +9,16 @@ export default function Weather(props) {
   const [fetchDataError, setFetchDataError] = React.useState(false);
 
 
-  // React.useEffect(() => {
-  //   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.searchParam}&units=${tempUnits}&appid=${WEATHER_API_KEY}`)
-  //     .then(res => res.json())
-  //     .then(data => setWeatherInfo(data))
-  //     .then(setFetchDataError(false))
-  //     .catch(err => {
-  //         console.log(err)
-  //         setFetchDataError(true)
-  //     })
-  // }, [props.searchParam, tempUnits])
+  React.useEffect(() => {
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.searchParam}&units=${tempUnits}&appid=${WEATHER_API_KEY}`)
+      .then(res => res.json())
+      .then(data => setWeatherInfo(data))
+      .then(setFetchDataError(false))
+      .catch(err => {
+          console.log(err)
+          setFetchDataError(true)
+      })
+  }, [props.searchParam, tempUnits])
 
   // Save chosen units to localStorage
 
@@ -64,8 +64,8 @@ export default function Weather(props) {
     <>
       {!weatherInfo ? 
         <p className="loading">Loading...</p> :
-        <section className="weather-container light-mode">
-          <div className="widget-close-btn" onClick="">X</div>
+        <section className="weather-container light-mode" style={{ display: props.showWeatherWidget ? '': 'none'}}>
+          <div className="widget-close-btn"  onClick={props.toggleWeatherWidget}>X</div>
           <p className="weather--location">{weatherInfo.name}, {weatherInfo.sys.country}</p>
           <div className="temp-icon-container">
             <p className="weather--temp">{Math.round(weatherInfo.main.temp)} {tempUnits === "imperial" ? "°F" : "°C" }</p>

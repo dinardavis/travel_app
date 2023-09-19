@@ -34,6 +34,24 @@ export default function App() {
     setShowAdvisoryWidget(prevState => !prevState)
   }
 
+  const [showCalendarWidget, setShowCalendarWidget] = React.useState(true)
+
+  function toggleCalendarWidget() {
+    setShowCalendarWidget(prevState => !prevState)
+  }
+
+  const [showTodoWidget, setShowTodoWidget] = React.useState(true)
+
+  function toggleTodoWidget() {
+    setShowTodoWidget(prevState => !prevState)
+  }
+
+  const [showWeatherWidget, setShowWeatherWidget] = React.useState(true)
+
+  function toggleWeatherWidget() {
+    setShowWeatherWidget(prevState => !prevState)
+  }
+
 
   //Local storage assignment for airport codes and location
 
@@ -136,7 +154,13 @@ export default function App() {
           showFlightWidget={showFlightWidget}
           toggleAdvisoryWidget={toggleAdvisoryWidget}  
           showAdvisoryWidget={showAdvisoryWidget} 
-          
+          toggleCalendarWidget={toggleCalendarWidget}  
+          showCalendarWidget={showCalendarWidget} 
+          toggleTodoWidget={toggleTodoWidget}  
+          showTodoWidget={showTodoWidget} 
+          toggleWeatherWidget={toggleWeatherWidget}  
+          showWeatherWidget={showWeatherWidget} 
+
           toggleIsVisible={toggleIsVisible}
           comingSoon={ <ComingSoon isVisible={isVisible}/> }
         />
@@ -178,9 +202,21 @@ export default function App() {
             showAdvisoryWidget={showAdvisoryWidget}
           />
           
-          <Weather searchParam={searchParam} />
-          <Date />
-          <TodoMain />
+          <Weather 
+            searchParam={searchParam} 
+            toggleWeatherWidget={toggleWeatherWidget}  
+            showWeatherWidget={showWeatherWidget}   
+          />
+
+          <Date 
+            toggleCalendarWidget={toggleCalendarWidget}  
+            showCalendarWidget={showCalendarWidget} 
+          />
+          
+          <TodoMain 
+            toggleTodoWidget={toggleTodoWidget}  
+            showTodoWidget={showTodoWidget} 
+          />
         </div> 
       </div>
     </>

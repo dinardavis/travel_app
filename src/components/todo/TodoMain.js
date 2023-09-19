@@ -4,7 +4,7 @@ import List from './List';
 
 /* TODO LIST MAIN CONTAINER WRAPPER FOR FORM INPUT AND LIST CONTAINER*/
 
-export default function TodoMain() {
+export default function TodoMain(props) {
 
   // Set state for default/example list items
   const [todoList, setTodoList] = React.useState(
@@ -35,8 +35,8 @@ export default function TodoMain() {
   }, [todoList])
 
   return (
-    <section className='todo-main-container'>
-      <div className="widget-close-btn" onClick="">X</div>
+    <section className='todo-main-container' style={{ display: props.showTodoWidget ? '': 'none'}}>
+      <div className="widget-close-btn" onClick={props.toggleTodoWidget}>X</div>
       <Form 
         todoList={todoList}
         setTodoList={setTodoList}
