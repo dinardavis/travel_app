@@ -1,5 +1,6 @@
 import React from "react";
 import Login from "./Login"
+import { SlPlane } from "react-icons/sl"
 import { BsPinMap } from "react-icons/bs"
 import { BsQuestionDiamond } from "react-icons/bs"
 import { BsPiggyBank } from "react-icons/bs"
@@ -15,6 +16,15 @@ export default function Sidebar(props) {
     className="sidebar-container">
       <div className="widgets-container">
         <h1 className="sidebar-header">Widgets</h1>
+        <div className="widgets widget-flight" style={{ display: props.showFlightWidget ? 'none': ''}}>
+          <SlPlane className="widget-icon flight" />
+          <p className="widget-text">Flight<br/> Search</p>
+          <div 
+            className="widget-add-btn"
+            onClick={props.toggleFlightWidget}
+          >+</div>
+        </div>
+
         <div className="widgets widget-map">
           <BsPinMap className="widget-icon" />
           <p className="widget-text">Map</p>
@@ -34,7 +44,7 @@ export default function Sidebar(props) {
         </div>
 
         <div className="widgets widget-budget">
-          <BsPiggyBank className="widget-icon advisory" />
+          <BsPiggyBank className="widget-icon budget" />
           <p className="widget-text">Budget</p>
           <div 
             className="widget-add-btn"
@@ -62,12 +72,9 @@ export default function Sidebar(props) {
       </div>
 
       {props.comingSoon}
-      
       <Login 
         toggleIsVisible={props.toggleIsVisible}
       />
-    
-  
     </section>
   )
 }

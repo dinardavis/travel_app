@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Photos from "./components/Photos"
+import Advisory from "./components/Advisory"
 import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
@@ -17,6 +18,17 @@ export default function App() {
   const [toAirportCode, setToAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
   const [fromAirportCode, setFromAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("fromAirport")) || "SFO")
   const [isVisible, setIsVisible] = React.useState(false)
+
+
+  //Widget state to show/hide widget & sidebar icon
+
+  const [showFlightWidget, setShowFlightWidget] = React.useState(true)
+  const [showFlightSidebarIcon, setShowFlightSidebarIcon] = React.useState(false)
+
+  function toggleFlightWidget() {
+    setShowFlightWidget(prevState => !prevState)
+    setShowFlightSidebarIcon(prevState => !prevState)
+  }
 
   React.useEffect(() => {
     localStorage.setItem("searchInput", JSON.stringify(location))
@@ -113,32 +125,33 @@ export default function App() {
           searchParam={searchParam}
         />
         <Sidebar 
+          toggleFlightWidget={toggleFlightWidget}
+          showFlightWidget={showFlightWidget}
           toggleIsVisible={toggleIsVisible}
           comingSoon={ <ComingSoon isVisible={isVisible} /> }
         />
-        <form className="section intro-container light-mode">
-          <p className='intro-copy'>Enter the city's name that you've always wished to travel to, and get inspired to plan your next vacation!</p>
-          <p className='intro-copy-error'>Please enter a valid city name, <br></br>or the nearest major airport location</p>
-          <input
-            type="text"
-            placeholder="Where to?"
-            className="search-input"
-            value={location.userInput}
-            onChange={handleChange}
-          />
-          <button
-            className="search-btn"
-            onClick={updateLocation}
-          >
-            Let's Go!
-          </button>
-        </form>
-    
-        <Photos searchParam={searchParam} />
-        <Date />
-        <Weather searchParam={searchParam} />
-        <TodoMain />
-        <section className="flight-container light-mode">
+        <div className='widget-display'>
+          <form className="section intro-container light-mode">
+            <p className='intro-copy'>Enter the city's name that you've always wished to travel to, and get inspired to plan your next vacation!</p>
+            <p className='intro-copy-error'>Please enter a valid city name, <br></br>or the nearest major airport location</p>
+            <input
+              type="text"
+              placeholder="Where to?"
+              className="search-input"
+              value={location.userInput}
+              onChange={handleChange}
+            />
+            <button
+              className="search-btn"
+              onClick={updateLocation}
+            >
+              Let's Go!
+            </button>
+          </form>
+      
+          <Photos searchParam={searchParam} />
+         
+         
           <Flights 
             searchParam={searchParam}
             fromAirportCode={fromAirportCode}
@@ -146,8 +159,14 @@ export default function App() {
             toAirportCode={toAirportCode}
             filteredAirportData={filteredAirportData}
             filteredDepartureAirportData={filteredDepartureAirportData}
+            toggleFlightWidget={toggleFlightWidget}
+            showFlightWidget={showFlightWidget}
           />
-        </section>
+          <Advisory searchParam={searchParam} />
+          <Weather searchParam={searchParam} />
+          <Date />
+          <TodoMain />
+        </div> 
       </div>
     </>
   )
