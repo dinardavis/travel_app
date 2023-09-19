@@ -10,7 +10,7 @@ export default function Todo(props) {
   }
 
   const checkmarkStyles = {
-    color: props.completed ? "#f41e1e" : "#a3a7bf"
+    color: props.completed ? "#f41e1e" : "#d0d0d0"
   }
 
   let bgPriorityColor = "Low"

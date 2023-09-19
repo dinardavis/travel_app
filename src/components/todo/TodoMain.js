@@ -36,7 +36,7 @@ export default function TodoMain() {
 
   return (
     <section className='todo-main-container'>
- 
+      <div className="widget-close-btn" onClick="">X</div>
       <Form 
         todoList={todoList}
         setTodoList={setTodoList}

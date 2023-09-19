@@ -93,9 +93,9 @@ const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
   // }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate, FLIGHT_API_KEY])
 
   return (
-    <section className="flight-container light-mode" style={{ display: props.showFlightWidget ? 'block': 'none'}}>
+    <section className="flight-container light-mode" style={{ display: props.showFlightWidget ? '': 'none'}}>
+      <div className="widget-close-btn" onClick={props.toggleFlightWidget}>X</div>
       <form className="flight-form" >
-        <div className="widget-close-btn" onClick={props.toggleFlightWidget}>X</div>
         <div className="city-container">
           <label htmlFor="departure-city" className="city-label">From:
             <select

@@ -23,12 +23,19 @@ export default function App() {
   //Widget state to show/hide widget & sidebar icon
 
   const [showFlightWidget, setShowFlightWidget] = React.useState(true)
-  const [showFlightSidebarIcon, setShowFlightSidebarIcon] = React.useState(false)
 
   function toggleFlightWidget() {
     setShowFlightWidget(prevState => !prevState)
-    setShowFlightSidebarIcon(prevState => !prevState)
   }
+
+  const [showAdvisoryWidget, setShowAdvisoryWidget] = React.useState(true)
+
+  function toggleAdvisoryWidget() {
+    setShowAdvisoryWidget(prevState => !prevState)
+  }
+
+
+  //Local storage assignment for airport codes and location
 
   React.useEffect(() => {
     localStorage.setItem("searchInput", JSON.stringify(location))
@@ -127,8 +134,11 @@ export default function App() {
         <Sidebar 
           toggleFlightWidget={toggleFlightWidget}
           showFlightWidget={showFlightWidget}
+          toggleAdvisoryWidget={toggleAdvisoryWidget}  
+          showAdvisoryWidget={showAdvisoryWidget} 
+          
           toggleIsVisible={toggleIsVisible}
-          comingSoon={ <ComingSoon isVisible={isVisible} /> }
+          comingSoon={ <ComingSoon isVisible={isVisible}/> }
         />
         <div className='widget-display'>
           <form className="section intro-container light-mode">
@@ -151,7 +161,6 @@ export default function App() {
       
           <Photos searchParam={searchParam} />
          
-         
           <Flights 
             searchParam={searchParam}
             fromAirportCode={fromAirportCode}
@@ -162,7 +171,13 @@ export default function App() {
             toggleFlightWidget={toggleFlightWidget}
             showFlightWidget={showFlightWidget}
           />
-          <Advisory searchParam={searchParam} />
+
+          <Advisory 
+            searchParam={searchParam} 
+            toggleAdvisoryWidget={toggleAdvisoryWidget}  
+            showAdvisoryWidget={showAdvisoryWidget}
+          />
+          
           <Weather searchParam={searchParam} />
           <Date />
           <TodoMain />

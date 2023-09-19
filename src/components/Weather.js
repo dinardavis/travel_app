@@ -65,7 +65,7 @@ export default function Weather(props) {
       {!weatherInfo ? 
         <p className="loading">Loading...</p> :
         <section className="weather-container light-mode">
-        
+          <div className="widget-close-btn" onClick="">X</div>
           <p className="weather--location">{weatherInfo.name}, {weatherInfo.sys.country}</p>
           <div className="temp-icon-container">
             <p className="weather--temp">{Math.round(weatherInfo.main.temp)} {tempUnits === "imperial" ? "°F" : "°C" }</p>

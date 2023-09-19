@@ -6,6 +6,7 @@ export default function Date() {
   
   return (
     <section className='calendar-container'>
+      <div className="widget-close-btn" onClick="">X</div>
        <Calendar className='calendar' />
     </section>
   )
