@@ -83,12 +83,12 @@ export default function Sidebar(props) {
           >+</div>
         </div>
 
-        <div className="widgets widget-currency">
+        <div className="widgets widget-currency" style={{ display: props.showCurrencyWidget ? 'none': ''}}>
           <BsCurrencyExchange className="widget-icon currency" />
           <p className="widget-text">Currency Converter</p>
           <div 
-            className="widget-add-btn"
-            onClick={props.toggleIsVisible}
+             className="widget-add-btn"
+            onClick={props.toggleCurrencyWidget}
           >+</div>
         </div>
 

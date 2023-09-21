@@ -9,16 +9,16 @@ export default function Weather(props) {
   const [fetchDataError, setFetchDataError] = React.useState(false);
 
 
-  React.useEffect(() => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.searchParam}&units=${tempUnits}&appid=${WEATHER_API_KEY}`)
-      .then(res => res.json())
-      .then(data => setWeatherInfo(data))
-      .then(setFetchDataError(false))
-      .catch(err => {
-          console.log(err)
-          setFetchDataError(true)
-      })
-  }, [props.searchParam, tempUnits])
+  // React.useEffect(() => {
+  //   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.searchParam}&units=${tempUnits}&appid=${WEATHER_API_KEY}`)
+  //     .then(res => res.json())
+  //     .then(data => setWeatherInfo(data))
+  //     .then(setFetchDataError(false))
+  //     .catch(err => {
+  //         console.log(err)
+  //         setFetchDataError(true)
+  //     })
+  // }, [props.searchParam, tempUnits])
 
   // Save chosen units to localStorage
 

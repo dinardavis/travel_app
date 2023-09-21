@@ -7,8 +7,10 @@ import Date from "./components/Date"
 import Weather from "./components/Weather"
 import Flights from "./components/Flights"
 import TodoMain from './components/todo/TodoMain'
-import { airportData } from "./components/airportData"
-import { departureAirportData } from "./components/departureAirportData"
+import Currency from './components/Currency'
+import { airportData } from "./components/dataFiles/airportData"
+import { departureAirportData } from "./components/dataFiles/departureAirportData"
+import { countryCodeData } from "./components/dataFiles/countryCodes"
 import ComingSoon from './components/ComingSoon'
 
 
@@ -16,6 +18,7 @@ export default function App() {
   const [location, setLocation] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [searchParam, setSearchParam] = React.useState(() => JSON.parse(localStorage.getItem("searchInput")) || "tokyo")
   const [toAirportCode, setToAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("currentAirportCode")) || "NRT")
+  const [toCountryCode, setToCountryCode] = React.useState(() => JSON.parse(localStorage.getItem("countryCode")) || "JP")
   const [fromAirportCode, setFromAirportCode] = React.useState(() => JSON.parse(localStorage.getItem("fromAirport")) || "SFO")
   const [isVisible, setIsVisible] = React.useState(false)
 
@@ -52,6 +55,12 @@ export default function App() {
     setShowWeatherWidget(prevState => !prevState)
   }
 
+  const [showCurrencyWidget, setShowCurrencyWidget] = React.useState(true)
+
+  function toggleCurrencyWidget() {
+    setShowCurrencyWidget(prevState => !prevState)
+  }
+
 
   //Local storage assignment for airport codes and location
 
@@ -66,6 +75,11 @@ export default function App() {
   React.useEffect(() => {
     localStorage.setItem("fromAirport", JSON.stringify(fromAirportCode))
   }, [fromAirportCode])
+
+  React.useEffect(() => {
+    localStorage.setItem("countryCode", JSON.stringify(toCountryCode))
+  }, [toCountryCode])
+  
 
   //Filter ARRIVAL cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
@@ -125,6 +139,7 @@ export default function App() {
       introCopyError.style.visibility = 'hidden'
       setSearchParam(location)
       getAirportCode()
+      getCountryCode(airportData, "city", location)
     } else {
       introCopyError.style.visibility = 'visible'
     } 
@@ -143,6 +158,28 @@ export default function App() {
     return false;
   });
 
+  //Retrieve country code from user input city
+
+
+    function getCountryCode(arr, propName, propValue) {
+      let cityObj = ''
+      for(let i=0; i < arr.length; i++) {
+        if((arr[i][propName]).toUpperCase() === propValue.toUpperCase()) {
+          cityObj = arr[i]
+        }  
+      }
+  
+      for (let i=0; i < countryCodeData.length; i++) {
+        if(cityObj.country.toUpperCase() === countryCodeData[i]["Name"].toUpperCase()) {
+          setToCountryCode(countryCodeData[i]["Code"])
+        }
+      }
+    }
+
+  
+
+
+
     return (
     <>    
       <div className="main-container">
@@ -160,6 +197,8 @@ export default function App() {
           showTodoWidget={showTodoWidget} 
           toggleWeatherWidget={toggleWeatherWidget}  
           showWeatherWidget={showWeatherWidget} 
+          toggleCurrencyWidget={toggleCurrencyWidget}  
+          showCurrencyWidget={showCurrencyWidget} 
 
           toggleIsVisible={toggleIsVisible}
           comingSoon={ <ComingSoon isVisible={isVisible}/> }
@@ -196,8 +235,15 @@ export default function App() {
             showFlightWidget={showFlightWidget}
           />
 
+          <Currency 
+            countryCode={toCountryCode}
+            toggleCurrencyWidget={toggleCurrencyWidget}  
+            showCurrencyWidget={showCurrencyWidget}
+          />
+
           <Advisory 
             searchParam={searchParam} 
+            countryCode={toCountryCode}
             toggleAdvisoryWidget={toggleAdvisoryWidget}  
             showAdvisoryWidget={showAdvisoryWidget}
           />
@@ -212,7 +258,7 @@ export default function App() {
             toggleCalendarWidget={toggleCalendarWidget}  
             showCalendarWidget={showCalendarWidget} 
           />
-          
+
           <TodoMain 
             toggleTodoWidget={toggleTodoWidget}  
             showTodoWidget={showTodoWidget} 
