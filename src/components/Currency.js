@@ -1,22 +1,56 @@
 import React from "react";
+import CurrencyContainer from "./CurrencyContainer";
 import { TbSwitch2 } from 'react-icons/tb'
+import { countryFlagsData } from "./dataFiles/countryFlagsData"
+import { allCountryData } from './dataFiles/currencyCountry'
 
 export default function Currency(props) {
 
   const [currencyData, setCurrenctyData] = React.useState(null)
-  const [baseCurrency, setBaseCurrency] = React.useState(0)
-  const [secondaryCurrency, setSecondaryCurrency] = React.useState(148.286)
+  const [baseCurrencyAmount, setBaseCurrencyAmount] = React.useState(1)
+  const [baseFlagImage, setbaseFlagImage] = React.useState("https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg")
+  const [baseCurrencyData, setBaseCurrencyData] = React.useState(null)
+  const [secondaryCurrencyAmount, setSecondaryCurrencyAmount] = React.useState(148.2858)
+  const [secondaryCurrencyData, setSecondaryCurrencyData] = React.useState(null)
+  const [secondaryFlagImage, setSecondaryFlagImage] = React.useState("https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg")
+  const [showBaseFlagMenu, setShowBaseFlagMenu] = React.useState(false)
+  const [showSecondaryFlagMenu, setShowSecondaryFlagMenu] = React.useState(false)
 
-  console.log(props.countryCode)
-
-  function handleChange(event) {
+  function handleBaseCurrencyChange(event) {
     const value = event.target.value
-    setBaseCurrency(value)
+    setBaseCurrencyAmount(value)
+  }
+
+  function handleSecondaryCurrencyChange(event) {
+    const value = event.target.value
+    setSecondaryCurrencyAmount(value)
+  }
+
+  function handleBaseFlagChange() {
+    setShowBaseFlagMenu(prevShow => !prevShow)
+  }
+
+  function handleSecondaryFlagChange() {
+    setShowBaseFlagMenu(prevShow => !prevShow)
+  }
+
+  function toggleBaseFlagMenu() {
+    setShowBaseFlagMenu(prevShow => !prevShow)
+  }
+
+  function toggleSecondaryFlagMenu() {
+    setShowSecondaryFlagMenu(prevShow => !prevShow)
   }
 
   function switchCurrency() {
 
   }
+
+ 
+  
+
+
+
 
   return (
     <>
@@ -27,20 +61,16 @@ export default function Currency(props) {
             <form className="currency-form">
               <p className='currency-base-rate'>Base Rate: 1 USD = 148.2858 JPY </p>
               <p className='currency-error'>Current rates are unavailable</p>
-              <div className="country-currency-container">
-                <div className="country-currency-content">
-                  <div className="currency-flag">
-                    <img src="https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg" alt="" />
-                  </div>
-                  <p className="currency-name">US Dollar<br/><span>Click flag to change</span></p>
-                </div>
-                <input
-                  type="number"
-                  placeholder={0}                className="search-input"
-                  value={baseCurrency}
-                  onChange={handleChange}
-                />
-              </div>
+              <CurrencyContainer
+                className="base-currency"
+                currencyAmount={baseCurrencyAmount}
+                handleChange={handleBaseCurrencyChange}
+                handleFlagChange={handleBaseFlagChange}
+                flagImage={baseFlagImage}
+                countryFlagsData={countryFlagsData}
+                showMenu={showBaseFlagMenu}
+                toggleFlagMenu={toggleBaseFlagMenu}
+              />
                
               <button
                 className="currency-switch-btn"
@@ -49,21 +79,15 @@ export default function Currency(props) {
                 <TbSwitch2 />
               </button>
 
-              <div className="country-currency-container">
-                <div className="country-currency-content">
-                  <div className="currency-flag">
-                    <img src="https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg" alt="" />
-                  </div>
-                  <p className="currency-name">Japanese Yen<br/><span>Click flag to change</span></p>
-                </div>
-                <input
-                  type="number"
-                  placeholder={0}
-                  className="search-input"
-                  value={secondaryCurrency}
-                  onChange={handleChange}
-                />
-              </div>        
+              <CurrencyContainer
+                className="secondary-currency" 
+                currencyAmount={secondaryCurrencyAmount}
+                handleChange={handleSecondaryCurrencyChange}
+                handleFlagChange={handleSecondaryFlagChange}
+                flagImage={secondaryFlagImage}
+                showMenu={showSecondaryFlagMenu}
+                toggleFlagMenu={toggleSecondaryFlagMenu}
+              />
             </form>
           </div>
         </section>

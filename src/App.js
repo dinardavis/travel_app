@@ -12,6 +12,8 @@ import { airportData } from "./components/dataFiles/airportData"
 import { departureAirportData } from "./components/dataFiles/departureAirportData"
 import { countryCodeData } from "./components/dataFiles/countryCodes"
 import ComingSoon from './components/ComingSoon'
+import PTOtracker from './components/PTOtracker'
+import Budget from './components/Budget'
 
 
 export default function App() {
@@ -37,13 +39,13 @@ export default function App() {
     setShowAdvisoryWidget(prevState => !prevState)
   }
 
-  const [showCalendarWidget, setShowCalendarWidget] = React.useState(true)
+  const [showCalendarWidget, setShowCalendarWidget] = React.useState(false)
 
   function toggleCalendarWidget() {
     setShowCalendarWidget(prevState => !prevState)
   }
 
-  const [showTodoWidget, setShowTodoWidget] = React.useState(true)
+  const [showTodoWidget, setShowTodoWidget] = React.useState(false)
 
   function toggleTodoWidget() {
     setShowTodoWidget(prevState => !prevState)
@@ -55,10 +57,22 @@ export default function App() {
     setShowWeatherWidget(prevState => !prevState)
   }
 
-  const [showCurrencyWidget, setShowCurrencyWidget] = React.useState(true)
+  const [showCurrencyWidget, setShowCurrencyWidget] = React.useState(false)
 
   function toggleCurrencyWidget() {
     setShowCurrencyWidget(prevState => !prevState)
+  }
+
+  const [showPTOWidget, setShowPTOWidget] = React.useState(false)
+
+  function togglePTOWidget() {
+    setShowPTOWidget(prevState => !prevState)
+  }
+
+  const [showBudgetWidget, setShowBudgetWidget] = React.useState(true)
+
+  function toggleBudgetWidget() {
+    setShowBudgetWidget(prevState => !prevState)
   }
 
 
@@ -199,6 +213,10 @@ export default function App() {
           showWeatherWidget={showWeatherWidget} 
           toggleCurrencyWidget={toggleCurrencyWidget}  
           showCurrencyWidget={showCurrencyWidget} 
+          togglePTOWidget={togglePTOWidget}  
+          showPTOWidget={showPTOWidget} 
+          toggleBudgetWidget={toggleBudgetWidget}  
+          showBudgetWidget={showBudgetWidget} 
 
           toggleIsVisible={toggleIsVisible}
           comingSoon={ <ComingSoon isVisible={isVisible}/> }
@@ -235,11 +253,11 @@ export default function App() {
             showFlightWidget={showFlightWidget}
           />
 
-          <Currency 
+          {/* <Currency 
             countryCode={toCountryCode}
             toggleCurrencyWidget={toggleCurrencyWidget}  
             showCurrencyWidget={showCurrencyWidget}
-          />
+          /> */}
 
           <Advisory 
             searchParam={searchParam} 
@@ -247,7 +265,18 @@ export default function App() {
             toggleAdvisoryWidget={toggleAdvisoryWidget}  
             showAdvisoryWidget={showAdvisoryWidget}
           />
-          
+
+          {/* <PTOtracker 
+            togglePTOWidget={togglePTOWidget}  
+            showPTOWidget={showPTOWidget} 
+          /> */}
+
+          <Budget 
+            searchParam={searchParam}
+            toggleBudgetWidget={toggleBudgetWidget}  
+            showBudgetWidget={showBudgetWidget} 
+          />
+
           <Weather 
             searchParam={searchParam} 
             toggleWeatherWidget={toggleWeatherWidget}  

@@ -5,11 +5,11 @@ export default function Advisory(props) {
 
   const [advisories, setAdvisories] = React.useState(null)
     
-  // React.useEffect(() => {
-  //   fetch(`https://www.travel-advisory.info/api`)
-  //     .then(res => res.json())
-  //     .then(data => setAdvisories(data.data[props.countryCode]))
-  // }, [props.searchParam])
+  React.useEffect(() => {
+    fetch(`https://www.travel-advisory.info/api`)
+      .then(res => res.json())
+      .then(data => setAdvisories(data.data[props.countryCode]))
+  }, [props.searchParam])
 
   let alertColor; 
   let alertScore;

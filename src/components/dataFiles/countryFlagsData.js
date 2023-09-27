@@ -1,4 +1,4 @@
-const countryFlag = [
+export const countryFlagsData = [
 	{
 		"flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1e8.svg",
 		"country": "Ascension Island",

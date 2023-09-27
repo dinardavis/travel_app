@@ -1,4 +1,6 @@
 import React from "react";
+import { FiChevronLeft } from 'react-icons/fi'
+import { FiChevronRight } from 'react-icons/fi'
 
 const PHOTOS_API_KEY = process.env.REACT_APP_UNSPLASH_API_KEY
 
@@ -39,6 +41,18 @@ export default function Photos(props) {
     };
   }, [index, photos.length]);
 
+  function moveToNextImage() {
+    setIndex((prevIndex) =>
+      prevIndex === photos.length - 1 ? 0 : prevIndex + 1
+    )
+  }
+
+  function moveToPreviousImage() {
+    setIndex((prevIndex) =>
+      prevIndex > 0 ? prevIndex - 1 : 0
+    ) 
+  }
+
   // Wrap images in link tags and connect to source url
 
   const slideShow = photos.map((photo, index) => {
@@ -51,20 +65,6 @@ export default function Photos(props) {
     )
   })
 
-  // Slide show image indicator markers 
-
-  const slideshowMarkers = photos.map((_, idx) => {
-    return (
-      <div 
-        key={idx} 
-        className={`slideshowMarker ${index === idx ? " active" : ""}`}
-        onClick={() => {
-          setIndex(idx)
-        }}
-      ></div>
-    )
-  })
-
   const styles = {
     transform: `translate3d(${-index * 100}%, 0, 0)`
   }
@@ -74,9 +74,11 @@ export default function Photos(props) {
         <div className="slideshowSlider" style={styles}>
           {slideShow}
         </div>
-        {/* <div className="slideshowMarkers-container">
-            {slideshowMarkers} 
-        </div>                      */}
+        <div className="slideshow-arrows-container">
+          <div className="slide-arrow left" onClick={() => moveToPreviousImage()}><FiChevronLeft /></div>
+          <div className="slideshow-counter">{`${index + 1}/${photos.length}`}</div>
+          <div className="slide-arrow right" onClick={() => moveToNextImage()}><FiChevronRight /></div>
+        </div>                     
       </div>
   )
 }

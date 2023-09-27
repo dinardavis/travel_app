@@ -8,7 +8,7 @@ export default function ComingSoon(props) {
   }
 
   return (
-    <div className="widgets coming-soon" style={styles}>
+    <div className="coming-soon" style={styles}>
       <p>New Features Coming Soon</p>
     </div>
   )

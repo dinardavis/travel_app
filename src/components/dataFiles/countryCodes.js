@@ -420,7 +420,7 @@ export const countryCodeData = [
   },
   {
     "Code": "IR",
-    "Name": "Iran, Islamic Republic of"
+    "Name": "Iran"
   },
   {
     "Code": "IQ",
@@ -964,11 +964,11 @@ export const countryCodeData = [
   },
   {
     "Code": "VE",
-    "Name": "Venezuela, Bolivarian Republic of"
+    "Name": "Venezuela"
   },
   {
     "Code": "VN",
-    "Name": "Viet Nam"
+    "Name": "Vietnam"
   },
   {
     "Code": "VG",

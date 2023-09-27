@@ -20,7 +20,7 @@ export default function Sidebar(props) {
       <div className="widgets-container">
         <h1 className="sidebar-header">Widgets</h1>
 
-        <div className="widgets widget-flight" style={{ display: props.showFlightWidget ? 'none': ''}}>
+        <div className="widgets widget-flight" style={{ display: props.showFlightWidget ? 'none': 'flex'}}>
           <SlPlane className="widget-icon calendar" />
           <p className="widget-text">Flight<br/>Search</p>
           <div 
@@ -29,7 +29,7 @@ export default function Sidebar(props) {
           >+</div>
         </div>
 
-        <div className="widgets widget-weather" style={{ display: props.showWeatherWidget ? 'none': ''}}>
+        <div className="widgets widget-weather" style={{ display: props.showWeatherWidget ? 'none': 'flex'}}>
           <BsCloudSun className="widget-icon weather" />
           <p className="widget-text">Weather</p>
           <div 
@@ -47,15 +47,6 @@ export default function Sidebar(props) {
           >+</div>
         </div>
 
-        <div className="widgets widget-map">
-          <BsPinMap className="widget-icon" />
-          <p className="widget-text">Map</p>
-          <div 
-            className="widget-add-btn"
-            onClick={props.toggleIsVisible}
-          >+</div>
-        </div>
-
         <div className="widgets widget-advisory" style={{ display: props.showAdvisoryWidget ? 'none': ''}}>
           <AiOutlineAlert className="widget-icon advisory" />
           <p className="widget-text">Travel Advisories</p>
@@ -65,30 +56,12 @@ export default function Sidebar(props) {
           >+</div>
         </div>
 
-        <div className="widgets widget-budget">
+        <div className="widgets widget-budget" style={{ display: props.showBudgetWidget ? 'none': ''}}>
           <BsPiggyBank className="widget-icon budget" />
           <p className="widget-text">Budget</p>
           <div 
             className="widget-add-btn"
-            onClick={props.toggleIsVisible}
-          >+</div>
-        </div>
-
-        <div className="widgets widget-pto">
-          <BsClock className="widget-icon pto" />
-          <p className="widget-text">PTO Tracker</p>
-          <div 
-            className="widget-add-btn"
-            onClick={props.toggleIsVisible}
-          >+</div>
-        </div>
-
-        <div className="widgets widget-currency" style={{ display: props.showCurrencyWidget ? 'none': ''}}>
-          <BsCurrencyExchange className="widget-icon currency" />
-          <p className="widget-text">Currency Converter</p>
-          <div 
-             className="widget-add-btn"
-            onClick={props.toggleCurrencyWidget}
+            onClick={props.toggleBudgetWidget}
           >+</div>
         </div>
 
@@ -100,8 +73,34 @@ export default function Sidebar(props) {
             onClick={props.toggleTodoWidget}
           >+</div>
         </div>
-      </div>
 
+        <div className="widgets widget-pto"  style={{ display: props.showPTOWidget ? 'hidden': ''}}>
+          <BsClock className="widget-icon pto" />
+          <p className="widget-text">PTO Tracker</p>
+          <div 
+            className="widget-add-btn"
+            onClick={props.toggleIsVisible}
+          >+</div>
+        </div>
+
+        <div className="widgets widget-map">
+          <BsPinMap className="widget-icon" />
+          <p className="widget-text">Map</p>
+          <div 
+            className="widget-add-btn"
+            onClick={props.toggleIsVisible}
+          >+</div>
+        </div>
+
+        <div className="widgets widget-currency">
+          <BsCurrencyExchange className="widget-icon currency" />
+          <p className="widget-text">Currency Converter</p>
+          <div 
+             className="widget-add-btn"
+            onClick={props.toggleIsVisible}
+          >+</div>
+        </div>
+      </div>
 
       {props.comingSoon}
       <Login 

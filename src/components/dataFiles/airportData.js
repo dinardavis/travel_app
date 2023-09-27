@@ -9829,18 +9829,18 @@ export const airportData = [
     "links_count": 22,
     "objectID": "2856"
   },
-  {
-    "name": "General Jose Antonio Anzoategui Intl",
-    "city": "Barcelona",
-    "country": "Venezuela",
-    "iata_code": "BLA",
-    "_geoloc": {
-      "lat": 10.107139,
-      "lng": -64.689161
-    },
-    "links_count": 22,
-    "objectID": "2821"
-  },
+  // {
+  //   "name": "General Jose Antonio Anzoategui Intl",
+  //   "city": "Barcelona",
+  //   "country": "Venezuela",
+  //   "iata_code": "BLA",
+  //   "_geoloc": {
+  //     "lat": 10.107139,
+  //     "lng": -64.689161
+  //   },
+  //   "links_count": 22,
+  //   "objectID": "2821"
+  // },
   {
     "name": "Teniente Alejandro Velasco Astete Intl",
     "city": "Cuzco",
@@ -26988,18 +26988,6 @@ export const airportData = [
     },
     "links_count": 4,
     "objectID": "1262"
-  },
-  {
-    "name": "Sydney",
-    "city": "Sydney",
-    "country": "Canada",
-    "iata_code": "YQY",
-    "_geoloc": {
-      "lat": 46.161388,
-      "lng": -60.047779
-    },
-    "links_count": 4,
-    "objectID": "126"
   },
   {
     "name": "Talavera La Real",
