@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "./Login"
+import Logout from "./Logout"
 import { SlPlane } from "react-icons/sl"
 import { BsCalendarWeek } from "react-icons/bs"
 import { BsCloudSun } from "react-icons/bs"
@@ -103,7 +103,7 @@ export default function Sidebar(props) {
       </div>
 
       {props.comingSoon}
-      <Login 
+      <Logout 
         toggleIsVisible={props.toggleIsVisible}
       />
     </section>

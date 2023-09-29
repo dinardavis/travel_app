@@ -297,8 +297,8 @@ section,
   margin-top: 23px;
   line-height: 1.4;
 }
-
-.login-container {
+  
+.logout-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,14 +321,14 @@ section,
   margin-left: 8px;
 }
 
-.login-user-emoji {
+.logout-user-emoji {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.login-btn {
+.logout-btn {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -343,11 +343,11 @@ section,
   transition: all ease-in .2s;
 }
 
-.login-btn:hover {
+.logout-btn:hover {
   background-color: rgb(230, 171, 62, 0.95);
 }
 
-.login-icon {
+.logout-icon {
   margin-left: 5px;
 }
 
@@ -1408,7 +1408,7 @@ input[type="date"]{
     margin: 0px 10px;
   }
 
-  .login-container {
+  .logout-container {
     order: -2;
     margin: 0 10px 0;
     width: 100px;
