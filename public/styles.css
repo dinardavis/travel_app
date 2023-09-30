@@ -28,6 +28,17 @@ body {
   overflow-y: scroll;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
 .main-container {
   position: relative;
   display: grid;
@@ -43,6 +54,7 @@ body {
   grid-row: 1 / 2;
   grid-column: 1 / -1;
 }
+
 
 .sidebar-container {
   grid-row: 2 / -1;
@@ -96,22 +108,6 @@ body {
   grid-column: 2 / 3;
 }
 
-.flight-container {
-
-}
-
-
-.weather-container {
-
-}
-
-.calendar-container {
-
-}
-
-.todo-main-container {
-
-}
 
 /* MAIN LAYOUT STYLING */
 
@@ -161,14 +157,17 @@ section,
 
 .nav-list {
   display: flex;
-}
-
-.nav-list {
-  display: block;
+  align-items: center;
   padding-left: 20px;
   font-size: 1.2em;
   font-weight: 500;
 }
+
+.main-nav-logo {
+  width: 40px;
+  margin-right: .4rem;
+}
+
 
 .google-search {
   margin-right: 20px;
@@ -297,7 +296,267 @@ section,
   margin-top: 23px;
   line-height: 1.4;
 }
-  
+
+/* REGISTER SCREEN */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: .5rem;
+  color: #727272;
+}
+
+.register-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.register-logo {
+  width: 50px;
+  margin-right: .5rem;
+}
+
+.register-inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.register-input {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
+  webkit-box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
+  -webkit-appearance: none;
+}
+
+.register-btn {
+  align-self: flex-start;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid  rgba(255, 159, 28, .8);
+  font-size: 1rem;
+  color:  rgba(255, 159, 28, .8);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background-color: transparent;
+  background-image: linear-gradient( rgba(255, 159, 28, .8),  rgba(255, 159, 28, .8));
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.register-btn:hover {
+  color: #fff;
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
+}
+
+.register-input:focus {
+  outline: none;
+}
+
+.guest-register-btn {
+  align-self: flex-start;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid  rgba(255, 159, 28, .8);
+  font-size: 1rem;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background-color:  rgba(255, 159, 28, .8);
+  background-image: linear-gradient( #fff,  #fff);
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.guest-register-btn:hover {
+  color: rgba(255, 159, 28, .8);
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
+}
+
+.register-text {
+  font-size: .9rem;
+}
+
+.register-text span {
+  text-decoration: underline;
+  color: rgba(255, 159, 28, .7);
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.register-text span:hover {
+  color:  rgba(255, 159, 28);
+}
+
+/* LOGIN SCREEN */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: .5rem;
+  color: #727272;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.login-logo {
+  width: 50px;
+  margin-right: .5rem;
+}
+
+.login-inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.login-input {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
+  webkit-box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
+  -webkit-appearance: none;
+}
+
+.login-btn {
+  align-self: flex-start;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid  rgba(255, 159, 28, .8);
+  font-size: 1rem;
+  color:  rgba(255, 159, 28, .8);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background-color: transparent;
+  background-image: linear-gradient( rgba(255, 159, 28, .8),  rgba(255, 159, 28, .8));
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.login-btn:hover {
+  color: #fff;
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
+}
+
+.login-input:focus {
+  outline: none;
+}
+
+.guest-login-btn {
+  align-self: flex-start;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid  rgba(255, 159, 28, .8);
+  font-size: 1rem;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background-color:  rgba(255, 159, 28, .8);
+  background-image: linear-gradient( #fff,  #fff);
+  background-position: 0 101%;
+  background-size: 0% 55px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+
+.guest-login-btn:hover {
+  color: rgba(255, 159, 28, .8);
+  background-position: 100% 100%;
+  background-size: 100% 55px;
+  cursor: pointer;
+}
+
+.register-text {
+  font-size: .9rem;
+}
+
+.register-text span {
+  text-decoration: underline;
+  color: rgba(255, 159, 28, .7);
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.register-text span:hover {
+  color:  rgba(255, 159, 28);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOGOUT COMPONENT  */
+
 .logout-container {
   display: flex;
   flex-direction: column;
@@ -333,7 +592,7 @@ section,
   justify-content: center;
   width: 100%;
   padding: 5px 10px;
-  background-color: rgba(230, 171, 62, 0.8);
+  background-color: rgb(255, 159, 28, .6);
   border: none;
   border-radius: 7px;
   color: #f5f5f5;
@@ -344,7 +603,7 @@ section,
 }
 
 .logout-btn:hover {
-  background-color: rgb(230, 171, 62, 0.95);
+  background-color: rgb(255, 159, 28, .9)
 }
 
 .logout-icon {
@@ -443,7 +702,7 @@ section,
 }
 
 .react-calendar__tile.react-calendar__tile--active.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__month-view__days__day {
-  background: rgba(253, 253, 175, 0.8);
+  background:  rgb(255, 159, 28, .8);
   border-radius: 10px;
 }
 
@@ -803,7 +1062,7 @@ section,
 .budget-btn-text.reset {
   padding: 4px 7px;
   margin-right: .2rem;
-  background-color: rgba(230, 171, 62, 0.6);
+  background-color:  rgb(255, 159, 28, .6);
   color: #fff;
   border-radius: 7px;
   transition: all ease-in .2s;
@@ -811,7 +1070,7 @@ section,
 }
 
 .budget-btn-text.reset:hover {
-  background-color:   rgba(230, 171, 62);
+  background-color: rgb(255, 159, 28, .9);
 
 }
 
@@ -819,6 +1078,10 @@ section,
 
 .budget-btn-text.active {
   background-color: rgb(114, 114, 114, 0.7)
+}
+
+.budget-btn-text.edit-active {
+  background-color: rgb(255, 159, 28, .9);
 }
 
 .budget-btn-text:hover {
@@ -956,13 +1219,11 @@ section,
   border: none;
   font-size: .8rem;
   font-weight: 300;
+  text-align: right;
   box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
   webkit-box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
   -webkit-appearance: none;
 }
-
-
-
 
 
 /* SLIDESHOW COMPONENT STYLES */
@@ -1091,6 +1352,10 @@ section,
 .city-label {
   display: flex;
   flex-direction: column;
+}
+
+.city-input-container {
+
 }
 
 .city-input {

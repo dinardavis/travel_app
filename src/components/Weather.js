@@ -64,7 +64,7 @@ export default function Weather(props) {
     <>
       {!weatherInfo ? 
         <p className="loading">Loading...</p> :
-        <section className="weather-container light-mode" style={{ display: props.showWeatherWidget ? '': 'none'}}>
+        <section className="weather-container light-mode" style={{ display: props.showWidgets.showWeatherWidget ? '': 'none'}}>
           <div className="widget-close-btn" onClick={props.toggleWeatherWidget}>X</div>
           <p className="weather--location">{weatherInfo.name}, {weatherInfo.sys.country}</p>
           <div className="temp-icon-container">

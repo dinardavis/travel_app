@@ -35,7 +35,7 @@ export default function TodoMain(props) {
   }, [todoList])
 
   return (
-    <section className='todo-main-container' style={{ display: props.showTodoWidget ? '': 'none'}}>
+    <section className='todo-main-container' style={{ display: props.showWidgets.showTodoWidget ? '': 'none'}}>
       <div className="widget-close-btn" onClick={props.toggleTodoWidget}>X</div>
       <Form 
         todoList={todoList}

@@ -5,7 +5,7 @@ import 'react-calendar/dist/Calendar.css';
 export default function Date(props) {
   
   return (
-    <section className='calendar-container' style={{ display: props.showCalendarWidget ? '': 'none'}}>
+    <section className='calendar-container' style={{ display: props.showWidgets.showCalendarWidget ? '': 'none'}}>
       <div className="widget-close-btn"  onClick={props.toggleCalendarWidget}>X</div>
        <Calendar className='calendar' />
     </section>

@@ -74,48 +74,50 @@ function getReturnDate(e) {
 
 const FLIGHT_API_KEY = process.env.REACT_APP_FLIGHT_API_KEY
 
-  React.useEffect(() => {
-    const options = {
-      method: 'GET',
-      headers: {
-        'Authorization': `${FLIGHT_API_KEY}`,
-      }
-    };
+  // React.useEffect(() => {
+  //   const options = {
+  //     method: 'GET',
+  //     headers: {
+  //       'Authorization': `${FLIGHT_API_KEY}`,
+  //     }
+  //   };
 
-    fetch(`https://api1.diversesaga.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
-    .then(res => res.json())
-    .then(data => setFlightPrice(data.data[0].price.amount.toFixed(2) || 599.99))
-      .then(setFetchDataError(false))
-    .catch(err => {
-        console.log(err)
-        setFetchDataError(true)
-     });
-  }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate, FLIGHT_API_KEY])
+  //   fetch(`https://api1.diversesaga.com/api/v1/searchFlights?origin=${props.fromAirportCode}&destination=${props.toAirportCode}&date=${departureDate}&returnDate=${returnDate}&adults=1&currency=USD&countryCode=US&market=en-US`, options)
+  //   .then(res => res.json())
+  //   .then(data => setFlightPrice(data.data[0].price.amount.toFixed(2) || 599.99))
+  //     .then(setFetchDataError(false))
+  //   .catch(err => {
+  //       console.log(err)
+  //       setFetchDataError(true)
+  //    });
+  // }, [props.searchParam, props.toAirportCode, props.fromAirportCode, returnDate, departureDate, FLIGHT_API_KEY])
 
   return (
-    <section className="flight-container light-mode" style={{ display: props.showFlightWidget ? '': 'none'}}>
+    <section className="flight-container light-mode" style={{ display: props.showWidgets.showFlightWidget ? '': 'none'}}>
       <div className="widget-close-btn" onClick={props.toggleFlightWidget}>X</div>
       <form className="flight-form" >
         <div className="city-container">
-          <label htmlFor="departure-city" className="city-label">From:
-            <select
-              name="from-city"
-              id="departure-city"
-              className="city-input"
-              value={props.fromAirportCode}
-              onChange={getDepartureCity}
-            >
-            {departureCountrySort.map(data => {
-              return <option className="from-input"
-                        key={data.objectID}
-                        value={data.iata_code}
-                      >
-                        {`${data.iata_code}  - ${data.city}, ${data.country}
-                        `}
-                      </option>
-            })} 
-            </select>
-          </label>
+            <div className="city-input-container">   
+              <label htmlFor="departure-city" className="city-label">From:
+                <select
+                  name="from-city"
+                  id="departure-city"
+                  className="city-input"
+                  value={props.fromAirportCode}
+                  onChange={getDepartureCity}
+                >
+                {departureCountrySort.map(data => {
+                  return <option className="from-input"
+                            key={data.objectID}
+                            value={data.iata_code}
+                          >
+                            {`${data.iata_code}  - ${data.city}, ${data.country}
+                            `}
+                          </option>
+                })} 
+                </select>
+              </label>
+          </div>
           <div className="date-container">
             <label className="date-label">Depart On:       
               <input 

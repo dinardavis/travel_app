@@ -52,10 +52,9 @@ export default function Currency(props) {
 
   return (
     <>
-      <p className="loading">Loading...</p>
       <section
         className="currency-container light-mode"
-        style={{ display: props.showCurrencyWidget ? "" : "none" }}
+        style={{ display: props.showWidgets.showCurrencyWidget ? "" : "none" }}
       >
         <div className="widget-close-btn" onClick={props.toggleCurrencyWidget}>
           X

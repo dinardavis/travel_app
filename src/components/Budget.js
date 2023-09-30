@@ -40,8 +40,6 @@ export default function Budget(props) {
     }
   }, [budgetData])
 
-  console.log(budgetData)
-
   function handleChange(event) {
     setBudgetData(prevBudgetData => {
         return {
@@ -133,18 +131,16 @@ const data = {
 
 
 
-
   return (
     <>
       {!data ? 
       <p className="loading">Loading...</p> :
-      <section className="budget-container light-mode" style={{ display: props.showBudgetWidget ? '': 'none'}}>
+      <section className="budget-container light-mode" style={{ display: props.showWidgets.showBudgetWidget ? '': 'none'}}>
         <div className="budget-content-btns">
-          <p className={`budget-btn-text ${!editGoal && budgetData.goalAmount === 0 || budgetData.goalAmount === '0' ? "goal" : ""}`} onClick={editGoalAmount}>{editGoal ? 'Save' : !editGoal && budgetData.goalAmount === 0 || budgetData.goalAmount === '0' ? 'Set' : 'Edit'} Goal</p>
+          <p className={`budget-btn-text ${editGoal ? "edit-active" : ""} ${!editGoal && budgetData.goalAmount === 0 || budgetData.goalAmount === '0' ? "goal" : ""}`} onClick={editGoalAmount}>{editGoal ? 'Save' : !editGoal && budgetData.goalAmount === 0 || budgetData.goalAmount === '0' ? 'Set' : 'Edit'} Goal</p>
           <p className="budget-btn-text" onClick={resetTotalSaved}>Reset Saved</p>
           <p className={`budget-btn-text ${showDonut ? "" : "active"}`} onClick={hideDonutGraph}>Details</p>
           <p className={`budget-btn-text ${showDonut ? "active" : ""}`} onClick={showDonutGraph}>Graph</p>
-       
         </div>
         <div className="widget-close-btn" onClick={props.toggleBudgetWidget}>X</div>
         <form className="budget-form">
@@ -152,7 +148,7 @@ const data = {
             type="number"  
             name="amountToAdd"           
             className="amount-saved-input"
-            placeholder="What're we adding?"
+            placeholder="Amount To Add"
             value={budgetData.amountToAdd}
             onChange={handleChange}
           />

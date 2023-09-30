@@ -36,7 +36,7 @@ export default function Advisory(props) {
     <>
       {!advisories ? 
         <p className="loading">Loading...</p> :
-        <section className="advisory-container light-mode" style={{ display: props.showAdvisoryWidget ? '': 'none'}}>
+        <section className="advisory-container light-mode" style={{ display: props.showWidgets.showAdvisoryWidget ? '': 'none'}}>
           <div className="widget-close-btn" onClick={props.toggleAdvisoryWidget}>X</div>
           <div className="advisory-content" style={styles}>
             <div className="advisory-icon"><AiOutlineAlert /></div>

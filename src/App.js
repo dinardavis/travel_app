@@ -1,4 +1,5 @@
 import React from "react";
+import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Photos from "./components/Photos";
@@ -14,8 +15,12 @@ import { countryCodeData } from "./dataFiles/countryCodes";
 import ComingSoon from "./components/ComingSoon";
 import PTOtracker from "./components/PTOtracker";
 import Budget from "./components/Budget";
+import Register from "./components/Register";
 
 export default function App() {
+  const [loggedIn, setLoggedIn] = React.useState(true)
+  const [registered, setRegistered] = React.useState(true)
+
   const [location, setLocation] = React.useState(
     () => JSON.parse(localStorage.getItem("searchInput")) || "tokyo"
   );
@@ -31,58 +36,111 @@ export default function App() {
   const [fromAirportCode, setFromAirportCode] = React.useState(
     () => JSON.parse(localStorage.getItem("fromAirport")) || "SFO"
   );
+  const [showWidgets, setShowWidgets] = React.useState(
+    () => JSON.parse(localStorage.getItem("widgetsDisplayed")) ||{
+    showFlightWidget: true,
+    showAdvisoryWidget: true,
+    showCalendarWidget: false,
+    showTodoWidget: false,
+    showWeatherWidget: true,
+    showCurrencyWidget: false,
+    showPTOWidget: false,
+    showBudgetWidget: true, 
+  });
   const [isVisible, setIsVisible] = React.useState(false);
 
-  //Widget state to show/hide widget & sidebar icon
 
-  const [showFlightWidget, setShowFlightWidget] = React.useState(true);
+  function toggleRegistered(){
+    setRegistered(prevState => !prevState)
+  }
+
+  function toggleLogedIn(){
+    setLoggedIn(prevState => !prevState)
+  }
+
+  function goToRegisterPage() {
+    setLoggedIn(false)
+    setRegistered(false)
+  }
+
+  function loggedInSuccess() {
+    setLoggedIn(true)
+    setRegistered(true)
+  }
 
   function toggleFlightWidget() {
-    setShowFlightWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showFlightWidget: !prevWidgets.showFlightWidget
+      }
+    })
   }
-
-  const [showAdvisoryWidget, setShowAdvisoryWidget] = React.useState(true);
 
   function toggleAdvisoryWidget() {
-    setShowAdvisoryWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showAdvisoryWidget: !prevWidgets.showAdvisoryWidget
+      }
+    })
   }
-
-  const [showCalendarWidget, setShowCalendarWidget] = React.useState(false);
 
   function toggleCalendarWidget() {
-    setShowCalendarWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showCalendarWidget: !prevWidgets.showCalendarWidget
+      }
+    })
   }
-
-  const [showTodoWidget, setShowTodoWidget] = React.useState(false);
 
   function toggleTodoWidget() {
-    setShowTodoWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showTodoWidget: !prevWidgets.showTodoWidget
+      }
+    })
   }
-
-  const [showWeatherWidget, setShowWeatherWidget] = React.useState(true);
 
   function toggleWeatherWidget() {
-    setShowWeatherWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showWeatherWidget: !prevWidgets.showWeatherWidget
+      }
+    })
   }
-
-  const [showCurrencyWidget, setShowCurrencyWidget] = React.useState(false);
 
   function toggleCurrencyWidget() {
-    setShowCurrencyWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showCurrencyWidget: !prevWidgets.showPCurrencyWidget
+      }
+    })
   }
-
-  const [showPTOWidget, setShowPTOWidget] = React.useState(false);
 
   function togglePTOWidget() {
-    setShowPTOWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showPTOWidget: !prevWidgets.showPTOWidget
+      }
+    })
   }
-
-  const [showBudgetWidget, setShowBudgetWidget] = React.useState(true);
 
   function toggleBudgetWidget() {
-    setShowBudgetWidget((prevState) => !prevState);
+    setShowWidgets(prevWidgets => {
+      return {
+          ...prevWidgets,
+          showBudgetWidget: !prevWidgets.showBudgetWidget
+      }
+    })
   }
 
+ 
   //Local storage assignment for airport codes and location
 
   React.useEffect(() => {
@@ -100,6 +158,10 @@ export default function App() {
   React.useEffect(() => {
     localStorage.setItem("countryCode", JSON.stringify(toCountryCode));
   }, [toCountryCode]);
+
+  React.useEffect(() => {
+    localStorage.setItem("widgetsDisplayed", JSON.stringify(showWidgets));
+  }, [showWidgets]);
 
   //Filter ARRIVAL cities with multiple airports to simplify airport data
   const uniqueCityAirports = [];
@@ -204,104 +266,107 @@ export default function App() {
 
   return (
     <>
-      <div className="main-container">
-        <Navbar searchParam={searchParam} />
-        <Sidebar
-          toggleFlightWidget={toggleFlightWidget}
-          showFlightWidget={showFlightWidget}
-          toggleAdvisoryWidget={toggleAdvisoryWidget}
-          showAdvisoryWidget={showAdvisoryWidget}
-          toggleCalendarWidget={toggleCalendarWidget}
-          showCalendarWidget={showCalendarWidget}
-          toggleTodoWidget={toggleTodoWidget}
-          showTodoWidget={showTodoWidget}
-          toggleWeatherWidget={toggleWeatherWidget}
-          showWeatherWidget={showWeatherWidget}
-          toggleCurrencyWidget={toggleCurrencyWidget}
-          showCurrencyWidget={showCurrencyWidget}
-          togglePTOWidget={togglePTOWidget}
-          showPTOWidget={showPTOWidget}
-          toggleBudgetWidget={toggleBudgetWidget}
-          showBudgetWidget={showBudgetWidget}
-          toggleIsVisible={toggleIsVisible}
-          comingSoon={<ComingSoon isVisible={isVisible} />}
-        />
-        <div className="widget-display">
-          <form className="section intro-container light-mode">
-            <p className="intro-copy">
-              Enter the city's name that you've always wished to travel to, and
-              get inspired to plan your next vacation!
-            </p>
-            <p className="intro-copy-error">
-              Please enter a valid city name, <br></br>or the nearest major
-              airport location
-            </p>
-            <input
-              type="text"
-              placeholder="Where to?"
-              className="search-input"
-              value={location.userInput}
-              onChange={handleChange}
-            />
-            <button className="search-btn" onClick={updateLocation}>
-              Let's Go!
-            </button>
-          </form>
-
-          <Photos searchParam={searchParam} />
-
-          <Flights
-            searchParam={searchParam}
-            fromAirportCode={fromAirportCode}
-            setFromAirportCode={setFromAirportCode}
-            toAirportCode={toAirportCode}
-            filteredAirportData={filteredAirportData}
-            filteredDepartureAirportData={filteredDepartureAirportData}
+      { !loggedIn && !registered ? 
+          <Register 
+            toggleRegistered={toggleRegistered}
+          /> :
+        !loggedIn && registered ?
+          <Login 
+            loggedInSuccess={loggedInSuccess}
+            goToRegisterPage={goToRegisterPage}
+          /> :
+          <div className="main-container">
+          <Navbar searchParam={searchParam} />
+          <Sidebar
+            showWidgets={showWidgets}
             toggleFlightWidget={toggleFlightWidget}
-            showFlightWidget={showFlightWidget}
-          />
-
-          {/* <Currency 
-            countryCode={toCountryCode}
-            toggleCurrencyWidget={toggleCurrencyWidget}  
-            showCurrencyWidget={showCurrencyWidget}
-          /> */}
-
-          <Advisory
-            searchParam={searchParam}
-            countryCode={toCountryCode}
             toggleAdvisoryWidget={toggleAdvisoryWidget}
-            showAdvisoryWidget={showAdvisoryWidget}
-          />
-
-          {/* <PTOtracker 
-            togglePTOWidget={togglePTOWidget}  
-            showPTOWidget={showPTOWidget} 
-          /> */}
-
-          <Budget
-            searchParam={searchParam}
-            toggleBudgetWidget={toggleBudgetWidget}
-            showBudgetWidget={showBudgetWidget}
-          />
-
-          <Weather
-            searchParam={searchParam}
-            toggleWeatherWidget={toggleWeatherWidget}
-            showWeatherWidget={showWeatherWidget}
-          />
-
-          <Date
             toggleCalendarWidget={toggleCalendarWidget}
-            showCalendarWidget={showCalendarWidget}
-          />
-
-          <TodoMain
             toggleTodoWidget={toggleTodoWidget}
-            showTodoWidget={showTodoWidget}
+            toggleWeatherWidget={toggleWeatherWidget}
+            toggleCurrencyWidget={toggleCurrencyWidget}
+            togglePTOWidget={togglePTOWidget}
+            toggleBudgetWidget={toggleBudgetWidget}
+            toggleIsVisible={toggleIsVisible}
+            comingSoon={<ComingSoon isVisible={isVisible} />}
           />
+          <div className="widget-display">
+            <form className="section intro-container light-mode">
+              <p className="intro-copy">
+                Enter the city's name that you've always wished to travel to, and
+                get inspired to plan your next vacation!
+              </p>
+              <p className="intro-copy-error">
+                Please enter a valid city name, <br></br>or the nearest major
+                airport location
+              </p>
+              <input
+                type="text"
+                placeholder="Where to?"
+                className="search-input"
+                value={location.userInput}
+                onChange={handleChange}
+              />
+              <button className="search-btn" onClick={updateLocation}>
+                Let's Go!
+              </button>
+            </form>
+
+            <Photos searchParam={searchParam} />
+
+            <Flights
+              searchParam={searchParam}
+              fromAirportCode={fromAirportCode}
+              setFromAirportCode={setFromAirportCode}
+              toAirportCode={toAirportCode}
+              filteredAirportData={filteredAirportData}
+              filteredDepartureAirportData={filteredDepartureAirportData}
+              showWidgets={showWidgets}
+              toggleFlightWidget={toggleFlightWidget}
+            />
+
+            <Currency 
+              countryCode={toCountryCode}
+              toggleCurrencyWidget={toggleCurrencyWidget}  
+              showWidgets={showWidgets}
+            />
+
+            <Advisory
+              searchParam={searchParam}
+              countryCode={toCountryCode}
+              toggleAdvisoryWidget={toggleAdvisoryWidget}
+              showWidgets={showWidgets}
+            />
+
+            <PTOtracker 
+              togglePTOWidget={togglePTOWidget}  
+              showWidgets={showWidgets}
+            />
+
+            <Budget
+              searchParam={searchParam}
+              showWidgets={showWidgets}
+              toggleBudgetWidget={toggleBudgetWidget}
+            />
+
+            <Weather
+              searchParam={searchParam}
+              toggleWeatherWidget={toggleWeatherWidget}
+              showWidgets={showWidgets}
+            />
+
+            <Date
+              toggleCalendarWidget={toggleCalendarWidget}
+              showWidgets={showWidgets}
+            />
+
+            <TodoMain
+              toggleTodoWidget={toggleTodoWidget}
+              showWidgets={showWidgets}
+            />
+          </div>
         </div>
-      </div>
+      }
     </>
   );
 }
