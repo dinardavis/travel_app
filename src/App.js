@@ -54,10 +54,6 @@ export default function App() {
     setRegistered(prevState => !prevState)
   }
 
-  function toggleLogedIn(){
-    setLoggedIn(prevState => !prevState)
-  }
-
   function goToRegisterPage() {
     setLoggedIn(false)
     setRegistered(false)
@@ -65,6 +61,11 @@ export default function App() {
 
   function loggedInSuccess() {
     setLoggedIn(true)
+    setRegistered(true)
+  }
+
+  function logOut() {
+    setLoggedIn(false)
     setRegistered(true)
   }
 
@@ -289,6 +290,7 @@ export default function App() {
             toggleBudgetWidget={toggleBudgetWidget}
             toggleIsVisible={toggleIsVisible}
             comingSoon={<ComingSoon isVisible={isVisible} />}
+            logOut={logOut}
           />
           <div className="widget-display">
             <form className="section intro-container light-mode">

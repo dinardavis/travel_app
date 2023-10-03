@@ -14,7 +14,7 @@ export default function Logout(props) {
    
         <button 
           className="logout-btn"
-          onClick={(e) => props.toggleIsVisible(e.preventDefault())}
+          onClick={(e) => props.logOut(e.preventDefault())}
         >
           Logout<MdOutlineLogout className="logout-icon"/>
         </button>

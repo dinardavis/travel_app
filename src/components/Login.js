@@ -25,7 +25,7 @@ export default function Login(props) {
           onChange=""
         />
         <button className="login-btn" onClick={props.loggedInSuccess}>Login</button>
-        <button className="guest-login-btn">Continue As Guest</button>
+        <button className="guest-login-btn" onClick={props.loggedInSuccess}>Continue As Guest</button>
       </div>
       <div className="register-message">
         <p className="register-text">Don't have an account yet? <span onClick={props.goToRegisterPage}>Sign up</span>.</p>

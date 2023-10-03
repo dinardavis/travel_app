@@ -19,7 +19,7 @@ export default function Register(props) {
         />
         <input
           type="text"
-          placeholder="Password"
+          placeholder="Create Password"
           className="register-input"
           value=""
           onChange=""

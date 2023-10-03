@@ -16,16 +16,16 @@ export default function Budget(props) {
   })
 
   const budgetIcon = goalReached ? <GiPartyPopper /> :
-                     budgetData.amountRemaining < (budgetData.goalAmount * .2) ? <GiAirplaneDeparture /> : 
-                     budgetData.amountRemaining < (budgetData.goalAmount * .4) ? <GiRollingSuitcase /> :
+                     budgetData.amountRemaining < (budgetData.goalAmount * .3) ? <GiAirplaneDeparture /> : 
+                     budgetData.amountRemaining < (budgetData.goalAmount * .5) ? <GiRollingSuitcase /> :
                      <GiTakeMyMoney />
 
   const budgetMessage = goalReached ? "Congratulations you've reached your goal!" :
-                     budgetData.amountRemaining < (budgetData.goalAmount * .2) ? "Do you want window or aisle?" : 
-                     budgetData.amountRemaining < (budgetData.goalAmount * .4) ? "Will it be swimsuits or parkas?":
+                     budgetData.amountRemaining < (budgetData.goalAmount * .3) ? "Do you want window or aisle?" : 
+                     budgetData.amountRemaining < (budgetData.goalAmount * .5) ? "Will it be swimsuits or parkas?":
                     "Stay focused on your saving."
         
-
+  console.log(budgetData)
   
                     
   React.useEffect(() => {
@@ -41,6 +41,15 @@ export default function Budget(props) {
   }, [budgetData])
 
   function handleChange(event) {
+    setBudgetData(prevBudgetData => {
+        return {
+            ...prevBudgetData,
+            [event.target.name]: event.target.value
+        }
+    })
+  }
+
+  function handleCurrencyInput(event) {
     setBudgetData(prevBudgetData => {
         return {
             ...prevBudgetData,
@@ -74,8 +83,8 @@ export default function Budget(props) {
       setBudgetData(prevBudgetData => {
         return {
             ...prevBudgetData,
-            totalSaved: parseFloat(prevBudgetData.amountToAdd) + parseFloat(prevBudgetData.totalSaved),
-            amountRemaining: (parseFloat(prevBudgetData.totalSaved) === 0 ? parseFloat(budgetData.goalAmount) - parseFloat(budgetData.amountToAdd) : parseFloat(budgetData.goalAmount) - parseFloat(budgetData.totalSaved))
+            amountRemaining: (budgetData.goalAmount - (parseFloat(budgetData.totalSaved) + parseFloat(budgetData.amountToAdd))).toFixed(2),
+            totalSaved: parseFloat(prevBudgetData.amountToAdd) + parseFloat(prevBudgetData.totalSaved),         
         }
       })
     }
@@ -105,6 +114,7 @@ export default function Budget(props) {
   }
 
 
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const data = {
@@ -129,8 +139,6 @@ const data = {
   ],
 };
 
-
-
   return (
     <>
       {!data ? 
@@ -150,7 +158,7 @@ const data = {
             className="amount-saved-input"
             placeholder="Amount To Add"
             value={budgetData.amountToAdd}
-            onChange={handleChange}
+            onChange={handleCurrencyInput}
           />
           <button
             className="budget-add-btn"
@@ -179,11 +187,12 @@ const data = {
                     placeholder="Goal Amnt"
                     value={budgetData.goalAmount}
                     onChange={handleChange}
-                  /> : <p>${budgetData.goalAmount}</p>
+                  /> 
+                  : <p>${parseFloat((budgetData.goalAmount)).toFixed(2)}</p>
                 }
               </div>
               <div className="budget-line-item">
-                <p className="budget-number saved">Saved So Far:</p><p>${budgetData.totalSaved}</p>
+                <p className="budget-number saved">Saved So Far:</p><p>${(budgetData.totalSaved).toFixed(2)}</p>
               </div>
               <div className="budget-graphic-container">
               
@@ -197,7 +206,7 @@ const data = {
                <p 
                   className="budget-number message"
                   onChange={handleChange}>
-                    You've got <span>${budgetData.goalAmount - budgetData.totalSaved}</span> to go!
+                    You've got <span>${(budgetData.goalAmount - budgetData.totalSaved).toFixed(2)}</span> to go!
                </p> : ""}
               </div>      
             </div>

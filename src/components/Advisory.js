@@ -9,7 +9,7 @@ export default function Advisory(props) {
     fetch(`https://www.travel-advisory.info/api`)
       .then(res => res.json())
       .then(data => setAdvisories(data.data[props.countryCode]))
-  }, [props.searchParam])
+  }, [props.searchParam, props.countryCode])
 
   let alertColor; 
   let alertScore;

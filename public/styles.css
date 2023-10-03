@@ -1565,11 +1565,11 @@ input[type="date"]{
 
 @media only screen and (max-width: 1150px) {
   body {
-    min-width: 1150px;
+    min-width: 1250px;
   }
 
   .main-container {
-    min-width: 1150px;
+    min-width: 1250px;
   }
 }
 

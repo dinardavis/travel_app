@@ -105,6 +105,7 @@ export default function Sidebar(props) {
       {props.comingSoon}
       <Logout 
         toggleIsVisible={props.toggleIsVisible}
+        logOut={props.logOut}
       />
     </section>
   )
