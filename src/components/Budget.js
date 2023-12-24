@@ -25,7 +25,6 @@ export default function Budget(props) {
                      budgetData.amountRemaining < (budgetData.goalAmount * .5) ? "Will it be swimsuits or parkas?":
                     "Stay focused on your saving."
         
-  console.log(budgetData)
   
                     
   React.useEffect(() => {

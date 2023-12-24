@@ -21,7 +21,7 @@ export default function Advisory(props) {
   if(alertScore > 4.5) {
     alertColor = "rgba(251, 147, 147, 0.8)"
   } else if(alertScore > 3.5) {
-    alertColor = "rgba(230, 171, 62, 0.8)"
+    alertColor = "rgba(255, 159, 28, 0.8)"
   } else if(alertScore > 2.5) {
     alertColor = "rgba(147, 235, 251, 0.8)"
   } else if(alertScore > 0) {
@@ -38,14 +38,14 @@ export default function Advisory(props) {
         <p className="loading">Loading...</p> :
         <section className="advisory-container light-mode" style={{ display: props.showWidgets.showAdvisoryWidget ? '': 'none'}}>
           <div className="widget-close-btn" onClick={props.toggleAdvisoryWidget}>X</div>
-          <div className="advisory-content" style={styles}>
+          <div className="advisory-content">
             <div className="advisory-icon"><AiOutlineAlert /></div>
             <div className="advisory-message-container">
               <div className="advisory-country-container">
                 {advisories ? <p className="advisory-country">{advisories.name}</p> : ""}
               </div>
               <div className="advisory-divider"></div>
-                {advisories ? <p className="advisory-score">{`Risk Level - ${advisories.advisory.message.split('risk level of ')[1].split(' ').slice(0, 4).join(' ').slice(0, -1)}`}</p> : <p className="advisory-score">No advisory score available</p>}
+                {advisories ? <p className="advisory-score" style={styles}>{`Risk Level - ${advisories.advisory.message.split('risk level of ')[1].split(' ').slice(0, 4).join(' ').slice(0, -1)}`}</p> : <p className="advisory-score">No advisory score available</p>}
 
                 {advisories ? <p className="advisory-footer"><span>{`${advisories.advisory.message.split('(out of 5).')[1]}`}</span></p> : <p className="advisory-footer"><span>No advisory recommendation available</span></p>}
             </div>

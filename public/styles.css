@@ -822,12 +822,10 @@ section,
 }
 
 
-
 /* ADVISORIES COMPONENT STYLES */
 .advisory-container {
   position: relative;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -848,11 +846,8 @@ section,
 .advisory-message-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
-}
-
-.advisory-icon {
-  font-size: 1.7rem;
 }
 
 .advisory-country-container {
@@ -863,7 +858,13 @@ section,
   margin-top: -.2rem;
 }
 
+.advisory-icon {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+
 .advisory-country {
+  margin-top: -2rem;
   font-size: 2rem;
   line-height: 1;
 }
@@ -871,15 +872,15 @@ section,
 .advisory-divider {
   width: 100%;
   height: 1px;
-  background-color: #fff;
+  background-color: #727272;
   margin-top: auto;
 }
 
 .advisory-score {
   margin: 1rem 0 .7rem;
-  padding: .2rem;
+  padding: .5rem 1rem;
   background-color: rgba(255, 255, 255, 0.8);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   border-radius: 7px;
 }
@@ -890,7 +891,7 @@ section,
 }
 .advisory-update-time {
   position: absolute;
-  bottom: 10px;
+  bottom: -10px;
   right: 10px;
   font-size: .8rem;
 }
@@ -1138,7 +1139,7 @@ section,
   padding: 1rem;
   margin-top: 1rem;
   border-radius: .5rem;
-  background-color: rgba(147, 235, 251, 0.8);
+  border: 1px solid #727272;
 }
 
 .budget-graph {
@@ -1170,11 +1171,10 @@ section,
   align-items: center;
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
   font-size: 1.2rem;
-  font-weight: 500;
-  color: #fff;
-  background-color: rgb(79, 208, 231);
+  font-weight: 300;
+  color: #8e9090;
+  border-top: 1px solid #727272;
 }
 
 .budget-number.icon {
