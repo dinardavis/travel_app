@@ -70,7 +70,10 @@
 
 * <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 * <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> 
+* <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> 
+* <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" /> 
 * <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+* <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=whit" />
 * <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
 
@@ -182,12 +185,12 @@ For any additions please do the following:
 ## Contact
 
  <a href="https://www.linkedin.com/in/dinardavis/">
-    <img src="https://camo.githubusercontent.com/f17ba9730c27e5f1230325b94c8b68bbf3115d32650866f6e3d0ade68201beea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d2532333030373742352e7376673f6c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465" alt="LinkedIn" data-canonical-src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&amp;logoColor=white" style="max-width: 100%;">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" data-canonical-src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&amp;logoColor=white" style="max-width: 100%;">
   </a>
   <a href="https://twitter.com/dinardavis">
-    <img src="https://camo.githubusercontent.com/2cbca4be42d81c6833fd417d74f5322e80861326d03d52289924138947be7b4e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547769747465722d2532333144413146322e7376673f6c6f676f3d54776974746572266c6f676f436f6c6f723d7768697465" alt="Twitter" data-canonical-src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&amp;logoColor=white" style="max-width: 100%;">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" data-canonical-src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&amp;logoColor=white" style="max-width: 100%;">
   </a>
 
-Project Link: [https://github.com/dinardavis/spacex_clone](https://github.com/dinardavis/travel_app)
+Project Link: [https://github.com/dinardavis/travel_app](https://github.com/dinardavis/travel_app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
